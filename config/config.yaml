@@ -1,0 +1,42 @@
+# Configuration for the SKU Prediction System
+
+data:
+  # Path to the raw historical bid data (JSON format)
+  # Use absolute path or relative path from the project root
+  raw_data_path: "C:/Users/juanp/OneDrive/Documents/Python/0_Training/017_Fixacar/001_SKU_desde_descripcion/Consolidado.json" # Updated to use forward slashes for better cross-platform compatibility
+
+  # Path for processed data (optional)
+  processed_data_path: "data/processed_data.csv"
+
+preprocessing:
+  # Parameters for text cleaning, standardization, etc.
+  language: "spanish"
+  # Path to spelling correction dictionary (optional)
+  # spelling_dict_path: "config/spelling_dict.json"
+  # Path to term standardization dictionary (optional)
+  # term_standardization_dict_path: "config/standardization_dict.json"
+  # Path to SKU equivalency table (optional)
+  # sku_equivalency_path: "config/sku_equivalency.csv"
+
+features:
+  # Parameters for feature engineering (e.g., TF-IDF settings)
+  vectorizer_type: "tfidf"
+  tfidf:
+    max_features: 5000
+    ngram_range: (1, 2)
+
+model:
+  # Model selection and hyperparameters
+  type: "RandomForestClassifier" # Options: RandomForestClassifier, LogisticRegression, etc.
+  test_size: 0.2
+  random_state: 42
+  # Add model-specific hyperparameters here
+  # e.g., for RandomForest:
+  # n_estimators: 100
+  # max_depth: null
+
+output:
+  # Path for saving prediction results
+  predictions_path: "data/predictions.json"
+  # Path for saving the trained model
+  model_save_path: "models/sku_prediction_model.joblib"

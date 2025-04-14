@@ -1,0 +1,4 @@
+pandas
+scikit-learn
+PyYAML  # For handling YAML config files
+# Add other dependencies like spacy if needed later
