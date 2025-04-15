@@ -5,3 +5,4 @@ PyYAML  # For handling YAML config files
 joblib # For saving/loading scikit-learn objects
 # Add other dependencies like spacy if needed later
 lightgbm # For gradient boosting model
+ijson # For streaming large JSON files

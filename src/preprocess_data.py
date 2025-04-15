@@ -4,6 +4,7 @@ import pandas as pd
 import os
 import logging
 import argparse
+import re
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import OneHotEncoder, LabelEncoder
@@ -16,14 +17,14 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def preprocess_data(input_csv_path: str, output_dir: str, test_size: float = 0.15, val_size: float = 0.15):
     """
-    Loads cleaned data, preprocesses features (TF-IDF for text, OHE for categoricals),
+    Loads raw correlated data, cleans text, preprocesses features (TF-IDF for text, OHE for categoricals),
     encodes labels, splits data, fits preprocessor, and saves processed data and artifacts.
     """
     if not os.path.exists(input_csv_path):
         logging.error(f"Input file not found: {input_csv_path}")
         return
 
-    logging.info(f"Loading cleaned data from: {input_csv_path}")
+    logging.info(f"Loading raw correlated data from: {input_csv_path}")
     try:
         df = pd.read_csv(input_csv_path)
         logging.info(f"Loaded {len(df)} rows.")
@@ -31,21 +32,35 @@ def preprocess_data(input_csv_path: str, output_dir: str, test_size: float = 0.1
         logging.error(f"Failed to load CSV file: {e}")
         return
 
-    # --- Feature and Target Selection ---
-    # Select features (omitting 'series' and original 'description' for now)
-    features = ['description_cleaned', 'maker', 'model']
+    # --- Feature and Target Selection --- 
+    # We will clean 'description' to create 'description_cleaned'
+    features = ['description_cleaned', 'maker', 'model'] 
     target = 'SKU'
 
     # Basic Cleaning & Type Conversion
     logging.info("Performing basic cleaning and type conversion...")
-    df = df.dropna(subset=[target] + features) # Drop rows with missing target or features first
+    # Ensure target exists before dropping rows
+    df = df.dropna(subset=[target])
     df['model'] = df['model'].fillna('missing').astype(str) # Fill NaN and convert model year to string
     df['maker'] = df['maker'].fillna('missing').astype(str) # Fill NaN maker
-    df['description_cleaned'] = df['description_cleaned'].fillna('missing').astype(str) # Fill NaN description
+    df['description'] = df['description'].fillna('missing').astype(str) # Fill NaN original description
 
-    logging.info(f"Data shape after initial cleaning NAs: {df.shape}")
+    # --- Text Cleaning for 'description' column --- 
+    logging.info("Cleaning 'description' column...")
+    def clean_text(text):
+        text = text.lower() # Lowercase
+        text = re.sub(r'[^\w\s]', '', text) # Remove punctuation/special chars except whitespace
+        text = re.sub(r'\s+', ' ', text).strip() # Normalize whitespace
+        return text
+    
+    df['description_cleaned'] = df['description'].apply(clean_text)
+    
+    # Now drop rows if any of the final features are missing AFTER cleaning/filling
+    df = df.dropna(subset=features) 
+    
+    logging.info(f"Data shape after initial cleaning, text cleaning, and NA handling: {df.shape}")
 
-    # --- Filter out single-occurrence SKUs for stratification ---
+    # --- Filter out single-occurrence SKUs for stratification --- 
     logging.info("Filtering out SKUs that appear only once...")
     sku_counts = df[target].value_counts()
     skus_to_keep = sku_counts[sku_counts > 1].index
@@ -135,8 +150,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Preprocess data for SKU prediction.")
     parser.add_argument(
         "--input",
-        default="data/correlated_sku_data_cleaned.csv",
-        help="Path to the input cleaned CSV file."
+        default="data/correlated_sku_data.csv", # Changed default input
+        help="Path to the input raw correlated CSV file."
     )
     parser.add_argument(
         "--output-dir",
