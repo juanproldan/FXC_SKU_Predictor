@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKU Predictor - Fixacar</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body style="background: #111; color: #fff;">
+    <div class="container">
+        <img src="/static/LogoFixacar.png" alt="Fixacar Logo" class="logo">
+        <h1>SKU Predictor</h1>
+        <form id="sku-form" autocomplete="off">
+            <label for="maker">Marca:</label>
+            <select id="maker" name="maker" required>
+                <option value="">Seleccione una marca</option>
+                <option value="Mazda">Mazda</option>
+                <option value="Renault">Renault</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <!-- Agregue más marcas según sea necesario -->
+            </select>
+            <label for="series">Serie:</label>
+            <select id="series" name="series" required>
+                <option value="">Seleccione una serie</option>
+                <option value="CHEVROLET/OPTRA ADVANCE/BASICO">CHEVROLET/OPTRA ADVANCE/BASICO</option>
+                <option value="MAZDA/3/GRAND TOURING">MAZDA/3/GRAND TOURING</option>
+                <!-- Agregue más series según sea necesario -->
+            </select>
+            <label for="model_year">Año del modelo:</label>
+            <select id="model_year" name="model_year" required>
+                <option value="">Seleccione un año</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <!-- Agregue más años según sea necesario -->
+            </select>
+            <label for="description">Descripción del producto:</label>
+            <input type="text" id="description" name="description" placeholder="Ejemplo: PANORAMICO DELANTERO de FORD/ESCAPE (CTC) TITANIO" required>
+            <button type="submit">Predecir SKU</button>
+        </form>
+        <div id="result-box">
+            <label for="sku-result">SKU:</label>
+            <input type="text" id="sku-result" readonly>
+        </div>
+    </div>
+    <script>
+        document.getElementById('sku-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const maker = document.getElementById('maker').value;
+            const series = document.getElementById('series').value;
+            const model_year = document.getElementById('model_year').value;
+            const description = document.getElementById('description').value;
+            document.getElementById('sku-result').value = '';
+            const response = await fetch('/predict', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({
+                    maker,
+                    series,
+                    model_year,
+                    description
+                })
+            });
+            const data = await response.json();
+            document.getElementById('sku-result').value = data.sku || 'No encontrado';
+        });
+    </script>
+</body>
+</html>
