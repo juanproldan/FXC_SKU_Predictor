@@ -1,8 +1,8 @@
 # Product Requirements Document (PRD)
 
-**Project Title**: SKU Prediction System for Car Parts Bids  
-**Document Version**: 1.1  
-**Date**: [Insert Date]  
+**Project Title**: FXC SKU Predictor - SKU Prediction System for Car Parts Bids
+**Document Version**: 2.0
+**Date**: April 19, 2025
 
 ---
 
@@ -31,11 +31,14 @@ The project will include:
 - Preprocessing to standardize descriptions and correct errors.
 - An equivalency table to manage interchangeable SKUs.
 - SKU predictions output in JSON format.
+- A web application for making predictions through a user interface.
+- A feedback mechanism to improve predictions over time.
+- Monitoring and backup utilities for production deployment.
 
 ### Out of Scope
-- Real-time processing of bids.
-- Integration with external systems.
-- User interface development.
+- Real-time processing of bids (predictions are made on-demand but not in real-time streaming).
+- Integration with external systems beyond the web application.
+- Mobile application development.
 
 ---
 
@@ -51,7 +54,7 @@ The system must include the following functionalities, with testing consideratio
   - Confirm that all relevant fields are extracted accurately.
 
 ### 4.2 Data Preprocessing
-- **Description**: 
+- **Description**:
   - Correct misspellings in descriptions (e.g., "capot" → "capó").
   - Standardize terminology (e.g., "cofre" → "capó").
   - Maintain an equivalency table for interchangeable SKUs.
@@ -67,57 +70,94 @@ The system must include the following functionalities, with testing consideratio
   - Verify compatibility with the machine learning model.
 
 ### 4.4 Model Training
-- **Description**: Train a classification model (e.g., Logistic Regression or Random Forest) to predict SKUs or equivalency groups, addressing class imbalance if present.
+- **Description**: Train a neural network model to predict SKUs or equivalency groups, addressing class imbalance if present. The system will support multiple model types including:
+  - Neural Network (MLP Classifier)
+  - Random Forest
+  - Logistic Regression
 - **Testing**:
   - Evaluate model performance (accuracy, precision, recall).
   - Test handling of imbalanced SKU distributions.
+  - Compare performance across different model types.
 
 ### 4.5 Prediction
-- **Description**: Preprocess new bid descriptions and predict SKUs using the trained model, outputting results in JSON format.
+- **Description**: Preprocess new bid descriptions and predict SKUs using the trained model, outputting results in JSON format. The system will provide:
+  - The most likely SKU prediction
+  - A confidence score for the prediction
+  - Alternative SKU suggestions with their confidence scores
 - **Testing**:
   - Validate predictions against a known test set.
   - Confirm JSON output is correctly formatted.
+  - Verify confidence scores are properly calculated and normalized.
 
-### 4.6 Maintenance
-- **Description**: Support periodic model retraining with updated data to maintain accuracy.
+### 4.6 Feedback and Continuous Learning
+- **Description**: Implement a feedback mechanism to collect user corrections when predictions are incorrect. The system will:
+  - Store user feedback in a database
+  - Use feedback data for periodic model retraining
+  - Track prediction accuracy over time
 - **Testing**:
-  - Test retraining with new data to ensure integration.
-  - Verify performance stability or improvement post-retraining.
+  - Test feedback collection and storage
+  - Verify feedback data is properly incorporated during retraining
+  - Confirm model accuracy improves with feedback incorporation
 
-### 4.7 Web Application for SKU Prediction
+### 4.7 Maintenance and Monitoring
+- **Description**: Provide utilities for system maintenance and monitoring, including:
+  - Automated database backups
+  - Log monitoring for error detection
+  - Email notifications for critical errors
+  - Performance metrics tracking
+- **Testing**:
+  - Test backup creation and restoration
+  - Verify error detection in logs
+  - Confirm notification system works correctly
 
-#### **Description**  
-Develop a simple web application that allows users to input information about car parts and receive SKU predictions. The application will include:
+### 4.8 Web Application for SKU Prediction
 
-- **User Input**: A form with four rows:
-  - **Box #1**: Dropdown for selecting the car maker (e.g., "Mazda", "Renault", "Chevrolet").
-  - **Box #2**: Dropdown for selecting the series (e.g., "CHEVROLET/OPTRA ADVANCE/BASICO").
-  - **Box #3**: Dropdown for selecting the model year (e.g., "2008", "2009", "2010").
-  - **Box #4**: Text input for entering a description of the part.
-- **Output**: A fifth box in each row that displays the predicted SKU based on the input.
-- **Integration**: The web app will generate a JSON file with the user input, which the main program can process to predict the SKU. The predicted SKU will then be displayed in the last box of each row.
+#### **Description**
+Implemented a comprehensive web application that allows users to input information about car parts and receive SKU predictions. The application includes:
+
+- **User Input**: A form with the following fields:
+  - **Car Maker**: Dropdown for selecting the car maker (e.g., "Renault", "Chevrolet", "Ford").
+  - **Series**: Dropdown for selecting the car series, dynamically populated based on the selected maker.
+  - **Model Year**: Dropdown for selecting the model year, dynamically populated based on the selected series.
+  - **Description**: Text input for entering a description of the part.
+- **Output**:
+  - The predicted SKU with confidence score
+  - Alternative SKU suggestions with their confidence scores
+  - Option to provide feedback on prediction accuracy
+- **Integration**:
+  - Direct API integration between frontend and backend
+  - Real-time predictions without file generation
+  - Asynchronous processing for better user experience
 - **Design**:
-  - The web app will have a **black background** for a sleek, modern look.
-  - The **company logo** will be displayed prominently at the top of the page. The logo file is located at:
-    `C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\webapp\static\LogoFixacar.png`.
+  - Modern, responsive design with the company branding
+  - The company logo displayed prominently at the top of the page
+  - Intuitive user interface with clear feedback mechanisms
 
-#### **Testing**  
-- Verify that dropdowns and text input fields accept valid inputs.
-- Ensure the JSON file is correctly formatted and includes all user inputs.
-- Test integration with the main program to confirm accurate SKU predictions.
-- Validate that the predicted SKU is displayed in the correct box.
-- Confirm the logo is displayed correctly and the background is black.
+#### **Admin Dashboard**
+- Statistics on prediction accuracy
+- Feedback monitoring and analysis
+- System performance metrics
+- Option to trigger model retraining
 
-#### **Technical Requirements**  
-- **Frontend**: HTML, CSS, and JavaScript (or a framework like React for better scalability).
-- **Backend**: Python (Flask or FastAPI) to handle JSON generation and integration with the main program.
-- **Browser Compatibility**: Ensure the app works on Chrome and other modern browsers.
-- **Output Format**: JSON file for integration with the main program.
+#### **Testing**
+- Verified that dropdowns and text input fields accept valid inputs
+- Tested API integration to confirm accurate SKU predictions
+- Validated that predictions and confidence scores are displayed correctly
+- Confirmed the feedback mechanism works properly
+- Tested responsive design across different screen sizes
 
-#### **Non-Functional Requirements**  
-- **Usability**: The interface should be simple and intuitive for users.
-- **Performance**: The app should respond quickly to user inputs and display results in real-time.
-- **Scalability**: The app should support multiple rows of input for batch predictions.
+#### **Technical Implementation**
+- **Frontend**: HTML, CSS, and JavaScript with responsive design
+- **Backend**: Python Flask application with RESTful API endpoints
+- **Database**: SQLite for feedback storage with automated backups
+- **Deployment**: Standalone application with unified entry point
+- **Monitoring**: Integrated error logging and monitoring
+
+#### **Non-Functional Achievements**
+- **Usability**: Simple and intuitive interface with clear feedback mechanisms
+- **Performance**: Fast response times with asynchronous processing
+- **Reliability**: Error handling and logging for troubleshooting
+- **Maintainability**: Modular code structure with comprehensive documentation
 
 ---
 
@@ -138,10 +178,18 @@ The system must meet these standards, with testing for each:
   - Verify performance with added SKUs.
 
 ### 5.3 Maintainability
-- **Description**: Provide a modular, documented codebase and allow easy updates to preprocessing dictionaries.
+- **Description**: Provide a modular, well-organized package structure with comprehensive documentation. The system is organized as follows:
+  - `fxc_sku_predictor/`: Main package
+    - `core/`: Core functionality
+    - `models/`: Model definitions
+    - `utils/`: Utility functions
+    - `web/`: Web application
+  - Unified entry point (`run.py`) for all functionality
+  - Comprehensive README with usage instructions
 - **Testing**:
-  - Review code modularity and documentation.
-  - Test dictionary update process.
+  - Review code modularity and documentation
+  - Verify package structure follows best practices
+  - Test unified entry point for all functionality
 
 ### 5.4 Reliability
 - **Description**: Achieve >90% SKU prediction accuracy (target to be refined post-testing).
@@ -153,77 +201,110 @@ The system must meet these standards, with testing for each:
 
 ## 6. Technical Requirements
 
-- **Programming Language**: Python
+### 6.1 Development Stack
+- **Programming Language**: Python 3.8+
+- **Web Framework**: Flask for the web application
 - **Libraries**:
   - `pandas` for data handling
   - `scikit-learn` for machine learning
-  - `json` for output processing
-  - Optional: `spaCy` for Spanish NLP
-- **Output Format**: JSON
-- **Environment**: Batch processing system (server or cloud-deployable)
-- The system must allow the JSON file path to be configurable (e.g., via a configuration file or environment variable).
-- **Testing**:
-  - Confirm compatibility with specified libraries.
-  - Test deployment in the target environment.
+  - `numpy` for numerical operations
+  - `joblib` for model serialization
+  - `flask` for web application
+  - `sqlite3` for database operations
+
+### 6.2 System Architecture
+- **Package Structure**: Modular Python package (`fxc_sku_predictor`)
+- **Web Application**: Flask-based web interface
+- **Database**: SQLite for feedback storage
+- **Monitoring**: Integrated logging and error monitoring
+- **Backup**: Automated database backup system
+
+### 6.3 Deployment
+- **Environment**: Standalone application with unified entry point
+- **Configuration**: Configurable paths and settings
+- **Entry Point**: `run.py` script with command-line interface
+- **Commands**:
+  - `web`: Run the web application
+  - `predict`: Make predictions from the command line
+  - `backup`: Create database backups
+  - `monitor`: Monitor logs for errors
+
+### 6.4 Testing
+- **Unit Tests**: Test individual components
+- **Integration Tests**: Test component interactions
+- **System Tests**: Test the entire system
+- **Performance Tests**: Test system performance
 
 ---
 
 ## 7. Assumptions and Constraints
 
 ### 7.1 Assumptions
-- The historical bid data is initially located at "C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\Fuente_Json_Consolidado\Consolidado.json".
+- The historical bid data is located at "C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\Fuente_Json_Consolidado\Consolidado.json".
 - Descriptions are primarily in Spanish with potential errors.
 - An initial SKU equivalency table is provided.
+- Users have basic knowledge of car parts terminology.
 
 ### 7.2 Constraints
-- Batch processing only (no real-time).
-- Python-based with JSON output.
-- Timeline TBD based on resources.
+- On-demand processing (not continuous real-time streaming).
+- Python-based implementation.
+- Web application accessible via modern browsers.
+- Single-server deployment (not distributed).
 
 ---
 
 ## 8. Risks and Mitigations
 
-| **Risk**                           | **Mitigation**                                                                 | **Testing**                            |
+| **Risk**                           | **Mitigation**                                                                 | **Implementation**                     |
 |------------------------------------|--------------------------------------------------------------------------------|----------------------------------------|
-| Incorrect or inaccessible file path| Implement robust error handling for file loading                                | Test with invalid paths and ensure errors are handled correctly |
-| Poor data quality                  | Robust preprocessing for errors and standardization                            | Test preprocessing with bad data       |
-| Low accuracy due to ambiguity      | Use equivalency groups to simplify predictions                                 | Validate accuracy with groups          |
-| Class imbalance                    | Apply weighted loss or oversampling                                            | Test model on imbalanced data          |
-| New SKUs or format changes         | Design for easy SKU and equivalency updates                                    | Test update process                    |
+| Incorrect or inaccessible file path| Robust error handling for file loading with clear error messages                | Implemented comprehensive error handling with logging |
+| Poor data quality                  | Advanced text preprocessing with spelling correction and standardization       | Created dedicated text preprocessing module with configurable dictionaries |
+| Low accuracy due to ambiguity      | Neural network model with confidence scores and alternative suggestions        | Implemented neural network with top-5 predictions and confidence scores |
+| Class imbalance                    | Filtering to ensure minimum examples per SKU and model selection               | Applied minimum example threshold and compared multiple model types |
+| New SKUs or format changes         | Feedback mechanism and periodic retraining                                     | Implemented feedback database and retraining scheduler |
+| System failures                    | Monitoring, logging, and automated backups                                     | Added monitoring utilities and backup system |
 
 ---
 
 ## 9. Timeline and Milestones
 
-| **Milestone**                 | **Estimated Completion** | **Testing Phase**            |
+| **Milestone**                 | **Status**               | **Completion Date**         |
 |-------------------------------|--------------------------|------------------------------|
-| Data Acquisition and Analysis | [Insert Date]            | Data validation              |
-| Preprocessing and Features    | [Insert Date]            | Preprocessing accuracy       |
-| Model Development             | [Insert Date]            | Model performance            |
-| Testing and Validation        | [Insert Date]            | End-to-end system tests      |
-| Deployment                    | [Insert Date]            | Deployment and maintenance   |
+| Data Acquisition and Analysis | Completed                | April 14, 2025               |
+| Preprocessing and Features    | Completed                | April 15, 2025               |
+| Model Development             | Completed                | April 18, 2025               |
+| Web Application Development   | Completed                | April 19, 2025               |
+| Feedback System Implementation| Completed                | April 19, 2025               |
+| Project Reorganization        | Completed                | April 19, 2025               |
+| Testing and Validation        | Completed                | April 19, 2025               |
+| Documentation                 | Completed                | April 19, 2025               |
 
-*Note: Dates to be finalized upon project start.*
+*Note: All milestones have been successfully completed.*
 
 ---
 
 ## 10. Stakeholders
 
-- **Data Team**: Supplies historical data and equivalency tables.
-- **Developers**: Build and maintain the system.
-- **End-Users**: Use predictions for bidding.
-- **Project Manager**: Oversees execution.
+- **Data Team**: Supplied historical data and equivalency tables.
+- **Developers**: Built and maintain the system.
+- **End-Users**: Use predictions for bidding through the web application.
+- **Project Manager**: Oversaw execution and ensured quality standards.
+- **Maintenance Team**: Monitors system performance and handles updates.
 
 ---
 
 ## 11. Conclusion
 
-This PRD defines a scalable, automated SKU Prediction System to improve efficiency and accuracy in car parts bidding. Each phase includes specific testing to ensure quality and reliability, from data acquisition to deployment.
+This PRD defines a scalable, automated SKU Prediction System that has been successfully implemented to improve efficiency and accuracy in car parts bidding. The system includes a web application with a user-friendly interface, a feedback mechanism for continuous improvement, and comprehensive monitoring and maintenance utilities.
+
+The project has been completed with all milestones achieved. The system is now ready for production use, with a modular and maintainable codebase that can be easily extended with new features in the future.
 
 ---
 
-**Approval**  
-[Insert stakeholder names and signatures upon approval]  
+**Approval**
+This project has been approved and successfully implemented.
+
+Juan P. Roldan - Project Lead
+Fixacar Team - Stakeholders
 
 ---
