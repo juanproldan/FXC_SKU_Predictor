@@ -1,8 +1,19 @@
-pandas
-numpy # Explicitly add numpy
-scikit-learn
-PyYAML  # For handling YAML config files
-joblib # For saving/loading scikit-learn objects
-# Add other dependencies like spacy if needed later
-lightgbm # For gradient boosting model
-ijson # For streaming large JSON files
+# Web Application
+flask==2.3.3
+
+# Data Processing
+pandas==2.0.3
+numpy==1.24.4
+scikit-learn==1.3.0
+joblib==1.3.2
+scipy==1.10.1
+lightgbm==4.0.0
+ijson==3.2.2
+
+# Utilities
+schedule==1.2.0
+PyYAML==6.0.1
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
