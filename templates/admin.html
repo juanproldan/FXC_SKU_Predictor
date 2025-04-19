@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - SKU Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        /* Admin-specific styles */
+        .admin-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #181818;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px 0 #000a, 0 1.5px 4px 0 #0d2d4f44;
+            padding: 2rem 2.5rem 2.5rem 2.5rem;
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background-color: #222;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #f7b731;
+            margin: 10px 0;
+        }
+
+        .stat-label {
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        .feedback-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .feedback-table th,
+        .feedback-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+
+        .feedback-table th {
+            background-color: #0d2d4f;
+            color: #f7b731;
+        }
+
+        .feedback-table tr:hover {
+            background-color: #222;
+        }
+
+        .correct {
+            color: #4CAF50;
+        }
+
+        .incorrect {
+            color: #ff4d4d;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .refresh-btn {
+            background-color: #0d2d4f;
+            color: #f7b731;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .refresh-btn:hover {
+            background-color: #f7b731;
+            color: #0d2d4f;
+        }
+    </style>
+</head>
+
+<body style="background: #111; color: #fff;">
+    <div class="admin-container">
+        <h1>SKU Predictor - Admin Panel</h1>
+        
+        <div class="stats-container">
+            <div class="stat-card">
+                <div class="stat-value" id="total-count">0</div>
+                <div class="stat-label">Total Feedback</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="correct-count">0</div>
+                <div class="stat-label">Correct Predictions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="incorrect-count">0</div>
+                <div class="stat-label">Incorrect Predictions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="accuracy-rate">0%</div>
+                <div class="stat-label">Accuracy Rate</div>
+            </div>
+        </div>
+        
+        <h2>Recent Feedback</h2>
+        <table class="feedback-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Predicted SKU</th>
+                    <th>Correct?</th>
+                    <th>Correct SKU</th>
+                </tr>
+            </thead>
+            <tbody id="feedback-table-body">
+                <!-- Will be populated with feedback data -->
+            </tbody>
+        </table>
+        
+        <div class="actions">
+            <button id="refresh-btn" class="refresh-btn">Refresh Data</button>
+            <a href="/" class="refresh-btn">Back to Predictor</a>
+        </div>
+    </div>
+    
+    <script>
+        // Function to load feedback stats
+        async function loadFeedbackStats() {
+            try {
+                const response = await fetch('/api/feedback/stats');
+                const data = await response.json();
+                
+                // Update stats
+                document.getElementById('total-count').textContent = data.total_count;
+                document.getElementById('correct-count').textContent = data.correct_count;
+                document.getElementById('incorrect-count').textContent = data.incorrect_count;
+                document.getElementById('accuracy-rate').textContent = `${Math.round(data.accuracy_rate * 100)}%`;
+                
+                // Update table
+                const tableBody = document.getElementById('feedback-table-body');
+                tableBody.innerHTML = '';
+                
+                data.recent_feedback.forEach(item => {
+                    const row = document.createElement('tr');
+                    
+                    // Format date
+                    const date = new Date(item.timestamp);
+                    const formattedDate = `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+                    
+                    // Create cells
+                    row.innerHTML = `
+                        <td>${formattedDate}</td>
+                        <td>${item.description}</td>
+                        <td>${item.predicted_sku}</td>
+                        <td class="${item.is_correct ? 'correct' : 'incorrect'}">${item.is_correct ? 'Yes' : 'No'}</td>
+                        <td>${item.is_correct ? '-' : (item.correct_sku || 'Not provided')}</td>
+                    `;
+                    
+                    tableBody.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Error loading feedback stats:', error);
+                alert('Error loading feedback data. Please try again.');
+            }
+        }
+        
+        // Load stats on page load
+        document.addEventListener('DOMContentLoaded', loadFeedbackStats);
+        
+        // Refresh button
+        document.getElementById('refresh-btn').addEventListener('click', loadFeedbackStats);
+    </script>
+</body>
+
+</html>

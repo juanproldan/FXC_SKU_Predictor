@@ -1,7 +1,12 @@
 import os
 import joblib
 import string
+import json
+from datetime import datetime
 from flask import Flask, request, render_template, jsonify
+
+# Import feedback database module
+from src.feedback_db import save_feedback, get_feedback_stats
 
 # --- Constants ---
 MODEL_DIR = "models/renault_neural"
@@ -83,6 +88,12 @@ def home():
     return render_template('index.html')
 
 
+@app.route('/admin')
+def admin():
+    """Admin page to view feedback statistics."""
+    return render_template('admin.html')
+
+
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
@@ -156,6 +167,48 @@ def get_maker_series_model():
             }
         }
         return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/feedback', methods=['POST'])
+def submit_feedback():
+    """Receive and store user feedback on predictions."""
+    try:
+        # Get feedback data from JSON
+        data = request.get_json()
+
+        if not data:
+            return jsonify({"error": "No feedback data provided"}), 400
+
+        required_fields = ['description', 'predicted_sku', 'is_correct']
+        for field in required_fields:
+            if field not in data:
+                return jsonify({"error": f"Missing required field: {field}"}), 400
+
+        # Add timestamp if not provided
+        if 'timestamp' not in data:
+            data['timestamp'] = datetime.now().isoformat()
+
+        # Save feedback to database
+        feedback_id = save_feedback(data)
+
+        return jsonify({
+            "success": True,
+            "message": "Feedback received successfully",
+            "feedback_id": feedback_id
+        })
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route('/api/feedback/stats', methods=['GET'])
+def get_feedback_statistics():
+    """Get statistics about collected feedback."""
+    try:
+        stats = get_feedback_stats()
+        return jsonify(stats)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

@@ -45,6 +45,31 @@
                 <ul id="top-skus-list"></ul>
             </div>
             <div id="model-info" style="margin-top: 10px; font-size: 0.8em; color: #999;"></div>
+
+            <!-- Feedback UI -->
+            <div id="feedback-container" style="margin-top: 20px; display: none;">
+                <h3>¿Fue correcta esta predicción?</h3>
+                <div class="feedback-buttons">
+                    <button id="btn-correct" class="feedback-btn correct">Sí, Correcta!</button>
+                    <button id="btn-incorrect" class="feedback-btn incorrect">No, Incorrecta</button>
+                </div>
+
+                <div id="correction-container" style="display: none; margin-top: 10px;">
+                    <p>Por favor seleccione el SKU correcto:</p>
+                    <select id="correct-sku-select">
+                        <!-- Will be populated with alternatives -->
+                    </select>
+                    <div class="other-sku-container" style="margin-top: 10px; display: none;">
+                        <input type="text" id="other-sku-input" placeholder="Ingrese el SKU correcto">
+                    </div>
+                    <button id="btn-submit-correction" class="feedback-btn submit">Enviar Corrección</button>
+                </div>
+
+                <div id="feedback-success" style="display: none; margin-top: 10px;">
+                    <p class="success-message">¡Gracias por su retroalimentación! Esto nos ayudará a mejorar el modelo.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     <script>
@@ -168,7 +193,108 @@
                 }
                 document.getElementById('model-info').textContent = `Modelo utilizado: ${modelName}`;
             }
+
+            // Show feedback container
+            document.getElementById('feedback-container').style.display = 'block';
+            document.getElementById('feedback-success').style.display = 'none';
+            document.getElementById('correction-container').style.display = 'none';
         });
+
+        // Feedback functionality
+        document.getElementById('btn-correct').addEventListener('click', function () {
+            submitFeedback(true);
+        });
+
+        document.getElementById('btn-incorrect').addEventListener('click', function () {
+            document.getElementById('correction-container').style.display = 'block';
+
+            // Populate dropdown with alternatives
+            const select = document.getElementById('correct-sku-select');
+            select.innerHTML = '';
+
+            // Get the current prediction data
+            const currentSku = document.getElementById('sku-result').value;
+
+            // Add options from top SKUs
+            const topSkusList = document.querySelectorAll('#top-skus-list li');
+            topSkusList.forEach(item => {
+                const skuText = item.querySelector('strong').textContent;
+                const confidenceText = item.textContent.split(':')[1].trim();
+
+                // Skip the current prediction
+                if (skuText !== currentSku) {
+                    const option = document.createElement('option');
+                    option.value = skuText;
+                    option.text = `${skuText} (${confidenceText})`;
+                    select.appendChild(option);
+                }
+            });
+
+            // Add option for "Other"
+            const otherOption = document.createElement('option');
+            otherOption.value = 'other';
+            otherOption.text = 'Otro (no está en la lista)';
+            select.appendChild(otherOption);
+        });
+
+        // Handle "Other" option
+        document.getElementById('correct-sku-select').addEventListener('change', function () {
+            const otherSkuContainer = document.querySelector('.other-sku-container');
+            if (this.value === 'other') {
+                otherSkuContainer.style.display = 'block';
+            } else {
+                otherSkuContainer.style.display = 'none';
+            }
+        });
+
+        document.getElementById('btn-submit-correction').addEventListener('click', function () {
+            const selectedSku = document.getElementById('correct-sku-select').value;
+            let correctSku = selectedSku;
+
+            // If "Other" is selected, get the value from the input
+            if (selectedSku === 'other') {
+                correctSku = document.getElementById('other-sku-input').value.trim();
+                if (!correctSku) {
+                    alert('Por favor ingrese un SKU válido');
+                    return;
+                }
+            }
+
+            submitFeedback(false, correctSku);
+        });
+
+        function submitFeedback(isCorrect, correctSku = null) {
+            const feedback = {
+                description: document.getElementById('description').value,
+                maker: makerSelect.value,
+                series: seriesSelect.value,
+                model_year: modelSelect.value,
+                predicted_sku: document.getElementById('sku-result').value,
+                is_correct: isCorrect,
+                correct_sku: correctSku,
+                confidence: parseFloat(document.getElementById('confidence-value').textContent) / 100,
+                timestamp: new Date().toISOString()
+            };
+
+            fetch('/api/feedback', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(feedback)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Hide correction container
+                    document.getElementById('correction-container').style.display = 'none';
+                    document.querySelector('.feedback-buttons').style.display = 'none';
+
+                    // Show success message
+                    document.getElementById('feedback-success').style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error submitting feedback:', error);
+                    alert('Error al enviar la retroalimentación. Por favor intente nuevamente.');
+                });
+        }
     </script>
 </body>
 
