@@ -17,6 +17,10 @@
             <select id="maker" name="maker" required>
                 <option value="">Seleccione una marca</option>
             </select>
+            <label for="model_family">Modelo:</label>
+            <select id="model_family" name="model_family" required>
+                <option value="">Seleccione un modelo</option>
+            </select>
             <label for="series">Serie:</label>
             <select id="series" name="series" required>
                 <option value="">Seleccione una serie</option>
@@ -75,6 +79,7 @@
     <script>
         let carData = {};
         const makerSelect = document.getElementById('maker');
+        const modelFamilySelect = document.getElementById('model_family');
         const seriesSelect = document.getElementById('series');
         const modelSelect = document.getElementById('model_year');
 
@@ -89,16 +94,30 @@
             Object.keys(carData).forEach(maker => {
                 makerSelect.innerHTML += `<option value="${maker}">${maker}</option>`;
             });
+            modelFamilySelect.innerHTML = '<option value="">Seleccione un modelo</option>';
             seriesSelect.innerHTML = '<option value="">Seleccione una serie</option>';
             modelSelect.innerHTML = '<option value="">Seleccione un año</option>';
         }
 
-        function populateSeries() {
+        function populateModelFamilies() {
             const maker = makerSelect.value;
+            modelFamilySelect.innerHTML = '<option value="">Seleccione un modelo</option>';
             seriesSelect.innerHTML = '<option value="">Seleccione una serie</option>';
             modelSelect.innerHTML = '<option value="">Seleccione un año</option>';
             if (maker && carData[maker]) {
-                Object.keys(carData[maker]).forEach(series => {
+                Object.keys(carData[maker]).forEach(modelFamily => {
+                    modelFamilySelect.innerHTML += `<option value="${modelFamily}">${modelFamily}</option>`;
+                });
+            }
+        }
+
+        function populateSeries() {
+            const maker = makerSelect.value;
+            const modelFamily = modelFamilySelect.value;
+            seriesSelect.innerHTML = '<option value="">Seleccione una serie</option>';
+            modelSelect.innerHTML = '<option value="">Seleccione un año</option>';
+            if (maker && modelFamily && carData[maker] && carData[maker][modelFamily]) {
+                Object.keys(carData[maker][modelFamily]).forEach(series => {
                     seriesSelect.innerHTML += `<option value="${series}">${series}</option>`;
                 });
             }
@@ -106,16 +125,18 @@
 
         function populateModels() {
             const maker = makerSelect.value;
+            const modelFamily = modelFamilySelect.value;
             const series = seriesSelect.value;
             modelSelect.innerHTML = '<option value="">Seleccione un año</option>';
-            if (maker && series && carData[maker] && carData[maker][series]) {
-                carData[maker][series].forEach(model => {
+            if (maker && modelFamily && series && carData[maker] && carData[maker][modelFamily] && carData[maker][modelFamily][series]) {
+                carData[maker][modelFamily][series].forEach(model => {
                     modelSelect.innerHTML += `<option value="${model}">${model}</option>`;
                 });
             }
         }
 
-        makerSelect.addEventListener('change', populateSeries);
+        makerSelect.addEventListener('change', populateModelFamilies);
+        modelFamilySelect.addEventListener('change', populateSeries);
         seriesSelect.addEventListener('change', populateModels);
 
         fetchCarData();
@@ -123,6 +144,7 @@
         document.getElementById('sku-form').addEventListener('submit', async function (e) {
             e.preventDefault();
             const maker = makerSelect.value;
+            const model_family = modelFamilySelect.value;
             const series = seriesSelect.value;
             const model_year = modelSelect.value;
             const description = document.getElementById('description').value;
@@ -139,6 +161,7 @@
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     maker,
+                    model_family,
                     series,
                     model_year,
                     description
@@ -386,6 +409,7 @@
             const feedback = {
                 description: document.getElementById('description').value,
                 maker: makerSelect.value,
+                model_family: modelFamilySelect.value,
                 series: seriesSelect.value,
                 model_year: modelSelect.value,
                 predicted_sku: document.querySelector('.sku-item.top-prediction') ?
