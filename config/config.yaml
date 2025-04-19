@@ -3,7 +3,7 @@
 data:
   # Path to the raw historical bid data (JSON format)
   # Use absolute path or relative path from the project root
-  raw_data_path: "C:/Users/juanp/OneDrive/Documents/Python/0_Training/017_Fixacar/001_SKU_desde_descripcion/Consolidado.json" # Updated to use forward slashes for better cross-platform compatibility
+  raw_data_path: "C:/Users/juanp/OneDrive/Documents/Python/0_Training/017_Fixacar/001_SKU_desde_descripcion/Fuente_Json_Consolidado/items_chunk_1.json" # Using chunk 1 for testing
 
   # Path for processed data (optional)
   processed_data_path: "data/processed_data.csv"

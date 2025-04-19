@@ -184,3 +184,12 @@ data/
 models/
 *.log
 sample.json
+crash_log.txt
+pipeline_log.txt
+
+# Large data files
+Fuente_Json_Consolidado/Consolidado.json
+Fuente_Json_Consolidado/items_not_empty.json
+Fuente_Json_Consolidado/items_chunk_*.json
+Fuente_Json_Consolidado/full_training_data.csv
+Fuente_Json_Consolidado/clean_training_data.csv

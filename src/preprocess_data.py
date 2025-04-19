@@ -133,14 +133,36 @@ def preprocess_data(input_csv_path: str, output_dir: str, test_size: float = 0.1
     logging.info(f"Saving preprocessor, label encoder, and processed data to {output_dir}")
 
     try:
+        # Log the absolute output directory path
+        logging.info(f"Absolute output_dir: {os.path.abspath(output_dir)}")
+
         # Save the fitted preprocessor pipeline
-        joblib.dump(preprocessor, os.path.join(output_dir, 'preprocessor.joblib'))
+        preprocessor_path = os.path.join(output_dir, 'preprocessor.joblib')
+        logging.info(f"Saving preprocessor to: {preprocessor_path}")
+        joblib.dump(preprocessor, preprocessor_path)
+
         # Save the fitted label encoder
-        joblib.dump(label_encoder, os.path.join(output_dir, 'label_encoder.joblib'))
+        label_encoder_path = os.path.join(output_dir, 'label_encoder.joblib')
+        logging.info(f"Saving label encoder to: {label_encoder_path}")
+        joblib.dump(label_encoder, label_encoder_path)
+
         # Save processed data (sparse matrix + labels)
-        joblib.dump({'X': X_train_processed, 'y': y_train_encoded}, os.path.join(output_dir, 'train_processed.joblib'))
-        joblib.dump({'X': X_val_processed, 'y': y_val_encoded}, os.path.join(output_dir, 'val_processed.joblib'))
-        joblib.dump({'X': X_test_processed, 'y': y_test_encoded}, os.path.join(output_dir, 'test_processed.joblib'))
+        train_path = os.path.join(output_dir, 'train_processed.joblib')
+        val_path = os.path.join(output_dir, 'val_processed.joblib')
+        test_path = os.path.join(output_dir, 'test_processed.joblib')
+        logging.info(f"Saving train data to: {train_path}")
+        joblib.dump({'X': X_train_processed, 'y': y_train_encoded}, train_path)
+        logging.info(f"Saving val data to: {val_path}")
+        joblib.dump({'X': X_val_processed, 'y': y_val_encoded}, val_path)
+        logging.info(f"Saving test data to: {test_path}")
+        joblib.dump({'X': X_test_processed, 'y': y_test_encoded}, test_path)
+
+        # List the contents of the output directory
+        try:
+            contents = os.listdir(output_dir)
+            logging.info(f"Contents of output_dir after saving: {contents}")
+        except Exception as e:
+            logging.error(f"Could not list contents of output_dir: {e}")
 
         logging.info("Preprocessing complete. Artifacts and data saved successfully.")
     except Exception as e:

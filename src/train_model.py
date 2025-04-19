@@ -62,6 +62,59 @@ def train_model(input_data_dir: str, output_model_dir: str, model_filename: str 
         label_encoder = joblib.load(encoder_path)
         num_classes = len(label_encoder.classes_)
         logging.info(f"Loaded data. Training shape: {X_train.shape}, Validation shape: {X_val.shape}, Num classes: {num_classes}")
+        # Log memory usage
+        def get_mem_usage(arr):
+            try:
+                if hasattr(arr, 'memory_usage'):
+                    return arr.memory_usage(deep=True).sum()
+                elif hasattr(arr, 'nbytes'):
+                    return arr.nbytes
+                else:
+                    return 'Unknown'
+            except Exception as e:
+                return f'Error: {e}'
+        train_mem = get_mem_usage(X_train)
+        val_mem = get_mem_usage(X_val)
+        logging.info(f"X_train memory usage: {train_mem} bytes")
+        logging.info(f"X_val memory usage: {val_mem} bytes")
+        # Optionally limit number of rows for debugging resource issues
+        row_limit = os.environ.get('TRAIN_ROW_LIMIT')
+        if row_limit is not None:
+            try:
+                import numpy as np
+                row_limit = int(row_limit)
+                # Randomly sample rows for train and val
+                rng = np.random.default_rng(42)
+                # Use .shape[0] for row count (works for both DataFrame and sparse matrix)
+                n_train = X_train.shape[0]
+                n_val = X_val.shape[0]
+                train_indices = rng.choice(n_train, min(row_limit, n_train), replace=False)
+                val_indices = rng.choice(n_val, min(row_limit, n_val), replace=False)
+                if hasattr(X_train, 'iloc'):
+                    X_train_small = X_train.iloc[train_indices]
+                    y_train_small = y_train.iloc[train_indices]
+                    X_val_small = X_val.iloc[val_indices]
+                    y_val_small = y_val.iloc[val_indices]
+                else:
+                    X_train_small = X_train[train_indices]
+                    y_train_small = y_train[train_indices]
+                    X_val_small = X_val[val_indices]
+                    y_val_small = y_val[val_indices]
+                # Filter val set to only classes present in train set
+                train_classes = set(np.unique(y_train_small))
+                val_mask = np.isin(y_val_small, list(train_classes))
+                X_val_small = X_val_small[val_mask]
+                y_val_small = y_val_small[val_mask]
+                # Assign back
+                X_train, y_train = X_train_small, y_train_small
+                X_val, y_val = X_val_small, y_val_small
+                logging.warning(f"Limiting train/val data to {row_limit} random rows for debugging. Filtered val to only classes in train.")
+                # Warn if any classes in val are not in train
+                unseen_val_classes = set(np.unique(y_val)) - train_classes
+                if unseen_val_classes:
+                    logging.warning(f"After filtering, val set still contains unseen classes: {unseen_val_classes}")
+            except Exception as e:
+                logging.error(f"Failed to apply TRAIN_ROW_LIMIT: {e}")
 
     except Exception as e:
         logging.error(f"Failed to load data or encoder: {e}")

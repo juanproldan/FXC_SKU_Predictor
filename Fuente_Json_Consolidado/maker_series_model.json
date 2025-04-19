@@ -1,0 +1,11425 @@
+{
+  "Chevrolet": {
+    "/2019/*Activ 1.389": [
+      "2019"
+    ],
+    "/Npr Furgon 2013/": [
+      "2012"
+    ],
+    "1.0L Mt 1000Cc": [
+      "2002"
+    ],
+    "1.3 Mt 1300Cc Pm": [
+      "1995"
+    ],
+    "1.4 L Mt 1400Cc 4P": [
+      "2006"
+    ],
+    "1.5L [Asl] Mt 1500Cc Aa": [
+      "2017"
+    ],
+    "1.6L At 1600Cc Aa 2Ab Abs": [
+      "2008",
+      "2010",
+      "2011"
+    ],
+    "1.6L Mt 1600Cc 3P": [
+      "2014"
+    ],
+    "1.6L Mt 1600Cc Aa 1Ab": [
+      "2008",
+      "2009"
+    ],
+    "1.6L Mt 1600Cc Aa 2Ab Abs": [
+      "2010",
+      "2011"
+    ],
+    "1.6L Mt 1600Cc Sa 1Ab": [
+      "2008"
+    ],
+    "2.0 L Mt 2000Cc 5P 4X2": [
+      "2008"
+    ],
+    "2.0 Mt 2000Cc": [
+      "2006"
+    ],
+    "2.0 Mt 2000Cc 2P Aa": [
+      "2022"
+    ],
+    "2.5L Full Mt 2500Cc 4X4 Td Abs 2Ab": [
+      "2019",
+      "2020"
+    ],
+    "2.5L Mt 2500Cc 4X4 Td Abs 2Ab": [
+      "2016"
+    ],
+    "2.5L Mt 2500Cc 4X4 Td Abs 2Ab Aa": [
+      "2014",
+      "2015",
+      "2018"
+    ],
+    "2.5L Mt 2500Cc 4X4 Td Abs 2Ab Pa": [
+      "2021"
+    ],
+    "2.5L Mt 2500Cc Td 4X2 2Ab Abs": [
+      "2017"
+    ],
+    "2.5L Work Mt 2500Cc 4X4 Td Abs 2Ab": [
+      "2020"
+    ],
+    "240 Mt Td 4X2": [
+      "1995"
+    ],
+    "3.6L Lt Tp 3600Cc 4X4": [
+      "2013",
+      "2016"
+    ],
+    "700P Reward [104Hp] Mt 3000Cc Td 4X2 Abs": [
+      "2018"
+    ],
+    "700P Reward [122Hp] Mt 3000Cc Td 4X2 Abs": [
+      "2023"
+    ],
+    "Activ Mt 1400Cc 5P 2Ab Abs": [
+      "2018"
+    ],
+    "Advance Mt 1600Cc 4P": [
+      "2011",
+      "2012"
+    ],
+    "Alto": [
+      "2000",
+      "2001",
+      "2002",
+      "2003"
+    ],
+    "Astra": [
+      "2001",
+      "2004",
+      "2005"
+    ],
+    "Aveo": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2019",
+      "2024"
+    ],
+    "Aveo Emotion": [
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Aveo Emotion 5 Puertas 1.600": [
+      "2012"
+    ],
+    "Beat": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Blazer": [
+      "1994",
+      "1996",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Brigadier": [
+      "1998"
+    ],
+    "Brigadier Wg-64 Mt/Brigadier Wg-64 Mt/*Brigadier Wg-64 Mt": [
+      "1992"
+    ],
+    "Brilliance/V5 Deluxe/*Tp 1500Cc 4X2 T": [
+      "2015"
+    ],
+    "C70 189 Tbi Mt Gsl/C70 189 Tbi Mt Gsl/*C70 189 Tbi Mt Gsl": [
+      "1993"
+    ],
+    "Camaro": [
+      "2011"
+    ],
+    "Captiva": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Captiva [2]": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Cargo Mt 1200Cc Sa": [
+      "2015"
+    ],
+    "Cargo Mt 1200Cc Sa 2Ab Abs": [
+      "2018"
+    ],
+    "Cargo Plus Mt 1200Cc Aa": [
+      "2012",
+      "2014"
+    ],
+    "Cargo Plus Mt 1200Cc Aa 2Ab Abs": [
+      "2018",
+      "2020",
+      "2021"
+    ],
+    "Changhe Freedom/Changhe Freedom/*Changhe Freedom": [
+      "2015"
+    ],
+    "Chery Yoya/Yoya 2017/*2017": [
+      "2015"
+    ],
+    "Chery/Yoyo/*2023": [
+      "2023"
+    ],
+    "Chev-Cobalt-2015/Chev-Cobalt-2015/*Chev-Cobalt-2015": [
+      "2015"
+    ],
+    "Chev-Traverse-2016/Chev-Traverse-2016/*Chev-Traverse-2016": [
+      "2016"
+    ],
+    "Chev/Carry/2006/Chev/Carry/2006/*Chev/Carry/2006": [
+      "2006"
+    ],
+    "Chev/Traverse/2016/Chev/Traverse/2016/*Chev/Traverse/2016": [
+      "2016"
+    ],
+    "Chevr/Travers/2014/Chevr/Travers/2014/*Chevr/Travers/2014": [
+      "2014"
+    ],
+    "Chevrc70 149 1983/Chevrc70 149 1983/*Chevrc70 149 1983": [
+      "1983"
+    ],
+    "Chevreolet Lv150/Lv150 Mod 2014/*Bus": [
+      "2014"
+    ],
+    "Chevro Cobalt 2015/Chevro Cobalt 2015/*Chevro Cobalt 2015": [
+      "2015"
+    ],
+    "Chevro Cobalt 2021/Chevro Cobalt 2021/*Chevro Cobalt 2021": [
+      "2014"
+    ],
+    "Chevro Kodiak 2006/Chevro Kodiak 2006/*Chevro Kodiak 2006": [
+      "2006"
+    ],
+    "Chevro Kodiak 2009/Chevro Kodiak 2009/*Chevro Kodiak 2009": [
+      "2009"
+    ],
+    "Chevro Kodiak 7500/Chevro Kodiak 7500/*Chevro Kodiak 7500": [
+      "2008"
+    ],
+    "Chevro Vivant 2008/Chevro Vivant 2008/*Chevro Vivant 2008": [
+      "2008"
+    ],
+    "Chevro/Blazer/2019/Chevro/Blazer/2019/*Chevro/Blazer/2019": [
+      "2019"
+    ],
+    "Chevro/Cobalt/2013/Chevro/Cobalt/2013/*Chevro/Cobalt/2013": [
+      "2013"
+    ],
+    "Chevro/Trailb/2019/Chevro/Trailb/2019/*Chevro/Trailb/2019": [
+      "2019"
+    ],
+    "Chevrol Brigad2000/Chevrol Brigad2000/*Chevrol Brigad2000": [
+      "2000"
+    ],
+    "Chevrol S.Briga 95/Chevrol S.Briga 95/*Chevrol S.Briga 95": [
+      "1995"
+    ],
+    "Chevrole/Onix/2019/Chevrole/Onix/2019/*Chevrole/Onix/2019": [
+      "2019"
+    ],
+    "Chevrolet - Onix/2019/": [
+      "2019"
+    ],
+    "Chevrolet Alto/Chevrolet Alto/*Chevrolet Alto": [
+      "2003"
+    ],
+    "Chevrolet B70 2002/Chevrolet B70 2002/*Chevrolet B70 2002": [
+      "2002"
+    ],
+    "Chevrolet B70/B70 Bus Mod 2002/*B70 Bus Mod 2002": [
+      "2002"
+    ],
+    "Chevrolet B70/B70 Mod 1998 Bus/*B70 Mod 1998 Bus": [
+      "1998"
+    ],
+    "Chevrolet Brigadie/Brigadier Mod 1996/*Brigadier Mod 1996": [
+      "1996"
+    ],
+    "Chevrolet C30/C30 Mod 1990/*C30 Mod 1990": [
+      "1990"
+    ],
+    "Chevrolet C60/C60 Mod 1986/*C60 Mod 1986": [
+      "1986"
+    ],
+    "Chevrolet C70 1991/Chevrolet C70 1991/*Chevrolet C70 1991": [
+      "1991"
+    ],
+    "Chevrolet C70/C70 Mod 1988/*C70 Mod 1988": [
+      "1988"
+    ],
+    "Chevrolet C70/Chevrolet C70/*Chevrolet C70": [
+      "1986"
+    ],
+    "Chevrolet Chevy C2/Chevy C2 Mod 2007/*Chevy C2 Mod 2007": [
+      "2007"
+    ],
+    "Chevrolet Chevy/Chevy Taxi M 2022/*Chevy Taxi M 2022": [
+      "2022"
+    ],
+    "Chevrolet Cobalt/Cobalt Ltz/*Ltz": [
+      "2017"
+    ],
+    "Chevrolet Epica/2004/*Chevrolet Epica": [
+      "2004"
+    ],
+    "Chevrolet Joy 2021/Chevrolet Joy 2021/*Chevrolet Joy 2021": [
+      "2021"
+    ],
+    "Chevrolet Kodiak/Furgon/*Mt 7200Cc Td 4X2": [
+      "2006"
+    ],
+    "Chevrolet Kodiak/Kodiak 157/*1997": [
+      "1996"
+    ],
+    "Chevrolet Lv 150/Chevrolet Lv 150/*Chevrolet Lv 150": [
+      "2011"
+    ],
+    "Chevrolet Lv 150/Lv 150 Mod 2014/*Lv 150 Mod 2014": [
+      "2014"
+    ],
+    "Chevrolet Lv150/Lv 150 Mod 2008/*Lv 150 Bus": [
+      "2008"
+    ],
+    "Chevrolet Lv452/Lv 452 Mod 2016/*Lv 452 Mod 2016": [
+      "2016"
+    ],
+    "Chevrolet Monza/Monza 1990/*Monza 1990": [
+      "1990"
+    ],
+    "Chevrolet N400/N400 Mod 2023/*N400 Mod 2023": [
+      "2023"
+    ],
+    "Chevrolet Onix/2019/": [
+      "2019"
+    ],
+    "Chevrolet Rodeo/Chevrolet Rodeo/*Rodeo 2003": [
+      "2003"
+    ],
+    "Chevrolet Rodeo/Rodeo Wagon/*Mod 1999": [
+      "1999"
+    ],
+    "Chevrolet S.Brigad/Superbrigadier M95/*Superbrigadier M95": [
+      "1995"
+    ],
+    "Chevrolet Sprint/Sprint Mod 1987/*Sprint Mod 1987": [
+      "1987"
+    ],
+    "Chevrolet Traverse/Traverse 2015/*2015": [
+      "2014"
+    ],
+    "Chevrolet/1994/*Luv Tfs": [
+      "1994"
+    ],
+    "Chevrolet/1997/*Luv": [
+      "1997"
+    ],
+    "Chevrolet/2015/*Traverse": [
+      "2015"
+    ],
+    "Chevrolet/2019/*Blazer Rs 3.6 A/T": [
+      "2019"
+    ],
+    "Chevrolet/Astra G/Basico": [
+      "2004",
+      "2005"
+    ],
+    "Chevrolet/Beat (Klc)/Basico": [
+      "2009",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Beat (Klc)/Ls": [
+      "2000",
+      "2015",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Beat (Klc)/Lt": [
+      "2012",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Beat (Klc)/Ltz": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Beat (Klc)/Premier": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Blazer (1N3)/Basico": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Blazer (1N3)/Rs": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Blazer/Advantage Full": [
+      "2012"
+    ],
+    "Chevrolet/Blazer/Blazer": [
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "Chevrolet/Blazer/R": [
+      "1995",
+      "1996"
+    ],
+    "Chevrolet/Blazer/Tornado": [
+      "1992"
+    ],
+    "Chevrolet/Brigadier 1998/*Wg-64 221 10000Cc": [
+      "1998"
+    ],
+    "Chevrolet/Brigadier 221/*1996": [
+      "1996"
+    ],
+    "Chevrolet/Brigadier J90 229/*Brigadierj90 M1981": [
+      "1981"
+    ],
+    "Chevrolet/Brigadier Mod 1993/*Brigadier Mod 1993": [
+      "1993"
+    ],
+    "Chevrolet/Brigadier Mod 1998/*Brigadier Mod 1998": [
+      "1998"
+    ],
+    "Chevrolet/Brigadier/*1998": [
+      "1998"
+    ],
+    "Chevrolet/Brigadiermod 1998/*Brigadiermod 1998": [
+      "1998"
+    ],
+    "Chevrolet/C70 1988/*189 Tbi Mt Gsl 4X2": [
+      "1988"
+    ],
+    "Chevrolet/Captiva (As1)/Basico": [
+      "2000",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Captiva (As1)/Lt": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Captiva (As1)/Ltz": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Captiva Sport(Ml1)/Basico": [
+      "1998",
+      "2001",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "Chevrolet/Captiva Sport(Ml1)/Ls": [
+      "2000",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Chevrolet/Captiva Sport(Ml1)/Ls Full": [
+      "2010",
+      "2011",
+      "2017"
+    ],
+    "Chevrolet/Captiva Sport(Ml1)/Lt": [
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2020"
+    ],
+    "Chevrolet/Chevi Taxi 2020/*Chevi Taxi 2020": [
+      "2020"
+    ],
+    "Chevrolet/Chevi Taxi M2022/*Chevi Taxi M2022": [
+      "2022"
+    ],
+    "Chevrolet/Chevy (S)/Basico": [
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Chevy (S)/C2": [
+      "2006",
+      "2008",
+      "2009",
+      "2015"
+    ],
+    "Chevrolet/Chevy C2 2005/": [
+      "2004"
+    ],
+    "Chevrolet/Chevy C2 2008/": [
+      "2007"
+    ],
+    "Chevrolet/Chevy Taxi M2018/*Chevy Taxi M2018": [
+      "2018"
+    ],
+    "Chevrolet/Chevy Taxi Plus/*2020": [
+      "2019"
+    ],
+    "Chevrolet/Chevy Taxi Premium/*2019": [
+      "2019"
+    ],
+    "Chevrolet/Chevy Taxi/*Chevy Taxi M2019": [
+      "2019"
+    ],
+    "Chevrolet/Chevy/*Corsa": [
+      "2009"
+    ],
+    "Chevrolet/Chevy/Basico": [
+      "1997",
+      "2004",
+      "2007"
+    ],
+    "Chevrolet/Chevy/C2": [
+      "2007",
+      "2008"
+    ],
+    "Chevrolet/Chevytaxi|/": [
+      "2019"
+    ],
+    "Chevrolet/Chr Bus/*2011": [
+      "2011"
+    ],
+    "Chevrolet/Cobalt (Bj1)/Basico": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Chevrolet/Cobalt (Bj1)/Lt": [
+      "2012",
+      "2014",
+      "2016"
+    ],
+    "Chevrolet/Cobalt (Bj1)/Ltz": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Chevrolet/Colorado/Basico": [
+      "2000",
+      "2012",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Colorado/High Country": [
+      "2000",
+      "2017",
+      "2018",
+      "2019",
+      "2023"
+    ],
+    "Chevrolet/Colorado/Ls": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Colorado/Lt": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Colorado/Ltz": [
+      "2018",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Corsa B (309)/Basico": [
+      "1997",
+      "1998",
+      "2000",
+      "2002",
+      "2006"
+    ],
+    "Chevrolet/Corsa B (309)/Classic Life": [
+      "1998",
+      "1999"
+    ],
+    "Chevrolet/Corsa B (309)/Gl": [
+      "1997",
+      "2007"
+    ],
+    "Chevrolet/Corsa B (309)/Wind": [
+      "2004",
+      "2006",
+      "2007"
+    ],
+    "Chevrolet/Corsa C/Basico": [
+      "1997",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2013"
+    ],
+    "Chevrolet/Corsa C/Evolution": [
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "Chevrolet/Corsa C/Evolution Gl": [
+      "2003",
+      "2004",
+      "2006"
+    ],
+    "Chevrolet/Corsa C/Evolution Gls": [
+      "2003"
+    ],
+    "Chevrolet/Corsa/Active": [
+      "2005"
+    ],
+    "Chevrolet/Cruze (Bp1/Bp2)/Basico": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Chevrolet/Cruze (Bp1/Bp2)/Lt": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Chevrolet/Cruze (Bp1/Bp2)/Ltz": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Chevrolet/Cruze (Mb1/Bb1)/Basico": [
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Chevrolet/Cruze (Mb1/Bb1)/Lt": [
+      "2011",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Cruze (Mb1/Bb1)/Ltz": [
+      "2000",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/D-Max/Basico": [
+      "2000",
+      "2001",
+      "2004",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/D-Max/Cd": [
+      "2005",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/D-Max/Cs": [
+      "2007",
+      "2009",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Dmax Luv Mod 2007/": [
+      "2008"
+    ],
+    "Chevrolet/Equinox (1X1-Cp8)/Basico": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Equinox (1X1-Cp8)/L": [
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Equinox (1X1-Cp8)/Ls": [
+      "2018",
+      "2019"
+    ],
+    "Chevrolet/Equinox (1X1-Cp8)/Lt": [
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Equinox (1X1-Cp8)/Midnight": [
+      "2018"
+    ],
+    "Chevrolet/Equinox (1X1-Cp8)/Premier": [
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Equinox (1X1-Cp8)/Premier Plus": [
+      "2018",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Equinox (1X1-Cp8)/Rs": [
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Esteem Glx Sw/*At 1600Cc": [
+      "1999"
+    ],
+    "Chevrolet/Esteem/1.3": [
+      "1997",
+      "2000",
+      "2001",
+      "2002",
+      "2003"
+    ],
+    "Chevrolet/Esteem/1.6": [
+      "1998",
+      "2000"
+    ],
+    "Chevrolet/F Series Forward/Basico": [
+      "2004",
+      "2007",
+      "2008",
+      "2009",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/F Series Forward/Frr": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/F Series Forward/Ftr": [
+      "2000",
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/F Series Forward/Fvr": [
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/F Series Forward/Fvz": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Fsr 2007/": [
+      "2007"
+    ],
+    "Chevrolet/Fsr 2009/": [
+      "2008"
+    ],
+    "Chevrolet/Fsr 2011/": [
+      "2010"
+    ],
+    "Chevrolet/Fsr 32L/": [
+      "2005"
+    ],
+    "Chevrolet/Ftr Modelo 2007/*Ftr Modelo 2007": [
+      "2007"
+    ],
+    "Chevrolet/Fvr 2011/": [
+      "2010"
+    ],
+    "Chevrolet/Fvz 2015/*Fvz 2015": [
+      "2015"
+    ],
+    "Chevrolet/Gran Vitara 3 P/": [
+      "2005"
+    ],
+    "Chevrolet/Grand Blazer/*Grand Blazer": [
+      "1994"
+    ],
+    "Chevrolet/Grand Vitara/": [
+      "2008"
+    ],
+    "Chevrolet/Hhr (A Hr1)/Basico": [
+      "2009"
+    ],
+    "Chevrolet/Hhr (A Hr1)/Lt": [
+      "2009",
+      "2010"
+    ],
+    "Chevrolet/Joy 2022/*2022": [
+      "2021"
+    ],
+    "Chevrolet/Joy/": [
+      "2020"
+    ],
+    "Chevrolet/Joy/*2021": [
+      "2020"
+    ],
+    "Chevrolet/Kodiak 156/": [
+      "1995"
+    ],
+    "Chevrolet/Kodiak 190/*2009": [
+      "2009"
+    ],
+    "Chevrolet/Kodiak 211/*2003": [
+      "2003"
+    ],
+    "Chevrolet/Kodiak Mod 1995/*Kodiak Mod 1995": [
+      "1995"
+    ],
+    "Chevrolet/Kodiak Mod 2008/*Kodiak Mod 2008": [
+      "2008"
+    ],
+    "Chevrolet/Kodiak/Basico": [
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997",
+      "1998",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "Chevrolet/Kodiak209C7H042/*1995": [
+      "1995"
+    ],
+    "Chevrolet/Lumina Apv/Lumina Apv": [
+      "2013"
+    ],
+    "Chevrolet/Lumina Van/Lumina Van": [
+      "2010"
+    ],
+    "Chevrolet/Luv Kv-21 Mod 1986/*Luv Kv-21 Mod 1986": [
+      "1986"
+    ],
+    "Chevrolet/Luv Tfs 1994/*Luv Tfs 1994": [
+      "1994"
+    ],
+    "Chevrolet/Luv/Basico": [
+      "1986",
+      "1990",
+      "1991",
+      "1995",
+      "1997",
+      "1998"
+    ],
+    "Chevrolet/Luv/Ls": [
+      "1998"
+    ],
+    "Chevrolet/N200/Basico": [
+      "2007",
+      "2010",
+      "2011",
+      "2012",
+      "2022"
+    ],
+    "Chevrolet/N300/Basico": [
+      "1998",
+      "2000",
+      "2007",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Nhr/*2020": [
+      "2020"
+    ],
+    "Chevrolet/Nkr/*Nkr": [
+      "2006"
+    ],
+    "Chevrolet/Npr/*2008": [
+      "2007"
+    ],
+    "Chevrolet/Onix (Bj4)/Activo": [
+      "2018",
+      "2019"
+    ],
+    "Chevrolet/Onix (Bj4)/Joy Ls": [
+      "2021"
+    ],
+    "Chevrolet/Onix (Bj4)/Ltz": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "Chevrolet/Onix (Me1)/Basico": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Onix (Me1/Sme)/Onix Lt": [
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Onix (Me1/Sme)/Onix Ltz": [
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Onix 1.4 Ltz/": [
+      "2016"
+    ],
+    "Chevrolet/Onix 1.4L Active M/": [
+      "2019"
+    ],
+    "Chevrolet/Onix Sedan (Bj3)/Ltz": [
+      "2016",
+      "2019"
+    ],
+    "Chevrolet/Onix Sedan/Joy Sed/Basico": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Chevrolet/Onix Sedan/Joy Sed/Lt": [
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Onix Sedan/Joy Sed/Ltz": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Onix/Joy(Bj4)/Activo": [
+      "2000",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Onix/Joy(Bj4)/Basico": [
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Onix/Joy(Bj4)/Joy": [
+      "2016",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Chevrolet/Onix/Joy(Bj4)/Joy Ls": [
+      "2018",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Onix/Joy(Bj4)/Lt": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "Chevrolet/Onix/Joy(Bj4)/Ltz": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Basico": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Ls": [
+      "2015"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Lt": [
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Ltz": [
+      "2000",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Plus Lt": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Plus Ltz": [
+      "2000",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Plus Premier": [
+      "2000",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Premier": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Premier 2": [
+      "2021",
+      "2024"
+    ],
+    "Chevrolet/Onix/Onix Plu(Be1)/Onix Premier Mid": [
+      "2022"
+    ],
+    "Chevrolet/Optra Advance/Basico": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Chevrolet/Optra/Basico": [
+      "2000",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2015"
+    ],
+    "Chevrolet/Optra/Lt": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2015"
+    ],
+    "Chevrolet/Rodeo/*2003": [
+      "2003"
+    ],
+    "Chevrolet/Rodeo/Basico": [
+      "2007"
+    ],
+    "Chevrolet/Rodeo/Ls": [
+      "2000"
+    ],
+    "Chevrolet/Sail (Cs3)/Co": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Sail (Cs3)/Ls": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Sail (Cs3)/Lt": [
+      "2006",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Sail (Cs3)/Ltz": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Sail (Cs3)/Sport": [
+      "2000",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Sail (Sh2)/Basico": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Sail (Sh2)/Sail Ls": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Chevrolet/Sail (Sh2)/Sail Lt": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Sail (Sh2)/Sail Ltz": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Sail Chevy Taxi Pl/*2017": [
+      "2016"
+    ],
+    "Chevrolet/Sonic Kl/Km/Mj/1J/Basico": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Sonic Kl/Km/Mj/1J/Ls": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Chevrolet/Sonic Kl/Km/Mj/1J/Lt": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Chevrolet/Sonic Kl/Km/Mj/1J/Ltz": [
+      "2000",
+      "2007",
+      "2012",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Chevrolet/Spark (Rlc)/Activo": [
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Spark (Rlc)/Basico": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Spark (Rlc)/Gt": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Spark (Rlc)/Gt Activ": [
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Spark (Rlc)/Ls": [
+      "2012",
+      "2014",
+      "2018",
+      "2019"
+    ],
+    "Chevrolet/Spark (Rlc)/Lt": [
+      "2009",
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "Chevrolet/Spark (Rlc)/Ltz": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Chevrolet/Spark (Rlc)/Premier": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Sprint/Basico": [
+      "1987",
+      "1994",
+      "1995",
+      "1996",
+      "1999",
+      "2004"
+    ],
+    "Chevrolet/Super Brigadier/*Acl 1998": [
+      "1997"
+    ],
+    "Chevrolet/Super Brigadier/*Super Brigadier": [
+      "1990"
+    ],
+    "Chevrolet/Super Carry 1997/": [
+      "1996"
+    ],
+    "Chevrolet/Superbriga 1995/*Superbriga 1995": [
+      "1995"
+    ],
+    "Chevrolet/Swift/Gl": [
+      "1992",
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "1997",
+      "1999",
+      "2001",
+      "2002"
+    ],
+    "Chevrolet/Tahoe (5C1)/Basico": [
+      "2018",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Tahoe (5C1)/Ltz": [
+      "2018"
+    ],
+    "Chevrolet/Tahoe (5C2)/Z71": [
+      "2023"
+    ],
+    "Chevrolet/Tahoe (Ck 57C)/Basico": [
+      "2008",
+      "2010",
+      "2012"
+    ],
+    "Chevrolet/Tahoe (Ck 57C)/Elegance": [
+      "2010"
+    ],
+    "Chevrolet/Tracker (Ej 53J)/Basico": [
+      "2002",
+      "2004",
+      "2006",
+      "2008",
+      "2012",
+      "2014",
+      "2016"
+    ],
+    "Chevrolet/Tracker (Ej 53J)/Ls": [
+      "2013"
+    ],
+    "Chevrolet/Tracker (Ej 53J)/Lt": [
+      "2006",
+      "2008",
+      "2009",
+      "2015",
+      "2019"
+    ],
+    "Chevrolet/Tracker (Me2)/Basico": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Tracker (Me2)/Ls": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Tracker (Me2)/Ltz": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "Chevrolet/Tracker (Me2)/Premier": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Tracker (Me2)/Turbo Ltz": [
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Tracker (Me2)/Turbo Pr": [
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Tracker (Me2/Be2)/Basico": [
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Tracker (Me2/Be2)/Ls": [
+      "2015"
+    ],
+    "Chevrolet/Tracker (Me2/Be2)/Ltz": [
+      "2018",
+      "2021"
+    ],
+    "Chevrolet/Tracker (Me2/Be2)/Premier": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "Chevrolet/Tracker (Me2/Be2)/Rs": [
+      "2022"
+    ],
+    "Chevrolet/Tracker (Rbj)/Basico": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2025"
+    ],
+    "Chevrolet/Tracker (Rbj)/Ls": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Tracker (Rbj)/Lt": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Tracker (Rbj)/Ltz": [
+      "2000",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Tracker (Rbj)/Ltz+": [
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Tracker (Rbj)/Premier": [
+      "2000",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Chevrolet/Tracker (Rbj)/Premier+": [
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Tracker/*2019": [
+      "2019"
+    ],
+    "Chevrolet/Tracker/Basico": [
+      "1999",
+      "2013"
+    ],
+    "Chevrolet/Trailblazer (56S)/Basico": [
+      "2000"
+    ],
+    "Chevrolet/Trailblazer (56S)/Lt": [
+      "2000",
+      "2015"
+    ],
+    "Chevrolet/Trailblazer (56S)/Ltz": [
+      "2004",
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Trailblazer (T31)/Basico": [
+      "2013",
+      "2015",
+      "2017",
+      "2018",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Trailblazer (T31)/Lt": [
+      "2013",
+      "2014",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Trailblazer (T31)/Ltz": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Chevrolet/Trailblazer (T31)/Premier": [
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Chevrolet/Traverse (X88-5R1)/Basico": [
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Chevrolet/Traverse (X88-5R1)/Lt": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Chevrolet/Traverse 2015/": [
+      "2017"
+    ],
+    "Chevrolet/Traverse Lt 2015/": [
+      "2014"
+    ],
+    "Chevrolet/Traverse Lt/": [
+      "2015"
+    ],
+    "Chevrolet/Traverse Premier/*Traverse Premier": [
+      "2018"
+    ],
+    "Chevrolet/Traverse/": [
+      "2017"
+    ],
+    "Chevrolet/Traverse/*3.6 At 2012": [
+      "2012"
+    ],
+    "Chevrolet/Traverse/*Lt": [
+      "2016"
+    ],
+    "Chevrolet/Traverse/*Traverse": [
+      "2013"
+    ],
+    "Chevrolet/Traverse/*[2] High Country": [
+      "2018",
+      "2020"
+    ],
+    "Chevrolet/Trax (1J5)/Basico": [
+      "2011",
+      "2012",
+      "2013",
+      "2015"
+    ],
+    "Chevrolet/Trax (1J5)/Ls": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Chevrolet/Trax (1J5)/Lt": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Chevrolet/Trax (1J5)/Ltz": [
+      "2000"
+    ],
+    "Chevrolet/Vitara/Basico": [
+      "1990",
+      "1996",
+      "1997",
+      "1998",
+      "2000",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Chevrolet/Vivant/": [
+      "2007"
+    ],
+    "Chevrolet/Vivant/*2009": [
+      "2009"
+    ],
+    "Chevrolet/Zafira (302)/Basico": [
+      "2003",
+      "2004",
+      "2005",
+      "2007",
+      "2008"
+    ],
+    "Chevrolet/Zafira (302)/Gls": [
+      "2004",
+      "2005",
+      "2008"
+    ],
+    "Chevy": [
+      "1999",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2018",
+      "2020",
+      "2022",
+      "2024"
+    ],
+    "Chevy Taxi Plus [Sail Lt]": [
+      "2016"
+    ],
+    "Chrevolet Swift 94/Chrevolet Swift 94/*Chrevolet Swift 94": [
+      "1994"
+    ],
+    "Chvrolet/Luv Tfr Mod 1995/": [
+      "1995"
+    ],
+    "Cobalt": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Cobalt Co": [
+      "2015"
+    ],
+    "Colorado": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Colorado [Fl]": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Corsa": [
+      "1997",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2006",
+      "2007"
+    ],
+    "Corsa Active 3Ptas/Corsa Active 3Ptas/*Corsa Active 3Ptas": [
+      "2005"
+    ],
+    "Corsa Evolution": [
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "Corsa Wind/Corsa Wind/*Corsa Wind": [
+      "2006"
+    ],
+    "Cruze": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Cruze Ii": [
+      "2017",
+      "2018",
+      "2021"
+    ],
+    "Cruze [2]": [
+      "2017",
+      "2018"
+    ],
+    "Cruze [Fl]": [
+      "2016"
+    ],
+    "Crvrolet/Taxi Elite/": [
+      "2014"
+    ],
+    "D-Max": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Daewoo/Novus K4Def Volque/*2011": [
+      "2011"
+    ],
+    "Desing Mt 1800Cc": [
+      "2007"
+    ],
+    "Dfm/Eq5021Xxyf/": [
+      "2012"
+    ],
+    "Dfm/Eq6410Lf K02/": [
+      "2011"
+    ],
+    "Dfsk/Dxk647/": [
+      "2023"
+    ],
+    "Dfsk/Eq5021 Mod 2015/": [
+      "2015"
+    ],
+    "Dfsk/Eq5025Xxyf13/*2020": [
+      "2019"
+    ],
+    "Dfsk/Eq5025Xxyf13/*Modelo 2023": [
+      "2022"
+    ],
+    "Dfsk/N400/*Eq5025": [
+      "2020"
+    ],
+    "Dmax [1] Mt 2400Cc 4X2": [
+      "2007"
+    ],
+    "Dmax [1] Mt 2400Cc 4X2 Est": [
+      "2007"
+    ],
+    "Dmax [1] [Asl] Mt 2500Cc Td 4X2": [
+      "2009"
+    ],
+    "Dmax [2] Mt 2500Cc 4X2 Est Td": [
+      "2009"
+    ],
+    "Dmax [2] Mt 2500Cc Td 4X2": [
+      "2014"
+    ],
+    "Dmax [2] Mt 3000Cc 4X2 Td Sa": [
+      "2009",
+      "2012"
+    ],
+    "Dmax [2] Mt 3000Cc 4X4 Td": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Dmax [2] Mt 3000Cc 4X4 Td 2Ab Abs": [
+      "2012"
+    ],
+    "Dmax [2] Mt 3000Cc 4X4 Td Sa": [
+      "2013"
+    ],
+    "Dmax [3]": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Dmax [3] [Fl]": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Equinox": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Equinox [3]": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Esteem": [
+      "1996",
+      "1998",
+      "2003"
+    ],
+    "F": [
+      "2007",
+      "2009",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Family Mt 1500Cc 4P Aa": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Family Mt 1500Cc 4P Sa": [
+      "2011",
+      "2012"
+    ],
+    "Faw Colombia/Ca1183/": [
+      "2022"
+    ],
+    "Faw/2020/*Ca7150Bue4": [
+      "2020"
+    ],
+    "Five Mt 1600Cc 5P Aa 1Ab": [
+      "2008"
+    ],
+    "Five Mt 1600Cc 5P Aa 2Ab": [
+      "2008"
+    ],
+    "Foton Bj6425 Mt 12/Foton Bj6425 Mt 12/*Foton Bj6425 Mt 12": [
+      "2017"
+    ],
+    "Foton/Bj2037/*Mod 2020": [
+      "2019"
+    ],
+    "Foton/Bj6425Md32A 2020/": [
+      "2019"
+    ],
+    "Foton/Tuland/*Pick Up": [
+      "2015"
+    ],
+    "Foton/Tunland/*4X4 Dc 2015": [
+      "2015"
+    ],
+    "Frr 700P/Modelo 2018/": [
+      "2018"
+    ],
+    "Fsr 32L Mt 7100Cc/Fsr 32L Mt 7100Cc/*Fsr 32L Mt 7100Cc": [
+      "2007"
+    ],
+    "General Sin Linea/Camion Mod 1983/*Camion Mod 1983": [
+      "1983"
+    ],
+    "Glx Mt 1600Cc": [
+      "2000"
+    ],
+    "Go Mt 1000Cc Aa Ct": [
+      "2009"
+    ],
+    "Go Mt 1000Cc Aa Dh Ct": [
+      "2008",
+      "2009"
+    ],
+    "Grand Vitara": [
+      "2000",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Grand Vitara 1.6/Grand Vitara 1.6/*Grand Vitara 1.6": [
+      "2011"
+    ],
+    "Gt Ls Mt 1200Cc 5P Aa 2Ab Abs": [
+      "2019",
+      "2020"
+    ],
+    "Gt Lt Mt 1200Cc 5P Aa 2Ab Abs": [
+      "2019",
+      "2020"
+    ],
+    "Gt Ltz/Premier Mt 1200Cc 5P Aa 2Ab Abs": [
+      "2019",
+      "2020"
+    ],
+    "Gt Mt 1600Cc 5P Aa 1Ab": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Gt Mt 1600Cc 5P Aa 2Ab Abs": [
+      "2011"
+    ],
+    "Gt [M300] Lt Mt 1200Cc 5P": [
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Gt [M300] Lt Mt 1200Cc 5P 2Ab Abs": [
+      "2017",
+      "2018"
+    ],
+    "Gt [M300] Ltz Mt 1200Cc 5P": [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Gt [M300] Ltz Mt 1200Cc 5P 2Ab Abs": [
+      "2017",
+      "2018"
+    ],
+    "Gt [M300] Mt 1200Cc 5P Aa": [
+      "2010",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Gt [M300] Mt 1200Cc 5P Fe": [
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Gti Mt 1400Cc 3P Aa": [
+      "2007"
+    ],
+    "Gti Mt 1600Cc 3P Aa": [
+      "2008"
+    ],
+    "Gti Mt 1600Cc 3P Aa Ct": [
+      "2011",
+      "2012"
+    ],
+    "Gti Mt 1600Cc 3P Sa": [
+      "2009"
+    ],
+    "Gtx [M300] Mt 1200Cc 5P Fe": [
+      "2012"
+    ],
+    "Hatchback Lt Mt 1400Cc 2Ab R14": [
+      "2024"
+    ],
+    "Hatchback Mt 1400Cc 5P 2Ab Abs": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Hb At 1800Cc": [
+      "2007"
+    ],
+    "Hhr": [
+      "2009",
+      "2010"
+    ],
+    "High Country Tp 2800Cc 4X4 Td": [
+      "2019",
+      "2020"
+    ],
+    "High Country Tp 3600Cc 4X4": [
+      "2020"
+    ],
+    "Jac/Hfc1037 T8/*Mt 2000Cc Td 4X4": [
+      "2021"
+    ],
+    "Jimny": [
+      "2015"
+    ],
+    "Joy": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Joy/Joy/*Joy": [
+      "2021"
+    ],
+    "Kodia 209/1997/": [
+      "1997"
+    ],
+    "Kodiak": [
+      "2001",
+      "2003",
+      "2006",
+      "2007",
+      "2009"
+    ],
+    "Kodiak 209/Kodiak 209/*Kodiak 209": [
+      "1995"
+    ],
+    "L": [
+      "2016",
+      "2017"
+    ],
+    "Life Mt 1000Cc Aa": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Life Mt 1000Cc Aa 2Ab Abs": [
+      "2018",
+      "2019"
+    ],
+    "Life Mt 1000Cc Sa": [
+      "2015"
+    ],
+    "Life Mt 1000Cc Sa 2Ab Abs": [
+      "2018"
+    ],
+    "Life Sport Mt 1000Cc Aa": [
+      "2015",
+      "2016"
+    ],
+    "Limited At 1800Cc Ct Fe": [
+      "2007"
+    ],
+    "Limited Mt 1800Cc Ct Fe": [
+      "2008"
+    ],
+    "Ls Mt 1000Cc Sa": [
+      "2007"
+    ],
+    "Ls Mt 1200Cc 4P Aa 2Ab Abs": [
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Ls Mt 1200Cc T": [
+      "2022"
+    ],
+    "Ls Mt 1400Cc 4P Aa": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2020"
+    ],
+    "Ls Mt 1400Cc 4P Aa 2Ab Abs": [
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ls Mt 1400Cc 4P Aa Ab": [
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Ls Mt 1400Cc 4P Sa": [
+      "2016",
+      "2017"
+    ],
+    "Ls Mt 1400Cc 4P Sa 2Ab Abs": [
+      "2019"
+    ],
+    "Ls Mt 1400Cc 4P Sa Ab": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Ls Mt 1800Cc": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Ls Mt 2800Cc 4X4 Td": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ls Tp 1500Cc T 4X2": [
+      "2019"
+    ],
+    "Ls Tp 1800Cc": [
+      "2013",
+      "2014",
+      "2015",
+      "2019",
+      "2020"
+    ],
+    "Lt At 1800Cc 5P": [
+      "2013"
+    ],
+    "Lt Mt 1000Cc T 4P 6Ab Abs": [
+      "2021",
+      "2023"
+    ],
+    "Lt Mt 1200Cc 4P Aa 2Ab Abs": [
+      "2019",
+      "2020"
+    ],
+    "Lt Mt 1400Cc 4P 2Ab Abs": [
+      "2019",
+      "2020"
+    ],
+    "Lt Mt 1400Cc 4P Aa 2Ab": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Lt Mt 1400Cc 4P Aa 2Ab Abs": [
+      "2018"
+    ],
+    "Lt Mt 1400Cc 5P Aa Ab": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Lt Mt 1600Cc 4P 2Ab Abs Ct": [
+      "2013",
+      "2014",
+      "2016",
+      "2018"
+    ],
+    "Lt Mt 1600Cc 5P 2Ab Abs Ct": [
+      "2014",
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Lt Mt 1800Cc 4P 2Ab Aa": [
+      "2014"
+    ],
+    "Lt Sport Mt 1400Cc 5P Aa Ab": [
+      "2013"
+    ],
+    "Lt Tp 1000Cc T 4P 6Ab Abs": [
+      "2021",
+      "2024"
+    ],
+    "Lt Tp 1500Cc T 4X2 Tc Cr R18": [
+      "2018",
+      "2019"
+    ],
+    "Lt Tp 1600Cc 4P 4Ab Abs Ct": [
+      "2015"
+    ],
+    "Lt Tp 1800Cc": [
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Lt Tp 1800Cc 4P Ct Tc": [
+      "2015"
+    ],
+    "Lt Tp 1800Cc 4X4 Ct Tc": [
+      "2017"
+    ],
+    "Lt Tp 1800Cc Ct": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "Lt [M200] Mt 1000Cc Aa": [
+      "2007",
+      "2010",
+      "2012",
+      "2013"
+    ],
+    "Lt [M200] Mt 1000Cc Sa": [
+      "2008",
+      "2010",
+      "2013",
+      "2014"
+    ],
+    "Lt/Ltz Turbo Tp 1500Cc T 4X2": [
+      "2020"
+    ],
+    "Ltz At 2800Cc 4X4 Td": [
+      "2015"
+    ],
+    "Ltz Mt 1200Cc 4P Aa 2Ab Abs": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Ltz Mt 1400Cc 4P 2Ab Abs": [
+      "2020"
+    ],
+    "Ltz Mt 1400Cc 4P Aa 2Ab Abs": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Ltz Mt 1400Cc 5P 2Ab Abs": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Ltz Mt 2800Cc 4X4 Td": [
+      "2022",
+      "2023"
+    ],
+    "Ltz Sport Mt 1400Cc 5P Aa 2Ab Abs": [
+      "2015"
+    ],
+    "Ltz Tp 1000Cc T 4P 6Ab Abs": [
+      "2021"
+    ],
+    "Ltz Tp 1200Cc T": [
+      "2021"
+    ],
+    "Ltz Tp 1400Cc 4P 2Ab Abs": [
+      "2019",
+      "2020"
+    ],
+    "Ltz Tp 1400Cc 5P 2Ab Abs": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ltz Tp 1400Cc T 4P 6Ab Ct": [
+      "2017"
+    ],
+    "Ltz Tp 1800Cc 4X4": [
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "Ltz Tp 2800Cc 4X4 Td": [
+      "2017"
+    ],
+    "Ltz Tp 3600Cc 4X4": [
+      "2020"
+    ],
+    "Luv": [
+      "1988",
+      "1994",
+      "1995",
+      "1996",
+      "1999",
+      "2000",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2019",
+      "2023"
+    ],
+    "Luv Mt 1600Cc 4X2/Luv Mt 1600Cc 4X2/*Luv Mt 1600Cc 4X2": [
+      "1994"
+    ],
+    "Mitsubishi/L300 2.0L Mt 2000C/*Bus / Buseta / Mic": [
+      "2014"
+    ],
+    "Montana": [
+      "2024"
+    ],
+    "Move Full Mt 1500Cc Aa 2Ab Abs": [
+      "2023"
+    ],
+    "Move Mt 1200Cc Sa": [
+      "2014"
+    ],
+    "Move Plus Mt 1200Cc Aa 2Ab Abs": [
+      "2020",
+      "2021"
+    ],
+    "N": [
+      "1998",
+      "2003",
+      "2005",
+      "2006",
+      "2007",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "N200": [
+      "2011",
+      "2012"
+    ],
+    "N300": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "N400": [
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Nickel [Ls] At 1800Cc 4P Ct": [
+      "2011"
+    ],
+    "Nlr": [
+      "2009",
+      "2010",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Onix": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Onix Ltz Mt 1400Cc/Onix Ltz Mt 1400Cc/*Onix Ltz Mt 1400Cc": [
+      "2017"
+    ],
+    "Onix [2]": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Onix [Fl]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Optra": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2024"
+    ],
+    "Orlando": [
+      "2013",
+      "2014"
+    ],
+    "Platinum [Lt] At 1800Cc 4P Ct Tc": [
+      "2011",
+      "2012"
+    ],
+    "Premier Tp 1000Cc T 4P 6Ab Abs": [
+      "2021",
+      "2022"
+    ],
+    "Premier Tp 1000Cc T 5P 6Ab Abs": [
+      "2021",
+      "2023"
+    ],
+    "Premier Tp 1200Cc T Ct": [
+      "2022"
+    ],
+    "Premier Tp 1500Cc T 4X4": [
+      "2018",
+      "2019"
+    ],
+    "Premier Turbo Tp 1500Cc T 4X2": [
+      "2020",
+      "2023"
+    ],
+    "Rodeo": [
+      "2003"
+    ],
+    "Rs Mt 1000Cc 5P T 6Ab Abs": [
+      "2021"
+    ],
+    "Rs Tp 3600Cc 4X4": [
+      "2020"
+    ],
+    "Sail": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Samurai": [
+      "2001"
+    ],
+    "Sd At 1600Cc 4P Aa": [
+      "2010"
+    ],
+    "Sd Mt 1400Cc 4P Aa": [
+      "2006",
+      "2007"
+    ],
+    "Sd Mt 1600Cc 4P Aa": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Sedan Mt 1400Cc 4P 2Ab Abs": [
+      "2021",
+      "2023"
+    ],
+    "Silverado": [
+      "2011",
+      "2023",
+      "2024"
+    ],
+    "Sonic": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Sonic [Fl]": [
+      "2017"
+    ],
+    "Spark": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Spark [1]": [
+      "2016",
+      "2020"
+    ],
+    "Spark [2]": [
+      "2004",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Spark [3]": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016"
+    ],
+    "Spark [3] [Fl]": [
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "Spark [4]": [
+      "2011",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Sport At 2400Cc 5P 4X2": [
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Sport At 2400Cc 5P 4X2 Ct": [
+      "2015",
+      "2017"
+    ],
+    "Sport At 2400Cc 5P 4X2 Ct Tc": [
+      "2011",
+      "2012"
+    ],
+    "Sport At 3000Cc 5P": [
+      "2012",
+      "2015"
+    ],
+    "Sprint": [
+      "1998",
+      "2000",
+      "2002"
+    ],
+    "Std Mt 2600Cc Cab": [
+      "1989"
+    ],
+    "Std [Tfr] Mt 2300Cc 4X2 Est": [
+      "2007"
+    ],
+    "Super Acl-64 14000/Super Acl-64 14000/*Super Acl-64 14000": [
+      "1998"
+    ],
+    "Super Brigadier": [
+      "1995",
+      "1996"
+    ],
+    "Super Brigadier Ac/Super Brigadier Ac/*Super Brigadier Ac": [
+      "1996"
+    ],
+    "Super Brigadier Mt/Super Brigadier Mt/*Super Brigadier Mt": [
+      "1998"
+    ],
+    "Super Brigadier/Super Brigadier/*Super Brigadier": [
+      "1992"
+    ],
+    "Super Capry Van/Super Capry Van/*Super Capry Van": [
+      "2006"
+    ],
+    "Super Carry": [
+      "2007"
+    ],
+    "Super Carry 1997/Super Carry 1997/*Super Carry 1997": [
+      "1997"
+    ],
+    "Super Carry Mt1000/Super Carry Mt1000/*Super Carry Mt1000": [
+      "2006",
+      "2008"
+    ],
+    "Super Carry/Super Carry/*Super Carry": [
+      "2007"
+    ],
+    "Superbrigadier 185/Superbrigadier 185/*Superbrigadier 185": [
+      "2000"
+    ],
+    "Suzuki/Apv 1/": [
+      "2014"
+    ],
+    "Suzuki/Apv/*2016": [
+      "2015",
+      "2016"
+    ],
+    "Swift": [
+      "1993",
+      "1994",
+      "1995",
+      "1996",
+      "2000"
+    ],
+    "Tahoe": [
+      "2010",
+      "2012",
+      "2016",
+      "2020",
+      "2023",
+      "2024"
+    ],
+    "Tahoe [3]": [
+      "2012"
+    ],
+    "Tahoe [4]": [
+      "2020"
+    ],
+    "Taxis": [
+      "2009",
+      "2011",
+      "2012",
+      "2014",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Tracker": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Tracker [2]": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Tracker [3]": [
+      "2023"
+    ],
+    "Tracker [Fl]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Trail Blazer": [
+      "2013",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Trailblazer [2]": [
+      "2013",
+      "2016"
+    ],
+    "Trailblazer [2] [Fl]": [
+      "2018",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Traverse": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Traverse [2]": [
+      "2018",
+      "2020",
+      "2021"
+    ],
+    "Traverse [Fl]": [
+      "2015",
+      "2017"
+    ],
+    "Trooper": [
+      "1996"
+    ],
+    "V6 Dohc At 2500Cc 5P": [
+      "2008"
+    ],
+    "V6 Dohc Mt 2500Cc 5P": [
+      "2008"
+    ],
+    "Van N200": [
+      "2008",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Van N300": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Van N400": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Vitara": [
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Vivant": [
+      "2008"
+    ],
+    "Wfr": [
+      "2016"
+    ],
+    "Wind Gl Mt 1400Cc 4P Sa": [
+      "2006"
+    ],
+    "Z71 Tp 2800Cc 4X4 Td": [
+      "2022"
+    ],
+    "Z71 Tp 5300Cc": [
+      "2022"
+    ],
+    "Zafira": [
+      "2002",
+      "2005",
+      "2007",
+      "2008"
+    ],
+    "Zna/Rich 6/": [
+      "2022"
+    ]
+  },
+  "Daewoo": {
+    "Chevrolet/Aveo 3-/5-Puertas/Basico": [
+      "2007",
+      "2008"
+    ],
+    "Chevrolet/Aveo 3-/5-Puertas/Emotion Gt": [
+      "2012",
+      "2013"
+    ],
+    "Chevrolet/Aveo 4-Puertas/Emotion": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Chevrolet/Aveo 4-Puertas/L": [
+      "2008",
+      "2011"
+    ],
+    "Chevrolet/Aveo 4-Puertas/Ls": [
+      "2010",
+      "2011"
+    ],
+    "Chevrolet/Captiva/Basico": [
+      "2011",
+      "2012"
+    ],
+    "Chevrolet/Captiva/Ltz": [
+      "2008"
+    ],
+    "Chevrolet/Cruze/Lt": [
+      "2011",
+      "2017"
+    ],
+    "Chevrolet/Spark (Kl1K/M200)/Basico": [
+      "2010",
+      "2012",
+      "2013",
+      "2018"
+    ],
+    "Chevrolet/Spark (Kl1K/M200)/Go": [
+      "2011"
+    ],
+    "Chevrolet/Spark (Kl1K/M200)/Life": [
+      "2009",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Spark (Kl1K/M200)/Ls": [
+      "2009",
+      "2012"
+    ],
+    "Chevrolet/Spark (Ksc)/(M300)/Basico": [
+      "2017"
+    ],
+    "Chevrolet/Spark (Ksc)/(M300)/Gt": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Chevrolet/Spark (Ksc)/(M300)/Ltz": [
+      "2018"
+    ],
+    "Daewoo/Aveo/Basis": [
+      "2008",
+      "2009"
+    ],
+    "Daewoo/Aveo/Emotion": [
+      "2010"
+    ],
+    "Daewoo/Aveo/Family": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "Daewoo/Vivant/Basis": [
+      "2006"
+    ]
+  },
+  "Fiat": {
+    "Strada Trekking": [
+      "2021"
+    ]
+  },
+  "Ford": {
+    "2.0 L Mt 2000Cc 4X2": [
+      "2009"
+    ],
+    "2.0 L Mt 2000Cc 4X4": [
+      "2008"
+    ],
+    "Big Bend Tp 1500Cc T 4X4": [
+      "2021"
+    ],
+    "Bronco": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Bronco Sport": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Cargo": [
+      "1994",
+      "2005",
+      "2006"
+    ],
+    "Cargo 1721 Mt 8300/Cargo 1721 Mt 8300/*Cargo 1721 Mt 8300": [
+      "2005"
+    ],
+    "Cargo 1721 Mt8300/Cargo 1721 Mt8300/*Cargo 1721 Mt8300": [
+      "2005"
+    ],
+    "Eco Sport": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Ecosport [1]": [
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "Ecosport [1] [Fl]": [
+      "2009",
+      "2011",
+      "2012"
+    ],
+    "Ecosport [2]": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Ecosport [2] [Fl]": [
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Edge": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Edge [2]": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Edge [2] [Fl]": [
+      "2019"
+    ],
+    "Escape": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Escape [2]": [
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Escape [3]": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Escape [3] [Fl]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Escape [4]": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Expedition": [
+      "2017",
+      "2019",
+      "2020",
+      "2023"
+    ],
+    "Expedition [4]": [
+      "2019",
+      "2023"
+    ],
+    "Explorer": [
+      "2006",
+      "2007",
+      "2008",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Explorer [5]": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2020"
+    ],
+    "Explorer [5] [Fl]": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Explorer [6]": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "F150": [
+      "2000",
+      "2012",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "F150 [12]": [
+      "2013",
+      "2014"
+    ],
+    "F150 [13]": [
+      "2016",
+      "2018"
+    ],
+    "F150 [13] [Fl]": [
+      "2019",
+      "2020"
+    ],
+    "Festiva": [
+      "1996",
+      "1998"
+    ],
+    "Fiesta": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2024"
+    ],
+    "Fiesta [6]": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Fiesta [7]": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Focus": [
+      "2007",
+      "2008",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Focus [3]": [
+      "2013",
+      "2014"
+    ],
+    "Focus [3] Fl": [
+      "2015"
+    ],
+    "Ford Cargo 1721/Ford Cargo 1721/*Ford Cargo 1721": [
+      "2006"
+    ],
+    "Ford F 150/Ford F 150/*Ford F 150": [
+      "2012"
+    ],
+    "Ford F-150/Fhev At Xlt/*Fhev At Xlt": [
+      "2023"
+    ],
+    "Ford F25D47/F25D47 Mod 2009/*F25D47 Mod 2009": [
+      "2009"
+    ],
+    "Ford Laser 2003/Ford Laser 2003/*Ford Laser 2003": [
+      "2001"
+    ],
+    "Ford.Cargo.1721M07/Ford.Cargo.1721M07/*Ford.Cargo.1721M07": [
+      "2007"
+    ],
+    "Ford/Aspire/Festiva/Basico": [
+      "1999"
+    ],
+    "Ford/Aspire/Festiva/Sport": [
+      "2000"
+    ],
+    "Ford/Bronco Sport(Chd)/Base": [
+      "2019"
+    ],
+    "Ford/Bronco Sport(Chd)/Basico": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ford/Bronco Sport(Chd)/Big Bend": [
+      "2021",
+      "2022"
+    ],
+    "Ford/Bronco Sport(Chd)/Wildtrack": [
+      "2020",
+      "2021"
+    ],
+    "Ford/Cargo 815 Mod 2007/*Cargo 815 Mod 2007": [
+      "2007"
+    ],
+    "Ford/Cargo/1723": [
+      "1997",
+      "2006",
+      "2007"
+    ],
+    "Ford/Cargo/Basico": [
+      "2004",
+      "2005",
+      "2007",
+      "2017"
+    ],
+    "Ford/Ecosport (Bua/Cbw)/Basico": [
+      "2009",
+      "2010",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ford/Ecosport (Bua/Cbw)/Freestyle": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "Ford/Ecosport (Bua/Cbw)/S": [
+      "2012",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Ford/Ecosport (Bua/Cbw)/Se": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ford/Ecosport (Bua/Cbw)/Titanio": [
+      "2000",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Ford/Ecosport/Traccion Total": [
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2019"
+    ],
+    "Ford/Ecosport/Xls": [
+      "2004",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2019"
+    ],
+    "Ford/Ecosport/Xlt": [
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2018"
+    ],
+    "Ford/Edge (Cdq)/Basico": [
+      "2000",
+      "2013",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ford/Edge (Cdq)/Ride": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ford/Edge (Cdq)/Sel": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2022"
+    ],
+    "Ford/Edge (Cdq)/Sel Plus": [
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Ford/Edge (Cdq)/Sport": [
+      "2017"
+    ],
+    "Ford/Edge (Cdq)/St": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ford/Edge (Cdq)/Titanio": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Ford/Edge (Tq1)/Limited": [
+      "2007",
+      "2008",
+      "2010",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Ford/Edge (Tq1)/Se": [
+      "2010",
+      "2011",
+      "2013",
+      "2014",
+      "2016"
+    ],
+    "Ford/Edge (Tq1)/Sport": [
+      "2011"
+    ],
+    "Ford/Escape (Ctc)/Active": [
+      "2023"
+    ],
+    "Ford/Escape (Ctc)/Basico": [
+      "2016",
+      "2017",
+      "2018",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ford/Escape (Ctc)/Platinum": [
+      "2017"
+    ],
+    "Ford/Escape (Ctc)/S": [
+      "2021"
+    ],
+    "Ford/Escape (Ctc)/Se": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ford/Escape (Ctc)/Se Sport Hybrid": [
+      "2020",
+      "2022"
+    ],
+    "Ford/Escape (Ctc)/Sel": [
+      "2022"
+    ],
+    "Ford/Escape (Ctc)/St-Line Elite": [
+      "2023"
+    ],
+    "Ford/Escape (Ctc)/Titanio": [
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ford/Escape (Ctc)/Trend": [
+      "2020"
+    ],
+    "Ford/Escape (Tm1)/Xls": [
+      "2005",
+      "2014"
+    ],
+    "Ford/Escape (Tm1)/Xlt": [
+      "2007",
+      "2008",
+      "2009",
+      "2017"
+    ],
+    "Ford/Escape (Tm2)/Basico": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Ford/Escape (Tm2)/Se": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Ford/Escape (Tm2)/Titanio": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Ford/Escape (Tm7)/Modelo Basico": [
+      "2000",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2016"
+    ],
+    "Ford/Escape (Tm7)/Premium": [
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2016"
+    ],
+    "Ford/Escape (Tm7)/Xlt": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Ford/Expedition (Tb7)/Basico": [
+      "2017"
+    ],
+    "Ford/Expedition (Tb8)/Limited": [
+      "2020"
+    ],
+    "Ford/Expedition/Xlt": [
+      "2006"
+    ],
+    "Ford/Explorer (Ctw)/Basico": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ford/Explorer (Ctw)/Limited": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ford/Explorer (Ctw)/St": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ford/Explorer (Ctw)/Xlt": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Ford/Explorer Ii/Eddie Bauer": [
+      "2005",
+      "2007"
+    ],
+    "Ford/Explorer Ii/Limited": [
+      "2004",
+      "2019"
+    ],
+    "Ford/Explorer Ii/Xlt": [
+      "2005",
+      "2007",
+      "2010"
+    ],
+    "Ford/Explorer Sprt Trac/Limited": [
+      "2000",
+      "2007"
+    ],
+    "Ford/Explorer Sprt Trac/Xlt": [
+      "2006",
+      "2010"
+    ],
+    "Ford/F-150 Raptor (Tf6)/Basico": [
+      "2012",
+      "2013",
+      "2015"
+    ],
+    "Ford/F-150 Raptor (Tfc)/Basico": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Ford/F-150 Raptor(Tfd)/Basico": [
+      "2019"
+    ],
+    "Ford/F-150/F-250/Lobo/F-150": [
+      "2012"
+    ],
+    "Ford/F-150/F-250/Lobo/F-150 Lariat": [
+      "1997"
+    ],
+    "Ford/F-150/F-250/Lobo/F-150 Xlt": [
+      "2003"
+    ],
+    "Ford/F-150/Lobo (Tfc)/F-150": [
+      "2012",
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "Ford/F-150/Lobo (Tfc)/F-150 Lariat Sport": [
+      "2018",
+      "2021",
+      "2022"
+    ],
+    "Ford/F-150/Lobo (Tfc)/F-150 Xlt": [
+      "2017",
+      "2022"
+    ],
+    "Ford/F-150/Lobo (Tfd)/F-150 Hev Xlt": [
+      "2023"
+    ],
+    "Ford/F-150/Lobo (Tfd)/F-150 Lariat Sport": [
+      "2020",
+      "2021"
+    ],
+    "Ford/F-150/Lobo/F-150": [
+      "2010",
+      "2012",
+      "2017"
+    ],
+    "Ford/F-150/Lobo/F-150 Xlt": [
+      "2006",
+      "2012",
+      "2014"
+    ],
+    "Ford/F700/F800/F700/F800": [
+      "1980"
+    ],
+    "Ford/F8000 Mod:2003/": [
+      "2003"
+    ],
+    "Ford/Festiva Nb M1997/*Festiva Nb M1997": [
+      "1997"
+    ],
+    "Ford/Fiesta Sedan/Standard": [
+      "2014",
+      "2015"
+    ],
+    "Ford/Fiesta/Basico": [
+      "1997",
+      "1998",
+      "2003",
+      "2013"
+    ],
+    "Ford/Fiesta/Standard": [
+      "2007",
+      "2011",
+      "2012",
+      "2014",
+      "2015"
+    ],
+    "Ford/Focus (Cdh)/Basico": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Ford/Focus (Cdh)/Se": [
+      "2013",
+      "2014"
+    ],
+    "Ford/Focus (Cdh)/Titanio": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Ford/Focus/Clx": [
+      "2007"
+    ],
+    "Ford/Focus/Ghia": [
+      "2008"
+    ],
+    "Ford/Focus/Lx (Ak)": [
+      "2004"
+    ],
+    "Ford/Fusion (Cc7)/Se": [
+      "2012",
+      "2013",
+      "2014",
+      "2017"
+    ],
+    "Ford/Fusion (Cc7)/Se Hybrid": [
+      "2020"
+    ],
+    "Ford/Fusion (Cc7)/Titanio": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Ford/Fusion (Cc7)/Titanium Plus": [
+      "2013",
+      "2014"
+    ],
+    "Ford/Fusion (Cde)/Basico": [
+      "2012"
+    ],
+    "Ford/Fusion (Cde)/Sel": [
+      "2008",
+      "2010"
+    ],
+    "Ford/Fusion/Mondeo(Cc7)/Basico": [
+      "2017"
+    ],
+    "Ford/Fusion/Se": [
+      "2007"
+    ],
+    "Ford/Fusion/Sel": [
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "Ford/Laser/": [
+      "2004"
+    ],
+    "Ford/Mustang (Czf)/Basico": [
+      "2016"
+    ],
+    "Ford/Mustang (Czg)/Gt Premium": [
+      "2021"
+    ],
+    "Ford/Mustang (Czg/Nbj)/Mustang Gt": [
+      "2017"
+    ],
+    "Ford/Mustang/Mustang": [
+      "2018"
+    ],
+    "Ford/New Explorer (Tub)/Basico": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ford/New Explorer (Tub)/Limited": [
+      "2006",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ford/New Explorer (Tub)/Xlt": [
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Ford/New Fiesta (Cch)/Basico": [
+      "2000",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Ford/New Fiesta (Cch)/Se": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Ford/New Fiesta (Cch)/Ses": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Ford/New Fiesta (Cct)/Basico": [
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Ford/New Fiesta (Cct)/Se": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Ford/New Fiesta (Cct)/Sportback Se": [
+      "2000",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Ford/New Fiesta (Cct)/Sportback Titanium": [
+      "2000",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Ford/New Fiesta (Cct)/St": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Ford/New Fiesta (Cct)/Titanio": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Ford/Pickup (97-98 F350/Pickup (97-98 F350": [
+      "1994",
+      "1998",
+      "2012"
+    ],
+    "Ford/Ranger (6B/7B)/Basico": [
+      "2000",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Ford/Ranger (6B/7B)/Fx4": [
+      "2022",
+      "2023"
+    ],
+    "Ford/Ranger (6B/7B)/Limited": [
+      "2000",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ford/Ranger (6B/7B)/Limited Black Edit": [
+      "2023"
+    ],
+    "Ford/Ranger (6B/7B)/Ltd": [
+      "2019"
+    ],
+    "Ford/Ranger (6B/7B)/Xl": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Ford/Ranger (6B/7B)/Xls": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Ford/Ranger (6B/7B)/Xlt": [
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Ford/Ranger (6B/7B)/Xlt Limited": [
+      "2013",
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2023"
+    ],
+    "Ford/Ranger (Eq)/Standart": [
+      "2006"
+    ],
+    "Ford/Ranger (Es)/Basico": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2017",
+      "2021",
+      "2022"
+    ],
+    "Ford/Ranger (Et)/Ranger": [
+      "2009"
+    ],
+    "Ford/Ranger (Trc)/Limited": [
+      "2018",
+      "2023",
+      "2024"
+    ],
+    "Ford/Ranger (Trc)/Xl": [
+      "2023",
+      "2024"
+    ],
+    "Ford/Ranger (Trc)/Xls": [
+      "2017",
+      "2023",
+      "2024"
+    ],
+    "Ford/Ranger (Trc)/Xlt": [
+      "2023"
+    ],
+    "Ford/Ranger Raptor/*Mod 2022": [
+      "2022"
+    ],
+    "Ford/Ranger/Xl Estaca": [
+      "1997"
+    ],
+    "Ford/Taurus/Taurus": [
+      "2019"
+    ],
+    "Freestyle Mt 2000Cc 4X2": [
+      "2014",
+      "2015"
+    ],
+    "Freestyle Mt 2000Cc 4X4": [
+      "2015"
+    ],
+    "Freestyle Tp 2000Cc 4X4": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Fusion": [
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Fusion [1]": [
+      "2008"
+    ],
+    "Fusion [2]": [
+      "2010"
+    ],
+    "Fusion [3]": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Fusion [3] [Fl]": [
+      "2017",
+      "2019"
+    ],
+    "Hatchback Mt 1600Cc 5P": [
+      "2013"
+    ],
+    "Hatchback Se Mt 1600Cc 5P": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Hatchback Se Tp 1600Cc 5P": [
+      "2014",
+      "2017"
+    ],
+    "Hatchback St Mt 1600Cc T": [
+      "2018"
+    ],
+    "Hatchback Titanium Mt 1600Cc 5P": [
+      "2016"
+    ],
+    "Hatchback Titanium Tp 1600Cc 5P": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Lariat Sport Tp 3500Cc 4X4": [
+      "2021"
+    ],
+    "Laser": [
+      "2004",
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "Limited At 3500Cc 4X4": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Limited Tp 2300Cc 4X4": [
+      "2019"
+    ],
+    "Limited Tp 2300Cc T Tc 4X4": [
+      "2022"
+    ],
+    "Limited Tp 3200Cc Td 4X4": [
+      "2014",
+      "2020",
+      "2021"
+    ],
+    "Limited Tp 3500Cc 4X4": [
+      "2017"
+    ],
+    "Limited [Fl] Tp 3500Cc": [
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Mustang": [
+      "2019",
+      "2020"
+    ],
+    "Mustang [6]": [
+      "2017"
+    ],
+    "New Fiesta": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Nueva Ranger": [
+      "2009",
+      "2010"
+    ],
+    "Ranger": [
+      "2003",
+      "2007",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Ranger [5]": [
+      "2023",
+      "2024"
+    ],
+    "Ranger [5] [Fl]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "S Mt 2000Cc 4X2": [
+      "2014"
+    ],
+    "Se Mt 1500Cc 4X2": [
+      "2020"
+    ],
+    "Se Tp 1500Cc 4X2": [
+      "2019"
+    ],
+    "Se Tp 2000Cc 4P": [
+      "2013"
+    ],
+    "Se Tp 2000Cc 4X2": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Se Tp 2000Cc 4X4": [
+      "2013",
+      "2014",
+      "2016",
+      "2018"
+    ],
+    "Se [Fl] Tp 3500Cc": [
+      "2012",
+      "2013"
+    ],
+    "Sport Track": [
+      "2010",
+      "2011"
+    ],
+    "Sportback At 1600Cc 4P": [
+      "2011",
+      "2013"
+    ],
+    "Sportback Mt 1600Cc 4P": [
+      "2011",
+      "2013"
+    ],
+    "Sportback Se Mt 1600Cc 4P": [
+      "2014",
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Sportback Se Tp 1600Cc 4P": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Sportback Titanium Mt 1600Cc 4P": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Sportback Titanium Tp 1600Cc 4P": [
+      "2016"
+    ],
+    "Titanium Hev Tp 2500Cc 4X4": [
+      "2020"
+    ],
+    "Titanium Plus Tp 2000Cc Ct T": [
+      "2019"
+    ],
+    "Titanium Tp 2000Cc 4P": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Titanium Tp 2000Cc 4X2": [
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Titanium Tp 2000Cc 4X4": [
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "Titanium Tp 2000Cc Ct T": [
+      "2013",
+      "2016"
+    ],
+    "Titanium Tp 2000Cc T": [
+      "2017",
+      "2018"
+    ],
+    "Titanium Tp 3500Cc": [
+      "2016",
+      "2017"
+    ],
+    "V6 Sel At 3000Cc": [
+      "2010"
+    ],
+    "Wildtrak Tp 2000Cc T Ct Tc 4X4": [
+      "2022"
+    ],
+    "Xl Mt 3200Cc Td 4X4": [
+      "2022",
+      "2023"
+    ],
+    "Xls Mt 2500Cc 4X2": [
+      "2020",
+      "2022"
+    ],
+    "Xls Mt 3200Cc Td 4X4": [
+      "2018",
+      "2019",
+      "2022"
+    ],
+    "Xlt At 3000Cc 4X4": [
+      "2008",
+      "2009"
+    ],
+    "Xlt At 3500Cc 4X4": [
+      "2014"
+    ],
+    "Xlt F25D49 Mt 2500Cc Td 4X4": [
+      "2012"
+    ],
+    "Xlt Mt 2200Cc Td 4X4": [
+      "2013"
+    ],
+    "Xlt Tp 2300Cc T 4X4": [
+      "2021",
+      "2022"
+    ],
+    "Xlt Tp 3200Cc Td 4X4": [
+      "2023"
+    ],
+    "Xlt Tp 3500Cc 4X4": [
+      "2016"
+    ],
+    "Xlt [Scab] Tp 3500Cc 4X4": [
+      "2015"
+    ]
+  },
+  "Foton": {
+    "Bj1039V3Jd3 2800Cc Td 4X2": [
+      "2019"
+    ]
+  },
+  "Freightliner": {
+    "M2 106 Mec 4X2 Camion": [
+      "2012"
+    ]
+  },
+  "Honda": {
+    "Odyssey Exl 3500Cc Fe": [
+      "2019"
+    ]
+  },
+  "Hyundai": {
+    "Accent": [
+      "1998",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Accent Graviti2023/Accent Graviti2023/*Accent Graviti2023": [
+      "2022"
+    ],
+    "Accent Hb20S": [
+      "2023"
+    ],
+    "Accent Hb20S [Fl]": [
+      "2024"
+    ],
+    "Accent I25": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Accent Nb": [
+      "2017",
+      "2019"
+    ],
+    "Accent Vision": [
+      "2006",
+      "2007",
+      "2009",
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "Accent [6]": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Atos": [
+      "1999",
+      "2002",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2021",
+      "2024"
+    ],
+    "Atos [2]": [
+      "2006",
+      "2007",
+      "2010",
+      "2012"
+    ],
+    "Azera": [
+      "2013"
+    ],
+    "City Taxi": [
+      "2007",
+      "2008",
+      "2013"
+    ],
+    "County": [
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Creta": [
+      "2017",
+      "2019",
+      "2020",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "Creta [Fl]": [
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Elantra": [
+      "2005",
+      "2007",
+      "2008",
+      "2010",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Elantra Nb": [
+      "2017"
+    ],
+    "Elantra Supreme": [
+      "2007",
+      "2008",
+      "2011",
+      "2017"
+    ],
+    "Eon": [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Genesis": [
+      "2009",
+      "2010"
+    ],
+    "Getz": [
+      "2004",
+      "2005",
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Getz Hb20 [Fl]": [
+      "2023",
+      "2024"
+    ],
+    "Getz [1]": [
+      "2005",
+      "2006"
+    ],
+    "Getz [1] [Fl]": [
+      "2006",
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "Getz [2]": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Getz [2] Advance/Getz [2] Advance/*Getz [2] Advance": [
+      "2022",
+      "2023"
+    ],
+    "Grand I10": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Graviti": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "H1": [
+      "2006",
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2022"
+    ],
+    "Hd": [
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2021"
+    ],
+    "Hd 120 Mt 6600Cc T/Hd 120 Mt 6600Cc T/*Hd 120 Mt 6600Cc T": [
+      "2011"
+    ],
+    "Hiunday Ex90/2018/": [
+      "2018"
+    ],
+    "Hyund Graviti 2023/Hyund Graviti 2023/*Hyund Graviti 2023": [
+      "2022"
+    ],
+    "Hyund/Graviti/2022/Hyundai/Gravi/2022/*Hyundai/Gravi/2022": [
+      "2022"
+    ],
+    "Hyundai Acce Hb2Os/Hyundai Acce Hb2Os/*Hyundai Acce Hb2Os": [
+      "2023"
+    ],
+    "Hyundai County2014/Hyundai County2014/*Hyundai County2014": [
+      "2014"
+    ],
+    "Hyundai Graviti 23/Hyundai Graviti 23/*Hyundai Graviti 23": [
+      "2023"
+    ],
+    "Hyundai H1501D/H1501D Mod 2010/*H1501D Mod 2010": [
+      "2010"
+    ],
+    "Hyundai Hd 320/Hyundai Hd 320/*Hyundai Hd 320": [
+      "2012"
+    ],
+    "Hyundai Hd 72/Hyundai Hd 72/*Hyundai Hd 72": [
+      "2014"
+    ],
+    "Hyundai Hd20 2007/Hyundai Hd20 2007/*Hyundai Hd20 2007": [
+      "2007"
+    ],
+    "Hyundai Hd320/Hyundai Hd320/*Hyundai Hd320": [
+      "2013"
+    ],
+    "Hyundai I25/2014/": [
+      "2014"
+    ],
+    "Hyundai Mighty/Hyundai Mighty/*Hyundai Mighty": [
+      "2018"
+    ],
+    "Hyundai/Accent (Hc)/Advance": [
+      "2014",
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Hyundai/Accent (Hc)/Basico": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Hyundai/Accent (Hc)/Limited": [
+      "2015"
+    ],
+    "Hyundai/Accent (Hc)/Premium": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Hyundai/Accent (Lc)/Basico": [
+      "2002",
+      "2003",
+      "2004"
+    ],
+    "Hyundai/Accent (Lc)/Gl": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "Hyundai/Accent (Lc)/Gls": [
+      "2003",
+      "2008"
+    ],
+    "Hyundai/Accent (Lc)/Gyro Gls": [
+      "2006"
+    ],
+    "Hyundai/Accent (Lc)/Ls": [
+      "2006"
+    ],
+    "Hyundai/Accent (Mc)/Basico": [
+      "2000",
+      "2006",
+      "2008",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Hyundai/Accent (Mc)/Vision Gls": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Hyundai/Accent (Mc)/Vision Ls": [
+      "2006",
+      "2010",
+      "2011"
+    ],
+    "Hyundai/Accent (Rb)/Basico": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "Hyundai/Accent (Rb)/Confort": [
+      "2015"
+    ],
+    "Hyundai/Accent (Rb)/Elite": [
+      "2012"
+    ],
+    "Hyundai/Accent (Rb)/Gl": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Hyundai/Accent (Rb)/Gl Comfort": [
+      "2014"
+    ],
+    "Hyundai/Accent (Rb)/Gl Estandar": [
+      "2016"
+    ],
+    "Hyundai/Accent (Rb)/Gl Full": [
+      "2017"
+    ],
+    "Hyundai/Accent (Rb)/Gl Sport": [
+      "2014"
+    ],
+    "Hyundai/Accent (Rb)/Gls": [
+      "2008",
+      "2011"
+    ],
+    "Hyundai/Accent (Rb)/I 25": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018"
+    ],
+    "Hyundai/Accent (X-3)/Gls": [
+      "1996",
+      "2000",
+      "2002",
+      "2004"
+    ],
+    "Hyundai/Accent (X-3)/Ls": [
+      "1998"
+    ],
+    "Hyundai/Atos (Mx)/Gls": [
+      "2009",
+      "2012"
+    ],
+    "Hyundai/Atos (Mx)/Prime Gls": [
+      "2010"
+    ],
+    "Hyundai/Atos (Mxi)/Basico": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Hyundai/Atos (Mxi)/Prime": [
+      "2004",
+      "2005",
+      "2006",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Hyundai/Atos (Mxi)/Prime Gl": [
+      "2003",
+      "2004",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Hyundai/Atos (Mxi)/Prime Gls": [
+      "2010"
+    ],
+    "Hyundai/Azera/Basico": [
+      "2013"
+    ],
+    "Hyundai/Coupe (J2/Rd)/Fx": [
+      "1998"
+    ],
+    "Hyundai/Creta (Gs)/Advance": [
+      "2000",
+      "2016",
+      "2017"
+    ],
+    "Hyundai/Creta (Gs)/Basico": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Hyundai/Creta (Gs)/Gls": [
+      "2017"
+    ],
+    "Hyundai/Creta (Gs)/Premium": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Hyundai/Creta (Su)/Basico": [
+      "2019",
+      "2022"
+    ],
+    "Hyundai/Creta (Su)/Creta": [
+      "2019",
+      "2022"
+    ],
+    "Hyundai/Creta (Su)/Premium": [
+      "2019",
+      "2022"
+    ],
+    "Hyundai/Creta Grand(Su)/Gls Premium": [
+      "2022"
+    ],
+    "Hyundai/Elantra (Ad)/Basico": [
+      "2016",
+      "2017"
+    ],
+    "Hyundai/Elantra (Ad)/Limited": [
+      "2014",
+      "2016",
+      "2017"
+    ],
+    "Hyundai/Elantra (Ad)/Premium": [
+      "2016",
+      "2017"
+    ],
+    "Hyundai/Elantra (Hd)/Gls": [
+      "2007",
+      "2015"
+    ],
+    "Hyundai/Elantra (Hd)/Supreme": [
+      "2008"
+    ],
+    "Hyundai/Elantra (Hd)/Supreme Gls": [
+      "2008"
+    ],
+    "Hyundai/Elantra (Md11)/Basico": [
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Hyundai/Elantra (Md14)/Gls": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Hyundai/Elantra (Tipo Xd)/Gls": [
+      "2004"
+    ],
+    "Hyundai/Elantra/Gl": [
+      "2006"
+    ],
+    "Hyundai/Eon (Ha)/Active": [
+      "2016"
+    ],
+    "Hyundai/Eon (Ha)/Basico": [
+      "2000",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Hyundai/Eon (Ha)/Style": [
+      "2015",
+      "2016"
+    ],
+    "Hyundai/Excel (X-2)/Ls": [
+      "1994"
+    ],
+    "Hyundai/Genesis Coupe (Bk)/Basico": [
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Hyundai/Getz (Tb)/Basico": [
+      "2000",
+      "2007",
+      "2009",
+      "2010",
+      "2011",
+      "2019",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Hyundai/Getz/Gl": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "Hyundai/Getz/Gls": [
+      "2008",
+      "2009",
+      "2011"
+    ],
+    "Hyundai/Getz/Sport": [
+      "2023"
+    ],
+    "Hyundai/Grand I 10 (Ba)/Advance": [
+      "2018",
+      "2019"
+    ],
+    "Hyundai/Grand I 10 (Ba)/Basico": [
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Hyundai/Grand I 10 (Ba)/Gl": [
+      "2016",
+      "2019"
+    ],
+    "Hyundai/Grand I 10 (Pb4)/Basico": [
+      "2010",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "Hyundai/Grand I 10 (Pb4)/Gl": [
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "Hyundai/Grand I 10 (Pb4)/Gls": [
+      "2018"
+    ],
+    "Hyundai/Grand I 10 (Pb4)/Illusion": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Hyundai/Grand I10 (Ai3)/Basico": [
+      "2016",
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2024"
+    ],
+    "Hyundai/Grand I10 (Ai3)/Gl": [
+      "2020",
+      "2023"
+    ],
+    "Hyundai/Grand I10 (Ba)/Advance": [
+      "2019"
+    ],
+    "Hyundai/Grand I10 (Ba)/Grand I10": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Hyundai/Grand I10 Sedan/Grand I10": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Hyundai/Grand Starex (Tq)/Basico": [
+      "2010",
+      "2012"
+    ],
+    "Hyundai/Graviti Advance Mt/": [
+      "2023"
+    ],
+    "Hyundai/Graviti Mod 2023/*Graviti Mod 2023": [
+      "2023"
+    ],
+    "Hyundai/Graviti/": [
+      "2022"
+    ],
+    "Hyundai/Graviti/*2021": [
+      "2021"
+    ],
+    "Hyundai/Graviti/*2022": [
+      "2022"
+    ],
+    "Hyundai/Gravity/*2023": [
+      "2023"
+    ],
+    "Hyundai/H 100(Hr)/Basico": [
+      "2009",
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "Hyundai/H-1 (Tq)/Van": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2018"
+    ],
+    "Hyundai/H-1/Grand Starex/*Mod 2013": [
+      "2013"
+    ],
+    "Hyundai/H-1/Sv": [
+      "2012"
+    ],
+    "Hyundai/H-1/Van": [
+      "2005",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2013",
+      "2016"
+    ],
+    "Hyundai/H350/*Furgon": [
+      "1998"
+    ],
+    "Hyundai/Hb20 (Br2)/Basico": [
+      "2000",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Hyundai/Hb20 (Br2)/S": [
+      "2024"
+    ],
+    "Hyundai/Hb20 (Br2)/X": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Hyundai/Hb20S (Br2)/Advance": [
+      "2000",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Hyundai/Hb20S (Br2)/Basico": [
+      "2023",
+      "2024"
+    ],
+    "Hyundai/Hb20X (Br2)/Basico": [
+      "2022",
+      "2023"
+    ],
+    "Hyundai/Hd 65/Basico": [
+      "2000",
+      "2006",
+      "2008",
+      "2009",
+      "2011",
+      "2012",
+      "2014",
+      "2015"
+    ],
+    "Hyundai/Hd/72": [
+      "2003",
+      "2008",
+      "2009",
+      "2011",
+      "2013",
+      "2018"
+    ],
+    "Hyundai/Hd/78": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2018"
+    ],
+    "Hyundai/I10 (Ac3)/Basico": [
+      "2019"
+    ],
+    "Hyundai/I10 (Ia)/Basico": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Hyundai/I10 (Pa)/Basico": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Hyundai/I10 (Pa)/Gt": [
+      "2000",
+      "2012"
+    ],
+    "Hyundai/I20 (Gb/Ib)/Active": [
+      "2014",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Hyundai/I20 (Gb/Ib)/Basico": [
+      "2017",
+      "2018"
+    ],
+    "Hyundai/I20 (Gb/Ib)/Premium": [
+      "2017"
+    ],
+    "Hyundai/I30 (Gd)/Basico": [
+      "2012"
+    ],
+    "Hyundai/I30 (Gd)/Gls": [
+      "2012",
+      "2014"
+    ],
+    "Hyundai/I30/Basico": [
+      "2009",
+      "2013"
+    ],
+    "Hyundai/I30/Gls": [
+      "2010"
+    ],
+    "Hyundai/I35 (Md11)/Basico": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Hyundai/I35 (Md14)/Basico": [
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Hyundai/Ioniq (Ae)/Basico": [
+      "2009",
+      "2019"
+    ],
+    "Hyundai/Ioniq (Ae)/Limited": [
+      "2019"
+    ],
+    "Hyundai/Ioniq (Ae)/Premium": [
+      "2019"
+    ],
+    "Hyundai/Ix35 (Lm)/Basico": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Hyundai/Kona (Os)/Basico": [
+      "2023"
+    ],
+    "Hyundai/Kona (Osev)/Basico": [
+      "2022"
+    ],
+    "Hyundai/Kona (Sx2)/Kona": [
+      "2024"
+    ],
+    "Hyundai/Lantra/Gls": [
+      "1999"
+    ],
+    "Hyundai/Santa Fe (Cm)/Basico": [
+      "2008",
+      "2009"
+    ],
+    "Hyundai/Santa Fe (Cm)/Gl": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2012"
+    ],
+    "Hyundai/Santa Fe (Cm10)/Basico": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Hyundai/Santa Fe (Cm10)/Gls": [
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Hyundai/Santa Fe (Dm)/Advance": [
+      "2012"
+    ],
+    "Hyundai/Santa Fe (Dm)/Basico": [
+      "2008",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Hyundai/Santa Fe (Dm)/Limited": [
+      "2012",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Hyundai/Santa Fe (Sm)/Gls": [
+      "2001"
+    ],
+    "Hyundai/Santa Fe (Tm)/Basico": [
+      "2020"
+    ],
+    "Hyundai/Santa Fe (Tm)/Limited": [
+      "2016"
+    ],
+    "Hyundai/Santro (Mxi)/Basico": [
+      "2005",
+      "2006",
+      "2009"
+    ],
+    "Hyundai/Sonata I45 (Yf)/Basico": [
+      "2012",
+      "2013"
+    ],
+    "Hyundai/Starex (Tq)/Basico": [
+      "2010",
+      "2012"
+    ],
+    "Hyundai/Staria (Us4)/Basico": [
+      "2022"
+    ],
+    "Hyundai/Terracan (Hp)/Gls": [
+      "2007"
+    ],
+    "Hyundai/Tucson (Jm)/Basico": [
+      "2007",
+      "2009",
+      "2010"
+    ],
+    "Hyundai/Tucson (Jm)/Gl": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "Hyundai/Tucson (Jm)/Gls": [
+      "2006",
+      "2007",
+      "2008",
+      "2010"
+    ],
+    "Hyundai/Tucson (Lm)/Basico": [
+      "2008",
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Hyundai/Tucson (Nx4)/Advance": [
+      "2022",
+      "2023"
+    ],
+    "Hyundai/Tucson (Nx4)/Attraction": [
+      "2023",
+      "2024"
+    ],
+    "Hyundai/Tucson (Nx4)/Basico": [
+      "2014",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Hyundai/Tucson (Nx4)/Premium": [
+      "2022",
+      "2023"
+    ],
+    "Hyundai/Tucson (Nx4)/Xrt": [
+      "2022"
+    ],
+    "Hyundai/Tucson (Tl)/Advance": [
+      "2019"
+    ],
+    "Hyundai/Tucson (Tl)/Advanced": [
+      "2015"
+    ],
+    "Hyundai/Tucson (Tl)/Basico": [
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Hyundai/Tucson (Tl)/Elegant": [
+      "2019"
+    ],
+    "Hyundai/Tucson (Tl)/Gl": [
+      "2011",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Hyundai/Tucson (Tl)/Limited": [
+      "2014",
+      "2015",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Hyundai/Tucson (Tl)/Premium": [
+      "2015",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Hyundai/Tucson (Tl)/Style": [
+      "2016"
+    ],
+    "Hyundai/Tucson Ix35(Lm)/Basico": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2019"
+    ],
+    "Hyundai/Veloster (Fs)/Advance": [
+      "2014",
+      "2017"
+    ],
+    "Hyundai/Veloster (Fs)/Basico": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Hyundai/Veloster (Js)/Premium": [
+      "2015"
+    ],
+    "Hyundai/Venue/Premium": [
+      "2023"
+    ],
+    "Hyundai/Veracruz/Basico": [
+      "2008",
+      "2012"
+    ],
+    "Hyundai/Veracruz/Gl": [
+      "2011"
+    ],
+    "Hyundai/Veracruz/Gls": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "I10": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2019",
+      "2021"
+    ],
+    "I10 5 Puertas": [
+      "2013"
+    ],
+    "I10 [Fl]": [
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "I20": [
+      "2017",
+      "2018"
+    ],
+    "I25": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "I30": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2019"
+    ],
+    "I30 [1]": [
+      "2009"
+    ],
+    "I30 [2]": [
+      "2013"
+    ],
+    "I35": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "I35 Elantra": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Ioniq": [
+      "2019"
+    ],
+    "Kona": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "New Elantra": [
+      "2012",
+      "2017",
+      "2024"
+    ],
+    "Palisade": [
+      "2024"
+    ],
+    "Santa Fe": [
+      "2007",
+      "2008",
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2025"
+    ],
+    "Santa Fe [2] [Fl]": [
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Santa Fe [3]": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Santro": [
+      "2008"
+    ],
+    "Sonata": [
+      "2011"
+    ],
+    "Sonata I45": [
+      "2011"
+    ],
+    "Starex [1]": [
+      "2008"
+    ],
+    "Starex [2]": [
+      "2009",
+      "2010",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018"
+    ],
+    "Staria": [
+      "2006",
+      "2015",
+      "2023",
+      "2024"
+    ],
+    "Terracan": [
+      "2007"
+    ],
+    "Tucson": [
+      "2005",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Tucson Ix 35": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Tucson [3]": [
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Tucson [4]": [
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Veloster": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Venue": [
+      "2023",
+      "2025"
+    ],
+    "Veracruz": [
+      "2008",
+      "2011"
+    ]
+  },
+  "International": {
+    "7600  Mec 6X4 28Tt Volqueta": [
+      "2012"
+    ]
+  },
+  "Isuzu": {
+    "Chevrolet B70 Bus/2008/": [
+      "2008"
+    ],
+    "Chevrolet Luv 2002/Chevrolet Luv 2002/*Chevrolet Luv 2002": [
+      "2002"
+    ],
+    "Chevrolet/Kb Series/D-Max": [
+      "2006",
+      "2011"
+    ],
+    "Chevrolet/Kb Series/Luv D-Max": [
+      "2005",
+      "2006",
+      "2007",
+      "2009",
+      "2010",
+      "2011",
+      "2013"
+    ],
+    "Chevrolet/N-Series Ii/Nhr": [
+      "2013"
+    ],
+    "Chevrolet/N-Series Ii/Nkr": [
+      "2012"
+    ],
+    "Chevrolet/N-Series Ii/Npr": [
+      "2006",
+      "2009"
+    ],
+    "Chevrolet/N-Series/Nhr": [
+      "2013"
+    ],
+    "Chevrolet/N-Series/Nkr": [
+      "2003"
+    ],
+    "Chevrolet/N-Series/Npr": [
+      "1997"
+    ],
+    "Daewoo Vol Novus/Daewoo Vol Novus/*Daewoo Vol Novus": [
+      "2011"
+    ],
+    "Luv Tfr 1995/Luv Tfr 1995/*Luv Tfr 1995": [
+      "1995"
+    ]
+  },
+  "Kia": {
+    "Carens": [
+      "2005",
+      "2008",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Carnival": [
+      "2009"
+    ],
+    "Cerato": [
+      "2007",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "Eko": [
+      "2008",
+      "2011"
+    ],
+    "K3": [
+      "2025"
+    ],
+    "Niro": [
+      "2020",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Optima": [
+      "2012",
+      "2014"
+    ],
+    "Picanto": [
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "Picanto [3]\tZenith\tAt 1250Cc 2Ab Abs Aa R15": [
+      "2023"
+    ],
+    "Rio": [
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Sedona": [
+      "2016"
+    ],
+    "Seltos": [
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Sephia": [
+      "2023",
+      "2025"
+    ],
+    "Sephia Lll 1.4L - 1400 C.C": [
+      "2023"
+    ],
+    "Soluto": [
+      "2023",
+      "2025"
+    ],
+    "Sonet": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Sorento": [
+      "2006",
+      "2007",
+      "2010",
+      "2013",
+      "2014",
+      "2015",
+      "2017",
+      "2019"
+    ],
+    "Soul": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2017",
+      "2018"
+    ],
+    "Sportage": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Stonic": [
+      "2022",
+      "2025"
+    ]
+  },
+  "Mazda": {
+    "121": [
+      "1998"
+    ],
+    "2": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "2  1,5Cc": [
+      "2010",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2023",
+      "2025"
+    ],
+    "2  Sedan 1.500 C.C.": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2025"
+    ],
+    "2 [1]": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2017",
+      "2020"
+    ],
+    "2 [1] [Fl]": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "2 [2]": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2023"
+    ],
+    "2 [2] [Fl]": [
+      "2017",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "3": [
+      "1999",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "3 Grand Touring Sedan": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "3 Lx All New Sport": [
+      "2009"
+    ],
+    "3 Lxna0 All New 2000Cc": [
+      "2012"
+    ],
+    "3 Sedan 1.600": [
+      "2008",
+      "2018"
+    ],
+    "3 Sedan 2.0.": [
+      "2011"
+    ],
+    "3 Sedan 2.000": [
+      "2019",
+      "2020"
+    ],
+    "3 Sport Grand Touring Hb": [
+      "2018",
+      "2019",
+      "2021",
+      "2023"
+    ],
+    "3 Z6Nm0 All New Cc 1600": [
+      "2008"
+    ],
+    "3 [3]": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "3 [4]": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "323": [
+      "1984",
+      "1987",
+      "1988",
+      "1989",
+      "1990",
+      "1992",
+      "1994",
+      "1998",
+      "2003",
+      "2004"
+    ],
+    "5": [
+      "2008",
+      "2009",
+      "2010",
+      "2014"
+    ],
+    "6": [
+      "2004",
+      "2006",
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "6 [1]": [
+      "2006",
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "6 [2]": [
+      "2010",
+      "2011"
+    ],
+    "6 [2] Fl": [
+      "2012"
+    ],
+    "6 [3]": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "6 [3] [Fl]": [
+      "2020"
+    ],
+    "626": [
+      "1995",
+      "1999",
+      "2000",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006"
+    ],
+    "Alegro Sedan": [
+      "2007",
+      "2008"
+    ],
+    "Allegro": [
+      "2000",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2025"
+    ],
+    "B 2000": [
+      "1989"
+    ],
+    "B 2200": [
+      "1993",
+      "1996",
+      "2003",
+      "2006"
+    ],
+    "B 2600": [
+      "2001",
+      "2007",
+      "2009"
+    ],
+    "B2200": [
+      "1998",
+      "2003",
+      "2006",
+      "2007"
+    ],
+    "B2600": [
+      "2007"
+    ],
+    "Bt 50 2.600 C.C. Doble Cabina 4X4": [
+      "2009",
+      "2013",
+      "2017"
+    ],
+    "Bt-50": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Bt-50 Pick Up Doble Cabina": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2018"
+    ],
+    "Bt50 2600Cc 4X4 Cabina Sencilla": [
+      "2011"
+    ],
+    "Bt50 [1]": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Bt50 [2]": [
+      "2014",
+      "2015"
+    ],
+    "Bt50 [2] [Fl]": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Cx": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Cx 60": [
+      "2023",
+      "2024"
+    ],
+    "Cx 90": [
+      "2017",
+      "2018",
+      "2020",
+      "2021",
+      "2024"
+    ],
+    "Cx-30": [
+      "1998",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Cx-5  Prime 2000Cc": [
+      "2018",
+      "2024"
+    ],
+    "Cx-5 High Awd 2000Cc": [
+      "2014",
+      "2016",
+      "2017",
+      "2020"
+    ],
+    "Cx-5 Mid Fwd 2000Cc": [
+      "2017"
+    ],
+    "Cx-50": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Cx-7": [
+      "2011"
+    ],
+    "Cx-9": [
+      "2009",
+      "2010",
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Cx3": [
+      "2017",
+      "2019",
+      "2020",
+      "2025"
+    ],
+    "Cx30": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Cx30  Grand Touring": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Cx5": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Cx5\tGrand Touring Awd\tTp 2500Cc Ct Tc": [
+      "2016",
+      "2017",
+      "2019",
+      "2025"
+    ],
+    "Cx5\tHigh Fwd\tTp 2000Cc": [
+      "2014"
+    ],
+    "Cx5\tMid Fwd\tMt 2000Cc": [
+      "2023"
+    ],
+    "Cx5\tMid Fwd\tTp 2000Cc": [
+      "2020",
+      "2022"
+    ],
+    "Cx5\tTouring Awd\tTp 2000Cc": [
+      "2015",
+      "2016",
+      "2017",
+      "2020",
+      "2022"
+    ],
+    "Cx5 Grand Touring Awd Tp 2500Cc Ct Tc": [
+      "2022"
+    ],
+    "Cx5 Touring Awd Tp 2000Cc": [
+      "2022"
+    ],
+    "Cx5 [2]": [
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2025"
+    ],
+    "Cx5 [2] [Fl]": [
+      "2016",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Cx5 [Fl]": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Cx50": [
+      "2023",
+      "2024"
+    ],
+    "Cx60": [
+      "2024",
+      "2025"
+    ],
+    "Cx7": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Cx9 [1]": [
+      "2007"
+    ],
+    "Cx9 [1] [Fl]": [
+      "2010",
+      "2011"
+    ],
+    "Cx9 [2]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2023"
+    ],
+    "Demio": [
+      "2005",
+      "2006",
+      "2007"
+    ],
+    "Mazda B2000/B2000 Mod 1989/*B2000 Mod 1989": [
+      "1988"
+    ],
+    "Mazda/2 (De)/Basico": [
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2016",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Mazda/2 (De/Dh)/Basico": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2020",
+      "2021"
+    ],
+    "Mazda/2 (De/Dh)/Sport": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2021"
+    ],
+    "Mazda/2(Dj)/100Th Anniversary": [
+      "2022"
+    ],
+    "Mazda/2(Dj)/Basico": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Mazda/2(Dj)/Carbon Edition Spo": [
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/2(Dj)/Grand Touring": [
+      "2000",
+      "2009",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "Mazda/2(Dj)/Grand Touring Lx": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/2(Dj)/Grand Touring Lx S": [
+      "2019"
+    ],
+    "Mazda/2(Dj)/Grand Touring Plus": [
+      "2022"
+    ],
+    "Mazda/2(Dj)/Grand Touring Spor": [
+      "2016",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/2(Dj)/I Touring Plus": [
+      "2020"
+    ],
+    "Mazda/2(Dj)/Prime": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Mazda/2(Dj)/Touring": [
+      "2000",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "Mazda/2(Dj)/Touring Plus": [
+      "2022"
+    ],
+    "Mazda/2(Dj/Dl)/Basico": [
+      "2019",
+      "2023"
+    ],
+    "Mazda/2(Dj/Dl)/Grand Touring": [
+      "2018",
+      "2022"
+    ],
+    "Mazda/2(Dj/Dl)/Grand Touring Xl": [
+      "2022"
+    ],
+    "Mazda/2(Dj/Dl)/Touring": [
+      "2019",
+      "2022",
+      "2024"
+    ],
+    "Mazda/2(Dj/Dl)/Touring+": [
+      "2022"
+    ],
+    "Mazda/3 (Bk)/Basico": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2017"
+    ],
+    "Mazda/3 (Bk)/Grand Touring": [
+      "2018"
+    ],
+    "Mazda/3 (Bk)/S": [
+      "2006"
+    ],
+    "Mazda/3 (Bl)/Basico": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Mazda/3 (Bl)/Entry": [
+      "2014"
+    ],
+    "Mazda/3 (Bl)/Mid": [
+      "2014"
+    ],
+    "Mazda/3 (Bm/Bn)/Basico": [
+      "2000",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Mazda/3 (Bm/Bn)/Grand Touring": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/3 (Bm/Bn)/Grand Touring Lx": [
+      "2000",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2025"
+    ],
+    "Mazda/3 (Bm/Bn)/I": [
+      "2016"
+    ],
+    "Mazda/3 (Bm/Bn)/I Grand Touring": [
+      "2021"
+    ],
+    "Mazda/3 (Bm/Bn)/I Touring": [
+      "2017",
+      "2020"
+    ],
+    "Mazda/3 (Bm/Bn)/Prime-Line": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Mazda/3 (Bm/Bn)/S Grand Touring": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2024"
+    ],
+    "Mazda/3 (Bm/Bn)/Skyactiv R": [
+      "2000",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/3 (Bm/Bn)/Sport": [
+      "2018"
+    ],
+    "Mazda/3 (Bm/Bn)/Style": [
+      "2019"
+    ],
+    "Mazda/3 (Bm/Bn)/Touring": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Mazda/3 (Bp)/Basico": [
+      "2020",
+      "2021"
+    ],
+    "Mazda/3 (Bp)/Carbon Edition": [
+      "2022"
+    ],
+    "Mazda/3 (Bp)/Grand Touring Lx": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/3 (Bp)/I Grand Touring": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/3 (Bp)/I Sport Grand Tour": [
+      "2020"
+    ],
+    "Mazda/3 (Bp)/Touring": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/3/*Skyativ G 7Ab": [
+      "2022"
+    ],
+    "Mazda/323 (Bj)/Basico": [
+      "2002",
+      "2008"
+    ],
+    "Mazda/323 (Bj)/Di": [
+      "2003"
+    ],
+    "Mazda/323 (Bj)/Exclusive Active": [
+      "2008"
+    ],
+    "Mazda/323 (Bj)/Lx": [
+      "2006"
+    ],
+    "Mazda/323/Compakt": [
+      "2002"
+    ],
+    "Mazda/5 (Cr)/Basico": [
+      "2007"
+    ],
+    "Mazda/6 (Gg/Sr/Sa)/Basico": [
+      "2006",
+      "2008"
+    ],
+    "Mazda/6 (Gh)/All New": [
+      "2010"
+    ],
+    "Mazda/6 (Gh)/Basico": [
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "Mazda/6 (Gj)/Basico": [
+      "2014",
+      "2017",
+      "2020"
+    ],
+    "Mazda/6 (Gj)/Grand Touring": [
+      "2017",
+      "2020"
+    ],
+    "Mazda/626/": [
+      "2005"
+    ],
+    "Mazda/Bt-50 (Un/Up/Se)/Basico": [
+      "2000",
+      "2008",
+      "2010",
+      "2011",
+      "2013",
+      "2014",
+      "2018"
+    ],
+    "Mazda/Bt-50 (Un/Up/Se)/Professional": [
+      "2018"
+    ],
+    "Mazda/Bt-50 (Up/Hg)/Basico": [
+      "2018"
+    ],
+    "Mazda/Bt-50 (Up/Hg/Ur)/Basico": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2017"
+    ],
+    "Mazda/Bt-50 (Up/Hg/Ur)/Professional": [
+      "2012",
+      "2018"
+    ],
+    "Mazda/Cx-3(Dk)/Basico": [
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "Mazda/Cx-3(Dk)/I Grand Touring": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Mazda/Cx-3(Dk)/I Sport": [
+      "2017"
+    ],
+    "Mazda/Cx-30 (Dm)/Basico": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Mazda/Cx-30 (Dm)/Grand Touring": [
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "Mazda/Cx-30 (Dm)/Grand Touring Lx": [
+      "2021",
+      "2022"
+    ],
+    "Mazda/Cx-30 (Dm)/I Grand Touring": [
+      "2021",
+      "2022"
+    ],
+    "Mazda/Cx-30 (Dm)/Prime": [
+      "2021",
+      "2022"
+    ],
+    "Mazda/Cx-30 (Dm)/Touring": [
+      "2021",
+      "2022"
+    ],
+    "Mazda/Cx-5 (Ke)/Basico": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2022"
+    ],
+    "Mazda/Cx-5 (Ke)/Grand Touring": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2022"
+    ],
+    "Mazda/Cx-5 (Ke)/Grand Touring Lx": [
+      "2016",
+      "2017"
+    ],
+    "Mazda/Cx-5 (Ke)/High": [
+      "2014",
+      "2015"
+    ],
+    "Mazda/Cx-5 (Ke)/Mid": [
+      "2015"
+    ],
+    "Mazda/Cx-5 (Ke)/Prime-Line": [
+      "2016"
+    ],
+    "Mazda/Cx-5 (Ke)/Touring": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Mazda/Cx-5 (Kf)/Basico": [
+      "2000",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Mazda/Cx-5 (Kf)/Grand Touring": [
+      "2000",
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Mazda/Cx-5 (Kf)/Luxury": [
+      "2022"
+    ],
+    "Mazda/Cx-5 (Kf)/Touring": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Mazda/Cx-50 (Va)/Basico": [
+      "2015"
+    ],
+    "Mazda/Cx-50 (Va)/Grand Touring": [
+      "2018",
+      "2021",
+      "2023"
+    ],
+    "Mazda/Cx-50 (Va)/Grand Touring Lx": [
+      "2018",
+      "2023"
+    ],
+    "Mazda/Cx-7 (Er)/Basico": [
+      "2011",
+      "2012"
+    ],
+    "Mazda/Cx-7 (Er)/Grand Touring": [
+      "2011"
+    ],
+    "Mazda/Cx-9 (Tb)/Basico": [
+      "2011"
+    ],
+    "Mazda/Cx-9 (Tb/Tc)/Basico": [
+      "2010",
+      "2011",
+      "2014"
+    ],
+    "Mazda/Cx-9 (Tc)/Basico": [
+      "2017",
+      "2018",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Mazda/Cx-9 (Tc)/Grand Touring": [
+      "2016",
+      "2017",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Mazda/Cx-9 (Tc)/Grand Touring Lx": [
+      "2017",
+      "2019",
+      "2022"
+    ],
+    "Mazda/Cx-9 (Tc)/Grand Touring Sign": [
+      "2019"
+    ],
+    "Mazda/Demio (Dw)/Basico": [
+      "2005"
+    ],
+    "Mazda/Serie B/Basico": [
+      "2007"
+    ],
+    "Mx-30": [
+      "2017"
+    ]
+  },
+  "Nissan": {
+    "Almera": [
+      "2002",
+      "2003",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "Altima": [
+      "2017"
+    ],
+    "Bluebird": [
+      "1995"
+    ],
+    "D-22 4X4 3.0 Doble Cabina": [
+      "2017"
+    ],
+    "D21": [
+      "2008"
+    ],
+    "D22": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2020"
+    ],
+    "D22 Frontier 3000Cc Td 4X4": [
+      "2008",
+      "2019"
+    ],
+    "Frontier": [
+      "2006",
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Frontier 2400Cc 4X2 Aa": [
+      "2010",
+      "2012",
+      "2015",
+      "2020"
+    ],
+    "Frontier Cabina Sencilla 3.0": [
+      "2017",
+      "2019"
+    ],
+    "Frontier Doble Cabina 3.0": [
+      "2012",
+      "2018",
+      "2020"
+    ],
+    "Frontier [2]": [
+      "2019",
+      "2021"
+    ],
+    "Frontier [2] [Fl]": [
+      "2022",
+      "2023"
+    ],
+    "Kicks": [
+      "2009",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Kicks Advance 1600Cc": [
+      "2019"
+    ],
+    "Kicks [Fl]": [
+      "2022"
+    ],
+    "Leaf [2]": [
+      "2021"
+    ],
+    "March": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "March 1600": [
+      "2019",
+      "2023"
+    ],
+    "March Advance Mt 1600Cc 2Ab": [
+      "2014"
+    ],
+    "March Sense Mt 1600Cc": [
+      "2025"
+    ],
+    "March Sr\tMt 1600Cc 2Ab": [
+      "2018"
+    ],
+    "March [Fl]": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "March [Fl] [2]": [
+      "2022"
+    ],
+    "Murano": [
+      "2016",
+      "2017",
+      "2018",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Navara": [
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Navara Pickup D.C.": [
+      "2014"
+    ],
+    "New Pathfinder": [
+      "2017"
+    ],
+    "New Urvan Panel Mec 3000Cc Larga Camioneta Repar": [
+      "2021"
+    ],
+    "Nissan U41/U41 Furgon/*U41 Furgon": [
+      "2010"
+    ],
+    "Nissan/Almera (N16)/Sg": [
+      "2007"
+    ],
+    "Nissan/Cabstar/Basico": [
+      "2012",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Nissan/Cabstar/Extendido": [
+      "2017"
+    ],
+    "Nissan/Frontier (D22X)/Basico": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Nissan/Frontier (D22X)/Np300": [
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Nissan/Frontier D22U/Basico": [
+      "2006",
+      "2010"
+    ],
+    "Nissan/Kicks (P15T/P15Bb)/Active": [
+      "2020"
+    ],
+    "Nissan/Kicks (P15T/P15Bb)/Advance": [
+      "2021"
+    ],
+    "Nissan/Kicks (P15T/P15Bb)/Basico": [
+      "2000",
+      "2020",
+      "2021"
+    ],
+    "Nissan/Kicks (P15T/P15Bb)/Exclusive": [
+      "2021"
+    ],
+    "Nissan/Kicks (P15X)/Basico": [
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "Nissan/March (K13B/X)/Basico": [
+      "2015",
+      "2018",
+      "2020"
+    ],
+    "Nissan/March (K13K/B/X/T)/Active": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "Nissan/March (K13K/B/X/T)/Advance": [
+      "2015",
+      "2019",
+      "2020"
+    ],
+    "Nissan/March (K13K/B/X/T)/Connect": [
+      "2019"
+    ],
+    "Nissan/March (K13K/B/X/T)/Drive": [
+      "2016"
+    ],
+    "Nissan/March (K13K/B/X/T)/March": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2025"
+    ],
+    "Nissan/March (K13K/B/X/T)/Sense": [
+      "2016",
+      "2019",
+      "2020"
+    ],
+    "Nissan/March (K13K/B/X/T)/Sv": [
+      "2020"
+    ],
+    "Nissan/March (K13X)/Basico": [
+      "2014",
+      "2019"
+    ],
+    "Nissan/March K13/Advance": [
+      "2013"
+    ],
+    "Nissan/March K13/Basis": [
+      "2012",
+      "2013",
+      "2018"
+    ],
+    "Nissan/March K13/Drive": [
+      "2015"
+    ],
+    "Nissan/March K13/Sr": [
+      "2012"
+    ],
+    "Nissan/Micra (K13K/Kk)/Basico": [
+      "2014",
+      "2015",
+      "2016",
+      "2018"
+    ],
+    "Nissan/Murano (Z52)/Basico": [
+      "2018"
+    ],
+    "Nissan/Navara/Le": [
+      "2014"
+    ],
+    "Nissan/Note (E12X)/Advance": [
+      "2015"
+    ],
+    "Nissan/Note (E12X)/Basico": [
+      "2014",
+      "2015"
+    ],
+    "Nissan/Note (E12X)/Sense": [
+      "2016"
+    ],
+    "Nissan/Np300 (D23X/Ag/T))/Frontier Le": [
+      "2018",
+      "2022"
+    ],
+    "Nissan/Np300 (D23X/Ag/T)/Basico": [
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Nissan/Np300 (D23X/Ag/T)/Frontier": [
+      "2000",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Nissan/Np300 (D23X/Ag/T)/Frontier Pro-4X": [
+      "2022"
+    ],
+    "Nissan/Np300 (D23X/Ag/T)/Frontier Pro-4X S": [
+      "2022"
+    ],
+    "Nissan/Np300 (D23X/Ag/T)/Frontier Se": [
+      "2021",
+      "2024"
+    ],
+    "Nissan/Np300 (D23X/Ag/T)/Frontier Xe": [
+      "2016",
+      "2018"
+    ],
+    "Nissan/Np300 (D23X/Ag/T)/Se": [
+      "2020",
+      "2022"
+    ],
+    "Nissan/Np300 (D23X/D23T)/Frontier S": [
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "Nissan/Nv350 Urvan (E26)/Basico": [
+      "2007",
+      "2020",
+      "2021"
+    ],
+    "Nissan/Nv350(E26)/Urvan": [
+      "2020",
+      "2021"
+    ],
+    "Nissan/Pathfinder (R52)/Basico": [
+      "2014",
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Nissan/Pathfinder R51M/Basico": [
+      "2014"
+    ],
+    "Nissan/Pick Up (D22X)/Basico": [
+      "2010"
+    ],
+    "Nissan/Qashqai (J10E)/Basico": [
+      "2014"
+    ],
+    "Nissan/Qashqai (J11E)/Advance": [
+      "2015",
+      "2018"
+    ],
+    "Nissan/Qashqai (J11E)/Basico": [
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "Nissan/Sentra (B16X)/Basico": [
+      "2006",
+      "2011",
+      "2012",
+      "2014"
+    ],
+    "Nissan/Sentra (B16X)/S": [
+      "2008"
+    ],
+    "Nissan/Sentra (B16X)/Sl": [
+      "2011",
+      "2013"
+    ],
+    "Nissan/Sentra (B17U)/Basico": [
+      "2017"
+    ],
+    "Nissan/Sentra (B17U)/Exclusive": [
+      "2014"
+    ],
+    "Nissan/Sentra (B17U)/Sr": [
+      "2019"
+    ],
+    "Nissan/Sentra (B18X)/Basico": [
+      "2020"
+    ],
+    "Nissan/Sentra/B13X": [
+      "2012"
+    ],
+    "Nissan/Sentra/Basico": [
+      "2012"
+    ],
+    "Nissan/Tiida (C11X/Sc11X)/Basico": [
+      "2008",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Nissan/Tiida (C11X/Sc11X)/Emotion": [
+      "2011"
+    ],
+    "Nissan/Tiida (C11X/Sc11X)/Miio": [
+      "2009",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Nissan/Urvan (E25)/Basico": [
+      "2007",
+      "2008",
+      "2011",
+      "2012",
+      "2017",
+      "2019"
+    ],
+    "Nissan/V-Drive/V-Drive": [
+      "2013",
+      "2015",
+      "2016",
+      "2018",
+      "2020"
+    ],
+    "Nissan/Versa (N17B/N17Bb)/S": [
+      "2018"
+    ],
+    "Nissan/Versa (N17X)/Advance": [
+      "2013",
+      "2015",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "Nissan/Versa (N17X)/Sense": [
+      "2016"
+    ],
+    "Nissan/Versa (N18X)/Advance": [
+      "2020"
+    ],
+    "Nissan/Versa (N18X)/Basico": [
+      "2020",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Nissan/Versa (N18X)/Exclusive": [
+      "2022"
+    ],
+    "Nissan/Versa (N18X)/Sense": [
+      "2022"
+    ],
+    "Nissan/Versa(N17X)/Basico": [
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Nissan/Versa/V-Drive/Basico": [
+      "2018"
+    ],
+    "Nissan/X-Trail (T31)/Basico": [
+      "2009"
+    ],
+    "Nissan/X-Trail (T32/T32R)/Advance": [
+      "2016"
+    ],
+    "Nissan/X-Trail (T32/T32R)/Basico": [
+      "2014",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Nissan/X-Trail (T32/T32R)/Exclusive": [
+      "2015",
+      "2017"
+    ],
+    "Nissan/X-Trail (T33)/Advance": [
+      "2019"
+    ],
+    "Nissan/X-Trail/Classic": [
+      "2006",
+      "2009",
+      "2011"
+    ],
+    "Note": [
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "Np 300": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Np 300 Frontier [1]": [
+      "2011",
+      "2012",
+      "2013",
+      "2015",
+      "2016"
+    ],
+    "Np 300 Frontier [2]": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Nuevo Almera": [
+      "2008"
+    ],
+    "Pathfinder": [
+      "1993",
+      "1996",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2014",
+      "2015",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Pathfinder 4 Puertas": [
+      "2016"
+    ],
+    "Pathfinder [2]": [
+      "1997"
+    ],
+    "Pathfinder [4]": [
+      "2014"
+    ],
+    "Patrol": [
+      "2007",
+      "2010",
+      "2016",
+      "2023"
+    ],
+    "Pkc 212  Mec 7000Cc Dsl Furgon": [
+      "2015"
+    ],
+    "Primera": [
+      "1998"
+    ],
+    "Qashqai": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Qashqai 2.0L 2Wd Mt 2000Cc": [
+      "2016"
+    ],
+    "Qashqai [3]": [
+      "2015",
+      "2016"
+    ],
+    "Qashqai [3] [Fl]": [
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Qashqai [4]": [
+      "2023"
+    ],
+    "Qashqai+2": [
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2024"
+    ],
+    "Sentra": [
+      "1996",
+      "1997",
+      "1998",
+      "2001",
+      "2002",
+      "2003",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Sentra 1800Cc": [
+      "2008"
+    ],
+    "Sentra B 13": [
+      "2005"
+    ],
+    "Tiida": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Tiida Hb": [
+      "2008",
+      "2012"
+    ],
+    "Tiida Sd": [
+      "2008",
+      "2009",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2016"
+    ],
+    "U-41 Camion": [
+      "2017"
+    ],
+    "U41  Mec 31Psj F/F A/A Escolar Dsl Microbus-Bus-Buseta": [
+      "2010"
+    ],
+    "Urvan": [
+      "2002",
+      "2009",
+      "2011",
+      "2012",
+      "2015",
+      "2017",
+      "2022"
+    ],
+    "Urvan Micro": [
+      "2017",
+      "2018"
+    ],
+    "Urvan Nv350 2500Cc": [
+      "2020"
+    ],
+    "Urvan [E25]": [
+      "2009",
+      "2012",
+      "2013"
+    ],
+    "Urvan [E26]": [
+      "2013",
+      "2015",
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "Versa": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Versa 1600": [
+      "2016",
+      "2017"
+    ],
+    "Versa [2]": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Versa [Fl]": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "X Trail": [
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "X Trail [T32]": [
+      "2016",
+      "2017",
+      "2018",
+      "2020",
+      "2021"
+    ],
+    "X Trail[T33]": [
+      "2024"
+    ],
+    "Zna/Rich 6 Doble Cabin/*2023": [
+      "2022"
+    ],
+    "Zna/Rich 6/*Ev At 120Kw": [
+      "2023"
+    ]
+  },
+  "Opel": {
+    "Opel/Crossland X/Elegance": [
+      "2022"
+    ]
+  },
+  "Renault": {
+    "//*Chevrolet Aveo 1.6": [
+      "2008"
+    ],
+    "//*Renault 4": [
+      "1989"
+    ],
+    "1.4L Mt 1400Cc Aa": [
+      "2003"
+    ],
+    "1.6L At 1600Cc": [
+      "2011"
+    ],
+    "1.6L Mt 1600Cc Aa 16V 1Ab": [
+      "2014"
+    ],
+    "1.6L Mt 1600Cc Aa 16V 2Ab": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "1.6L Mt 1600Cc Aa 2T 9Psj": [
+      "2021"
+    ],
+    "2.0L Tp 2000Cc 5P": [
+      "2014"
+    ],
+    "2.3L Mt 2300Cc Td 4X2 [12Psj] [Int] Aa": [
+      "2022"
+    ],
+    "2.3L Mt 2300Cc Td 4X2 [15Psj] [Int] 2Aa": [
+      "2021"
+    ],
+    "2.3L Mt 2300Cc Td 4X2 [16Psj] 2Aa": [
+      "2020"
+    ],
+    "2.3L Mt 2300Cc Td 4X2 [18Psj] 2Aa": [
+      "2014",
+      "2018"
+    ],
+    "4 Master": [
+      "2014",
+      "2016",
+      "2018"
+    ],
+    "9": [
+      "1986",
+      "1988",
+      "1994",
+      "1995",
+      "1998"
+    ],
+    "Access + Mt 1200Cc 16V Aa": [
+      "2011"
+    ],
+    "Access Mt 1200Cc 16V Aa": [
+      "2013"
+    ],
+    "Alaskan": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Alaskan Intens At 2500Cc Td 4X4": [
+      "2018",
+      "2021"
+    ],
+    "Alaskan Zen Mt 2500Cc Td 4X4": [
+      "2022"
+    ],
+    "Alize Mt 1400Cc 16V": [
+      "2007"
+    ],
+    "Authentique / Life Mt 1600Cc 8V Aa 2Ab Abs": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Authentique Mt 1600Cc 8V Aa": [
+      "2009",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Authentique Mt 1600Cc 8V Sa": [
+      "2012",
+      "2016"
+    ],
+    "Authentique Mt 1600Cc Aa 8V": [
+      "2017",
+      "2018"
+    ],
+    "Authentique Mt 1600Cc Aa 8V 2Ab": [
+      "2016",
+      "2017"
+    ],
+    "Camioneta Pasaj. Kangoo Maxi Z.E. At 44Kw Electrico": [
+      "2024"
+    ],
+    "Campus Mt 1200Cc 16V Aa": [
+      "2015"
+    ],
+    "Campus Mt 1200Cc 16V Aa Da": [
+      "2015"
+    ],
+    "Campus Mt 1200Cc 16V Sa": [
+      "2014"
+    ],
+    "Captur": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Captur Intens Tp 2000Cc": [
+      "2021",
+      "2025"
+    ],
+    "Captur Zen Mt 2000Cc": [
+      "2020",
+      "2022"
+    ],
+    "Captur [Fl]": [
+      "2022"
+    ],
+    "Cargo Mt 1300Cc T 4X4": [
+      "2023"
+    ],
+    "Cargo Mt 2500Cc Td 4X4": [
+      "2020",
+      "2023"
+    ],
+    "Chery/Yoya 2012/": [
+      "2011"
+    ],
+    "Citius - Taxi": [
+      "0"
+    ],
+    "Clio": [
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Clio I Rl Mt 1400Cc Automovil": [
+      "2005"
+    ],
+    "Clio I Rt Mt 1400Cc Pc Automovil": [
+      "2003",
+      "2008",
+      "2015",
+      "2016"
+    ],
+    "Clio Ii": [
+      "2003",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2026"
+    ],
+    "Clio Ii Campus Mt 1200Cc 16V Aa Da Automovil": [
+      "2014",
+      "2015"
+    ],
+    "Clio Ii Campus Mt 1200Cc 16V Sa Automovil": [
+      "2013",
+      "2015"
+    ],
+    "Clio Iii": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Clio Iii Sport Style Mt 1200Cc Aa Da Automovil": [
+      "2016"
+    ],
+    "Clio Iii Style Ca Mt 1200Cc Aa Da Automovil": [
+      "2016",
+      "2017"
+    ],
+    "Clio Rn Sedan": [
+      "0",
+      "2015"
+    ],
+    "Clio Rt 1.400 Cc": [
+      "2002",
+      "2005",
+      "2011",
+      "2017"
+    ],
+    "Discovery Mt 2000Cc 4X2": [
+      "2014"
+    ],
+    "Duster": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Duster At 2000Cc 4X2": [
+      "2015",
+      "2016",
+      "2018",
+      "2024"
+    ],
+    "Duster Mt 1600Cc 4X2": [
+      "0",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Duster Mt 2000Cc 4X2": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "Duster Mt 2000Cc 4X4": [
+      "0",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Duster Oroch": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Duster [2]": [
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Duster [Fl]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Dynamique / Intens Mt 1600Cc Aa 16V 2Ab": [
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Dynamique At 1600Cc 16V": [
+      "2016"
+    ],
+    "Dynamique At 1600Cc 16V Aa": [
+      "2015",
+      "2016"
+    ],
+    "Dynamique At 2000Cc 4X2": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Dynamique At 2000Cc Td 4X4": [
+      "2014"
+    ],
+    "Dynamique At 2500Cc 4X2": [
+      "2014",
+      "2015"
+    ],
+    "Dynamique Mt 1400Cc": [
+      "2006",
+      "2007"
+    ],
+    "Dynamique Mt 1600Cc": [
+      "2007",
+      "2012",
+      "2014"
+    ],
+    "Dynamique Mt 1600Cc 8V Aa": [
+      "2013",
+      "2014",
+      "2016"
+    ],
+    "Dynamique Mt 1600Cc 8V Fe": [
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Dynamique Mt 1600Cc Aa 8V 2Ab": [
+      "2016",
+      "2018"
+    ],
+    "Dynamique Mt 1600Cc Aa 8V 2Ab Abs": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Dynamique Mt 2000Cc 4X2": [
+      "2013",
+      "2015",
+      "2016",
+      "2019"
+    ],
+    "Dynamique Mt 2000Cc 4X2 2Ab": [
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Dynamique Mt 2000Cc 4X4": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2019"
+    ],
+    "Dynamique Mt 2500Cc 4X4": [
+      "2011"
+    ],
+    "Dynamique Nd Mt 1600Cc": [
+      "2009",
+      "2011"
+    ],
+    "Dynamique Plus Mt 2000Cc 4X4 [Pub]": [
+      "2013"
+    ],
+    "Dynamique Plus Mt 2000Cc Td 4X4": [
+      "2011"
+    ],
+    "Dynamique/Intens Mt 1600Cc 4X2": [
+      "2017",
+      "2019"
+    ],
+    "Dynamique/Intens Mt 2000Cc 4X2": [
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "Dynamique/Intens Mt 2000Cc 4X4": [
+      "2017",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Dynamique/Intens Tp 2000Cc 4X2": [
+      "2017",
+      "2019"
+    ],
+    "Entry [Familier] Mt 1400Cc Aa": [
+      "2010",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Entry [Familier] Mt 1400Cc Sa": [
+      "2014",
+      "2015"
+    ],
+    "Etoile 2.2 I Bravo": [
+      "0"
+    ],
+    "Exclusive Mt 1600Cc 8V Aa 2Ab Abs": [
+      "2019"
+    ],
+    "Express Ca Mt 1600Cc Abs 2Ab Aa": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Express Mt 1600Cc Aa": [
+      "2018"
+    ],
+    "Expression / Life + Mt 1600Cc Aa 8V 2Ab Abs": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Expression / Zen Mt 1600Cc Aa 16V 2Ab": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Expression At 2000Cc 4X2 Abs": [
+      "2024"
+    ],
+    "Expression Mt 1400Cc 16V": [
+      "2004"
+    ],
+    "Expression Mt 1600Cc 4X2": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Expression Mt 1600Cc 8V Aa": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2015",
+      "2016"
+    ],
+    "Expression Mt 1600Cc 8V Aa 2Ab Abs": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Expression Mt 1600Cc Aa": [
+      "2011",
+      "2012",
+      "2015"
+    ],
+    "Expression Mt 1600Cc Aa 8V 2Ab": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Expression Mt 2000Cc 4X2 2Ab": [
+      "2020",
+      "2021"
+    ],
+    "Expression Mt 2500Cc 4X2": [
+      "2012"
+    ],
+    "Expression Nd Mt 1600Cc Aa": [
+      "2011"
+    ],
+    "Expression/Zen Mt 1600Cc 4X2": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Expression/Zen Mt 2000Cc 4X4": [
+      "2017"
+    ],
+    "F.Ii Dynamique Mt 1400Cc": [
+      "2003",
+      "2006"
+    ],
+    "F.Iv Expression At 1600Cc Aa": [
+      "2011"
+    ],
+    "F.Iv Rs Dynamique Mt 1600Cc": [
+      "2008"
+    ],
+    "Fase Ii Mt 1200Cc 8V": [
+      "2002"
+    ],
+    "Fase Iii Mt 1200Cc Aa 8V": [
+      "2002"
+    ],
+    "Faw/Ca7150Bue4/*2020": [
+      "2019"
+    ],
+    "Fluence": [
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Gt Line Mt 1600Cc 16V": [
+      "2016"
+    ],
+    "Gt Line Mt 1600Cc 16V Fe": [
+      "2011"
+    ],
+    "Gts Mt 1400Cc Pc": [
+      "1987"
+    ],
+    "Iconic At 1300Cc T 4X2": [
+      "2024"
+    ],
+    "Iconic Mt 1000Cc 12V 4Ab Abs": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Iconic Mt 1300Cc T 4X4": [
+      "2024"
+    ],
+    "Intens / At At 1600Cc Aa 16V 2Ab": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Intens At 2500Cc Td 4X4": [
+      "2017",
+      "2022"
+    ],
+    "Intens Mt 1300Cc T 4X4": [
+      "2022",
+      "2023"
+    ],
+    "Intens Mt 1600Cc 16V Aa 4Ab Abs": [
+      "2020",
+      "2021"
+    ],
+    "Intens Mt 2000Cc 4X4 2Ab": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Intens Outsider Mt 1300Cc 4X4 Abs": [
+      "2024"
+    ],
+    "Intens Outsider Mt 1300Cc T 4X4": [
+      "2023"
+    ],
+    "Intens Tp 1300Cc T 4X2": [
+      "2022",
+      "2023"
+    ],
+    "Intens Tp 1600Cc 16V Aa 4Ab Abs": [
+      "2020",
+      "2023"
+    ],
+    "Intens Tp 1600Cc 16V Aa 4Ab Abs Tc": [
+      "2021",
+      "2022"
+    ],
+    "Intens Tp 2000Cc": [
+      "2017",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Intens Tp 2000Cc 4X2 2Ab": [
+      "2022"
+    ],
+    "Intens Tp 2500Cc Ct Tc 4X4": [
+      "2019",
+      "2020"
+    ],
+    "Joylong/H3 Hk6600C19D Mt/": [
+      "2015"
+    ],
+    "Kangoo": [
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Kangoo [2]": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Kangoo [Fl]": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Kardian": [
+      "2025"
+    ],
+    "Kerax 320.28 Td6X4/Kerax 320.28 Td6X4/*Kerax 320.28 Td6X4": [
+      "2006"
+    ],
+    "Koleos": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Koleos Dynamique 2.500 Cc": [
+      "2014",
+      "2015"
+    ],
+    "Koleos [1]": [
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Koleos [1][Fl]": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Koleos [1][Fl][2]": [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Koleos [2]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "Kwid": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Kwid Life Mt 1000Cc 12V 4Ab Abs": [
+      "2020",
+      "2022"
+    ],
+    "Kwid Outsider Mt 1000Cc 12V 4Ab Abs": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Kwid Zen Mt 1000Cc 12V 4Ab Abs": [
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "Kwid [Fl]": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Life + Mt 1600Cc 16V Aa 4Ab Abs": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Life Mt 1000Cc 12V 4Ab Abs": [
+      "2020",
+      "2021"
+    ],
+    "Life Mt 1600Cc 8V Aa 4Ab Abs": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Logan": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Logan 1.4 Dynamique": [
+      "2010",
+      "2011",
+      "2012",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Logan 1.4 Entry": [
+      "2012",
+      "2013",
+      "2014",
+      "2018",
+      "2022"
+    ],
+    "Logan 1.4 Expression": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Logan 1.6 Dynamique": [
+      "0",
+      "2009",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Logan F.Ii": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Logan Ii": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Logan [2]": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Logan [2] [Fl]": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Luxe Mt 1600Cc 16V": [
+      "2012"
+    ],
+    "Master": [
+      "2014",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "Master Basic": [
+      "2021",
+      "2022"
+    ],
+    "Master Confort": [
+      "2016",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Master Luxe": [
+      "2014"
+    ],
+    "Master Maxi": [
+      "2021",
+      "2022"
+    ],
+    "Master [3]": [
+      "2015",
+      "2017",
+      "2018",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Master [4]": [
+      "2023"
+    ],
+    "Maxi Z.E. At 44Kw Electrico": [
+      "2020"
+    ],
+    "Megane": [
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2013",
+      "2014"
+    ],
+    "Megane Ii": [
+      "2006",
+      "2010"
+    ],
+    "Megane Ii F.Ii": [
+      "2007",
+      "2008"
+    ],
+    "Megane Ii F.Ii Hb": [
+      "2008",
+      "2009"
+    ],
+    "Megane Ii Hb": [
+      "2005"
+    ],
+    "New Koleos": [
+      "2014",
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Oroch": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Oroch Dynamique Mt 2000Cc 4X2 2Ab": [
+      "0",
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "Oroch Expression Mt 2000Cc 4X2 2Ab": [
+      "2020",
+      "2022",
+      "2025"
+    ],
+    "Oroch [Fl]": [
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Oroch2017Dina 4X2/Oroch2017Dina 4X2/*Oroch2017Dina 4X2": [
+      "2017"
+    ],
+    "Outsider Mt 1000Cc 12V 4Ab Abs": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Privilege / Intens Mt 1600Cc Aa 16V 2Ab Abs": [
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "Privilege / Intens Tp 1600Cc Aa 16V 2Ab Abs": [
+      "2016",
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "R9": [
+      "1997",
+      "1998"
+    ],
+    "R9 Super Mt 1300Cc/R9 Super Mt 1300Cc/*R9 Super Mt 1300Cc": [
+      "1996"
+    ],
+    "Ram/V700 Rapid/*2022": [
+      "2022"
+    ],
+    "Renault 4/Renault 4/*1979": [
+      "1980"
+    ],
+    "Renault 9 1986/Renault 9 1986/*Renault 9 1986": [
+      "1986"
+    ],
+    "Renault Alaska2017/Renault Alaska2017/*Renault Alaska2017": [
+      "2017"
+    ],
+    "Renault Alaskan/Renault Alaskan/*Renault Alaskan": [
+      "2016"
+    ],
+    "Renault Clio Campu/2015 Clio Campus/*Clio Campus": [
+      "2014"
+    ],
+    "Renault Etoile Pen/Modelo 1993/*Renault Etoile Pen": [
+      "1993"
+    ],
+    "Renault R4 Master/R4 Master Mod 1991/*R4 Master Mod 1991": [
+      "1991"
+    ],
+    "Renault R4 Mod1979/Renault R4 Mod1979/*Renault R4 Mod1979": [
+      "1980"
+    ],
+    "Renault R9 Brio/Renault R9 Brio/*Renault R9 Brio": [
+      "1994"
+    ],
+    "Renault R9/R9 Super M1994/*R9 Super M1994": [
+      "1994"
+    ],
+    "Renault/19/Basis": [
+      "1980",
+      "1996",
+      "2000"
+    ],
+    "Renault/19/Energy": [
+      "1999"
+    ],
+    "Renault/9/Brio (L42K)": [
+      "1983",
+      "1992",
+      "1994",
+      "1995",
+      "1996",
+      "1998"
+    ],
+    "Renault/9/Gtx (L422)": [
+      "1988"
+    ],
+    "Renault/9/Personalite (L42B)": [
+      "1998"
+    ],
+    "Renault/9/Personalite (L42T)": [
+      "1997"
+    ],
+    "Renault/9/Super (L42K)": [
+      "1993"
+    ],
+    "Renault/Alaskan/": [
+      "2017"
+    ],
+    "Renault/Alaskan/Basico": [
+      "2017",
+      "2021",
+      "2022"
+    ],
+    "Renault/Alaskan/Cargo": [
+      "2017",
+      "2021"
+    ],
+    "Renault/Alaskan/Intens": [
+      "2016",
+      "2017",
+      "2021"
+    ],
+    "Renault/Alaskan/Zen": [
+      "2016",
+      "2017",
+      "2019",
+      "2021",
+      "2023"
+    ],
+    "Renault/Captur (H5)/Basico": [
+      "2000",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Captur (H5)/Iconic": [
+      "2023"
+    ],
+    "Renault/Captur (H5)/Intense": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "Renault/Captur (H5)/Intense Bose": [
+      "2019"
+    ],
+    "Renault/Captur (H5)/Zen": [
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Captur (J5)/Basico": [
+      "2018"
+    ],
+    "Renault/Clio (B/C57)/Rl": [
+      "1980",
+      "1999",
+      "2013",
+      "2015"
+    ],
+    "Renault/Clio Ii B/Cb0/Basico": [
+      "1998",
+      "1999",
+      "2000",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2020",
+      "2021"
+    ],
+    "Renault/Clio Ii/Authentique": [
+      "1998",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Clio Ii/Ca/Da": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Clio Ii/Campus": [
+      "1998",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Renault/Clio Ii/Dynamique": [
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2011",
+      "2013"
+    ],
+    "Renault/Clio Ii/Expression": [
+      "1998",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Clio Ii/Rock & Pop": [
+      "1997"
+    ],
+    "Renault/Clio Ii/Sa": [
+      "2016"
+    ],
+    "Renault/Clio Ii/U": [
+      "2012",
+      "2015"
+    ],
+    "Renault/Clio Iv (Bh)/Authentique": [
+      "2016"
+    ],
+    "Renault/Clio Iv (Bh)/Basico": [
+      "2013",
+      "2015",
+      "2017"
+    ],
+    "Renault/Clio Iv (Bh)/Dynamique": [
+      "2010"
+    ],
+    "Renault/Clio Iv (Bh)/Expression": [
+      "2011",
+      "2012"
+    ],
+    "Renault/Clio Sedan Lb0/Authentique": [
+      "2007"
+    ],
+    "Renault/Clio Sedan Lb0/Expression": [
+      "2003",
+      "2004"
+    ],
+    "Renault/Clio/Rn": [
+      "1996",
+      "1997",
+      "1998"
+    ],
+    "Renault/Clio/Rt": [
+      "1992",
+      "1997",
+      "1998"
+    ],
+    "Renault/Duster (Hs)/45 Anniversaire": [
+      "2012",
+      "2013",
+      "2014",
+      "2016",
+      "2020"
+    ],
+    "Renault/Duster (Hs)/Basico": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "Renault/Duster (Hs)/Dakar": [
+      "2010",
+      "2011",
+      "2012",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2021"
+    ],
+    "Renault/Duster (Hs)/Dynamique": [
+      "2000",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Duster (Hs)/Expression": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Duster (Hs)/Intense": [
+      "2011",
+      "2012",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2024"
+    ],
+    "Renault/Duster (Hs)/Polar": [
+      "2011",
+      "2012",
+      "2016",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Duster (Hs)/Smart": [
+      "2011",
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "Renault/Duster (Hs)/Trek Dynamique": [
+      "2012",
+      "2015",
+      "2016"
+    ],
+    "Renault/Duster (Hs)/Trek Expression": [
+      "2012",
+      "2016"
+    ],
+    "Renault/Duster (Hs)/Tripadvisor": [
+      "2011",
+      "2012",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Renault/Duster (Hs)/Zen": [
+      "2011",
+      "2012",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Renault/Duster Ii/Basico": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Renault/Duster Ii/Intens": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Renault/Duster Ii/Zen": [
+      "2017",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Renault/Duster/Basico": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Duster/Dakar": [
+      "2016",
+      "2018"
+    ],
+    "Renault/Duster/Dynamique": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "Renault/Duster/Expression": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Renault/Duster/Trek Dynamique": [
+      "2012",
+      "2013",
+      "2016"
+    ],
+    "Renault/Duster/Trek Expression": [
+      "2014"
+    ],
+    "Renault/Duster/Tripadvisor": [
+      "2018"
+    ],
+    "Renault/Fluence (L3)/Basico": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Renault/Fluence (L3)/Confort": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Renault/Fluence (L3)/Privilege": [
+      "1997",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Renault/Grand Scenic Ii/Authentique": [
+      "2006",
+      "2008",
+      "2010"
+    ],
+    "Renault/Kangoo Z.E./Basico": [
+      "2015",
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "Renault/Kangoo Z.E./Maxi": [
+      "2011",
+      "2016"
+    ],
+    "Renault/Kangoo/Aa": [
+      "2016",
+      "2017",
+      "2020"
+    ],
+    "Renault/Kangoo/Basico": [
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Kangoo/Confort": [
+      "2014"
+    ],
+    "Renault/Kangoo/Express": [
+      "2004",
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "Renault/Kangoo/Express Ca": [
+      "2016",
+      "2017",
+      "2020"
+    ],
+    "Renault/Kangoo/Sportway": [
+      "2008"
+    ],
+    "Renault/Kangoo/Van": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Renault/Koleos (Hc)/Basico": [
+      "2011",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2023"
+    ],
+    "Renault/Koleos (Hc)/Dynamique": [
+      "2013"
+    ],
+    "Renault/Koleos (Hc)/Intens": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Koleos (Hc)/Privilege": [
+      "2020"
+    ],
+    "Renault/Koleos (Hc)/Zen": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Koleos Ii/*2020": [
+      "2016"
+    ],
+    "Renault/Koleos/Basico": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Renault/Koleos/Bose Edition": [
+      "2009",
+      "2012",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Renault/Koleos/Dynamique": [
+      "2000",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Renault/Koleos/Dynamique Plus": [
+      "2010",
+      "2011",
+      "2015",
+      "2018"
+    ],
+    "Renault/Koleos/Expression": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015"
+    ],
+    "Renault/Koleos/Privilege": [
+      "2000",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2015",
+      "2016"
+    ],
+    "Renault/Koleos/Sportway": [
+      "2000",
+      "2009",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Kwid (Be)/Basico": [
+      "2000",
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Renault/Kwid (Be)/Iconic": [
+      "2017",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Kwid (Be)/Intense": [
+      "2017"
+    ],
+    "Renault/Kwid (Be)/Intense +": [
+      "2020",
+      "2024"
+    ],
+    "Renault/Kwid (Be)/Life": [
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Renault/Kwid (Be)/Outsider": [
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Kwid (Be)/Zen": [
+      "2017",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Laguna/Basico": [
+      "1996",
+      "2000"
+    ],
+    "Renault/Laguna/Expression": [
+      "2004"
+    ],
+    "Renault/Linea: R9/*1994": [
+      "1994"
+    ],
+    "Renault/Logan Ii/Authentique": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Logan Ii/Authentique Ca": [
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Logan Ii/Authentique Life": [
+      "2016",
+      "2017",
+      "2019",
+      "2022"
+    ],
+    "Renault/Logan Ii/Authentique Sa": [
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Renault/Logan Ii/Basico": [
+      "2000",
+      "2006",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Logan Ii/Dynamique": [
+      "2000",
+      "2011",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Logan Ii/Exclusive": [
+      "2015",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Renault/Logan Ii/Expression": [
+      "2010",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Logan Ii/Expression Life +": [
+      "2006",
+      "2018"
+    ],
+    "Renault/Logan Ii/Intens": [
+      "2010",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Renault/Logan Ii/Intense": [
+      "2022"
+    ],
+    "Renault/Logan Ii/Life": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Logan Ii/Life +": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Logan Ii/Life + Polar": [
+      "2015",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Renault/Logan Ii/Life + Smart": [
+      "2015",
+      "2018",
+      "2019"
+    ],
+    "Renault/Logan Ii/Life+": [
+      "2017"
+    ],
+    "Renault/Logan Ii/Privilege": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "Renault/Logan Ii/Privilege Intens": [
+      "2018",
+      "2019"
+    ],
+    "Renault/Logan Ii/Privilege Plus": [
+      "2017",
+      "2018"
+    ],
+    "Renault/Logan Ii/Sl Night And Day": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Logan Ii/Tripadvisor": [
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Renault/Logan Ii/Zen": [
+      "2015",
+      "2016",
+      "2017",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Renault/Logan/*Familier": [
+      "2014"
+    ],
+    "Renault/Logan/Authentique": [
+      "2006",
+      "2011",
+      "2012",
+      "2013",
+      "2016",
+      "2023"
+    ],
+    "Renault/Logan/Basico": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2021"
+    ],
+    "Renault/Logan/Dynamique": [
+      "2000",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018"
+    ],
+    "Renault/Logan/Entry": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2015"
+    ],
+    "Renault/Logan/Expression": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Logan/Familier": [
+      "2000",
+      "2006",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Renault/Master Fd/Ud/Basico": [
+      "2013",
+      "2018"
+    ],
+    "Renault/Master Iii (F62)/Basico": [
+      "2010",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Renault/Master Iii (U62)/Basico": [
+      "2010",
+      "2011",
+      "2017",
+      "2020"
+    ],
+    "Renault/Master Iii/Basico": [
+      "2010",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Master/Basico": [
+      "2010",
+      "2012",
+      "2019"
+    ],
+    "Renault/Master/Confort": [
+      "2003",
+      "2012",
+      "2013"
+    ],
+    "Renault/Master/Grand Confort": [
+      "2011"
+    ],
+    "Renault/Megane Ii (Em)/Basico": [
+      "2006",
+      "2008"
+    ],
+    "Renault/Megane Ii (L/Km0)/Basico": [
+      "2000",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "Renault/Megane Ii/Authentique": [
+      "2003",
+      "2005",
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "Renault/Megane Ii/Dynamique": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "Renault/Megane Ii/Expression": [
+      "2005",
+      "2008"
+    ],
+    "Renault/Megane Ii/Odeon": [
+      "2010"
+    ],
+    "Renault/Megane Iii (Bz/Dz)/Basico": [
+      "2011",
+      "2013",
+      "2014"
+    ],
+    "Renault/Megane Iii (Bz/Dz)/Privilege": [
+      "2014"
+    ],
+    "Renault/Megane/1,4": [
+      "2000",
+      "2003",
+      "2004",
+      "2006",
+      "2007"
+    ],
+    "Renault/Megane/Classic": [
+      "1996",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2017"
+    ],
+    "Renault/Oroch/*2015": [
+      "2017"
+    ],
+    "Renault/Oroch/Basico": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Oroch/Dakar": [
+      "2018",
+      "2022"
+    ],
+    "Renault/Oroch/Dynamique": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2021"
+    ],
+    "Renault/Oroch/Expression": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Oroch/Intens": [
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Renault/Oroch/Intens Dakar": [
+      "2015",
+      "2017",
+      "2018",
+      "2020"
+    ],
+    "Renault/Oroch/Outsider": [
+      "2018"
+    ],
+    "Renault/Oroch/Zen": [
+      "2015",
+      "2018",
+      "2020",
+      "2021",
+      "2023"
+    ],
+    "Renault/R 9 Maximo/*1996": [
+      "1996"
+    ],
+    "Renault/R-18 1982/*R-18 1982": [
+      "1982"
+    ],
+    "Renault/R9/*1994": [
+      "1996"
+    ],
+    "Renault/Sandero Ii (B8)/Authentique": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Renault/Sandero Ii (B8)/Basico": [
+      "2000",
+      "2009",
+      "2010",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Sandero Ii (B8)/Dynamique": [
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Renault/Sandero Ii (B8)/Exclusive": [
+      "2012",
+      "2013",
+      "2015",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Renault/Sandero Ii (B8)/Expression": [
+      "2009",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Sandero Ii (B8)/Gt Line": [
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Renault/Sandero Ii (B8)/Intens": [
+      "2000",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Sandero Ii (B8)/Intense": [
+      "2023"
+    ],
+    "Renault/Sandero Ii (B8)/Life": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Renault/Sandero Ii (B8)/Life Plus": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Sandero Ii (B8)/Night & Day": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Sandero Ii (B8)/R.S": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Sandero Ii (B8)/R.S Racing Spirit": [
+      "2016"
+    ],
+    "Renault/Sandero Ii (B8)/Stepway": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Sandero Ii (B8)/Stepway Dynamique": [
+      "2011",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Renault/Sandero Ii (B8)/Stepway Expression": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Renault/Sandero Ii (B8)/Stepway Iconic": [
+      "2016"
+    ],
+    "Renault/Sandero Ii (B8)/Stepway Intense": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Renault/Sandero Ii (B8)/Stepway Zen": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Renault/Sandero Ii (B8)/Trek": [
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Sandero Ii (B8)/Trip Advisor": [
+      "2015",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Renault/Sandero Ii (B8)/Zen": [
+      "2015",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "Renault/Sandero Ii/Authentique": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Sandero Ii/Basico": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Renault/Sandero Ii/Dynamique": [
+      "2000",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Sandero Ii/Expression": [
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Sandero Ii/Gt Line": [
+      "2015",
+      "2017"
+    ],
+    "Renault/Sandero Ii/Intens": [
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Sandero Ii/Life": [
+      "2019"
+    ],
+    "Renault/Sandero Ii/Life Plus": [
+      "2015",
+      "2016"
+    ],
+    "Renault/Sandero Ii/Night & Day": [
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Renault/Sandero Ii/R.S": [
+      "2017"
+    ],
+    "Renault/Sandero Ii/Stepway": [
+      "2000",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "Renault/Sandero Ii/Stepway Dynamique": [
+      "2011",
+      "2012",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2019"
+    ],
+    "Renault/Sandero Ii/Stepway Expression": [
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Sandero Ii/Stepway Zen": [
+      "2015",
+      "2017",
+      "2018"
+    ],
+    "Renault/Sandero Ii/Trek": [
+      "2015",
+      "2018"
+    ],
+    "Renault/Sandero Ii/Zen": [
+      "2019",
+      "2020"
+    ],
+    "Renault/Sandero/Authentique": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2018"
+    ],
+    "Renault/Sandero/Basico": [
+      "2000",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Renault/Sandero/Dynamique": [
+      "2000",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Renault/Sandero/Expression": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Renault/Sandero/Gt Line": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Renault/Sandero/Stepway": [
+      "2000",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Renault/Scala (Sm3)/Basico": [
+      "2000",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Renault/Scenic Ii/Authentique": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "Renault/Scenic Ii/Expression": [
+      "2005",
+      "2008"
+    ],
+    "Renault/Scenic/Basico": [
+      "1996",
+      "2000",
+      "2001",
+      "2002",
+      "2009",
+      "2010",
+      "2011"
+    ],
+    "Renault/Scenic/Sedan Gran Cabina": [
+      "2002"
+    ],
+    "Renault/Symbol Lb0/Alize": [
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "Renault/Symbol Lb0/Authentique": [
+      "2001",
+      "2002",
+      "2003",
+      "2007"
+    ],
+    "Renault/Symbol Lb0/Expression": [
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2010"
+    ],
+    "Renault/Symbol Lb0/Rl": [
+      "2001",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2015"
+    ],
+    "Renault/Symbol Lb0/Rn": [
+      "2001",
+      "2003"
+    ],
+    "Renault/Symbol Lb0/Rt": [
+      "2003"
+    ],
+    "Renault/Symbol Lu/Symbol Avancee": [
+      "2000",
+      "2009"
+    ],
+    "Renault/Symbol Lu/Symbol Confort": [
+      "2012"
+    ],
+    "Renault/Symbol Lu/Symbol Luxe": [
+      "2010",
+      "2011"
+    ],
+    "Renault/Thalia Lb0/Alize": [
+      "2008"
+    ],
+    "Renault/Thalia Lu/Ii": [
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Renault/Trafic Ii/Basico": [
+      "2001",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Renault/Trafic Ii/Pasajeros Plus": [
+      "2013"
+    ],
+    "Renault/Trafic Iii/Basico": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Renault/Trafic Iii/Life": [
+      "2016"
+    ],
+    "Renault/Twingo (C06)/Access": [
+      "1993",
+      "1996",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Renault/Twingo (C06)/Authentique": [
+      "1993",
+      "2000",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2012"
+    ],
+    "Renault/Twingo (C06)/Basico": [
+      "1993",
+      "1997",
+      "1998",
+      "2001",
+      "2003",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Renault/Twingo (C06)/Dynamique": [
+      "1996",
+      "2001",
+      "2002",
+      "2003",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "Renault/Twingo (Cn)/Basico": [
+      "2005",
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Renault/Twingo Iii (Bc)/Basico": [
+      "2012"
+    ],
+    "Renault/Twizy/Technic": [
+      "2012",
+      "2016",
+      "2019"
+    ],
+    "Renault/Zoe (Bf)/Intens": [
+      "2020"
+    ],
+    "Renault/Zoe (Bf)/Life": [
+      "2019",
+      "2020"
+    ],
+    "Renault/Zoe (Bf)/Ultimate": [
+      "2019"
+    ],
+    "Rs Mt 2000Cc": [
+      "2017",
+      "2019"
+    ],
+    "Sandero": [
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Sandero Authentique": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Sandero Dynamique": [
+      "2009",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Sandero Expression": [
+      "0",
+      "2011",
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018"
+    ],
+    "Sandero Gt": [
+      "0",
+      "2013"
+    ],
+    "Sandero Ii": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Sandero [2]": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Sandero [2] [Fl]": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Sandero [Fl]": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Scala": [
+      "2011",
+      "2012"
+    ],
+    "Scala 1.600 C.C.": [
+      "2012"
+    ],
+    "Scenic": [
+      "2003",
+      "2004",
+      "2008"
+    ],
+    "Scenic Ii": [
+      "2008"
+    ],
+    "Scenic Xrb": [
+      "2003",
+      "2010"
+    ],
+    "Sportway R Link Tp 2500Cc Tc R18": [
+      "2016",
+      "2017"
+    ],
+    "Sportway Tp 2500Cc Tc R18": [
+      "2016"
+    ],
+    "Stepway": [
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Stepway 1.6": [
+      "0",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Stepway [2]": [
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Stepway [2] [Fl]": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Stepway [Fl]": [
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2021"
+    ],
+    "Style Ca Mt 1200Cc Aa Da": [
+      "2016",
+      "2017"
+    ],
+    "Style Kit Look Mt 1200Cc Aa Da": [
+      "2016"
+    ],
+    "Symbol": [
+      "2002",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "Symbol Ii": [
+      "2010",
+      "2012"
+    ],
+    "Symbol Ii Confort": [
+      "2011"
+    ],
+    "Trafic": [
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2024"
+    ],
+    "Trafic 1.6L Mt 1600Cc Aa 2T": [
+      "2020",
+      "2021"
+    ],
+    "Trafic 1.6L Mt 1600Cc Aa 2T 9Psj": [
+      "2017",
+      "2018",
+      "2020",
+      "2022"
+    ],
+    "Trafic 1.9L Mt 1900Cc Dsl 4X2": [
+      "2017",
+      "2020"
+    ],
+    "Trafic 1.9L Mt 1900Cc Td Aa Ab": [
+      "2017"
+    ],
+    "Trafic 2.0L Doble Puerta Mt 2000Cc Dsl 4X2 Bus / Buseta / Microbus": [
+      "2017"
+    ],
+    "Trek Intens At 1600Cc Aa 16V 2Ab": [
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Twingo": [
+      "0",
+      "2001",
+      "2002",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014"
+    ],
+    "Twingo Ii": [
+      "2014"
+    ],
+    "U Authentique Mt 1200Cc 16V Aa": [
+      "2007",
+      "2008"
+    ],
+    "Unique Mt 1600Cc Aa": [
+      "2008"
+    ],
+    "Zen Mt 1000Cc 12V 4Ab Abs": [
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Zen Mt 1600Cc 16V Aa 4Ab Abs": [
+      "2021"
+    ],
+    "Zen Mt 1600Cc 4X2": [
+      "2022"
+    ],
+    "Zen Mt 2000Cc": [
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "Zen Mt 2500Cc Td 4X4": [
+      "2017",
+      "2020",
+      "2022"
+    ],
+    "Zen Tp 2500Cc 4X2": [
+      "2017"
+    ],
+    "Zoe": [
+      "2019",
+      "2023"
+    ]
+  },
+  "Suzuki": {
+    "Alto": [
+      "2014",
+      "2015",
+      "2018",
+      "2019"
+    ],
+    "Baleno": [
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Celerio": [
+      "2013",
+      "2016",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Ciaz": [
+      "2015"
+    ],
+    "Ertiga": [
+      "2015",
+      "2017"
+    ],
+    "Grand Vitara": [
+      "2009",
+      "2010",
+      "2013",
+      "2014",
+      "2016",
+      "2018",
+      "2019",
+      "2020",
+      "2023",
+      "2024"
+    ],
+    "Jimny": [
+      "2025"
+    ],
+    "S-Cross": [
+      "2018",
+      "2020",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "S.Presso": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Suzuki/Alto/Alto": [
+      "2001"
+    ],
+    "Suzuki/Celerio (Mf)/Basico": [
+      "2013",
+      "2016"
+    ],
+    "Suzuki/Celerio (Vh/Vk)/Basico": [
+      "2015",
+      "2016"
+    ],
+    "Suzuki/Dl 650 V-Strom/Abs": [
+      "2014"
+    ],
+    "Suzuki/Ertiga (Rk/Rl)/Basico": [
+      "2015",
+      "2017"
+    ],
+    "Suzuki/Grand Vitara (Jb)/Basico": [
+      "1998",
+      "2014",
+      "2015",
+      "2016",
+      "2018"
+    ],
+    "Suzuki/Grand Vitara (Jb)/Glx": [
+      "2017"
+    ],
+    "Suzuki/Grand Vitara (Jb)/Glx Sport": [
+      "2012",
+      "2019"
+    ],
+    "Suzuki/Grand Vitara (Jb)/Sz": [
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Suzuki/Grand Vitara Jt/Jb/Basico": [
+      "2009",
+      "2014"
+    ],
+    "Suzuki/Grand Vitara Jt/Jb/Sz": [
+      "2009",
+      "2010"
+    ],
+    "Suzuki/Grand Vitara/Sedan": [
+      "1996",
+      "2003",
+      "2005",
+      "2010",
+      "2012"
+    ],
+    "Suzuki/Jimny/Basico": [
+      "2017"
+    ],
+    "Suzuki/Samurai/Van": [
+      "1996"
+    ],
+    "Suzuki/Swift Dzire(2N)/Basico": [
+      "2018"
+    ],
+    "Suzuki/Swift Dzire/Basico": [
+      "2015",
+      "2017"
+    ],
+    "Suzuki/Swift/Basico": [
+      "2013",
+      "2014",
+      "2015",
+      "2017"
+    ],
+    "Suzuki/Sx4 S-Cross/Basico": [
+      "2016",
+      "2017"
+    ],
+    "Suzuki/Sx4/Basico": [
+      "2013"
+    ],
+    "Suzuki/Vitara/Basico": [
+      "2018",
+      "2019"
+    ],
+    "Suzuki/Vitara/Gl": [
+      "2017",
+      "2019"
+    ],
+    "Suzuki/Vitara/Glx": [
+      "2019"
+    ],
+    "Swift": [
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Sx4": [
+      "2014"
+    ],
+    "Vitara": [
+      "2013",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ]
+  },
+  "Toyota": {
+    "4Runner": [
+      "1997",
+      "2005",
+      "2007",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "4Runner [4]": [
+      "2006",
+      "2007",
+      "2008"
+    ],
+    "4Runner [5]": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2023",
+      "2024"
+    ],
+    "Corolla": [
+      "1995",
+      "2004",
+      "2005",
+      "2006",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Corolla Cross": [
+      "2011",
+      "2020",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Corolla Sedan": [
+      "2024"
+    ],
+    "Corolla [10]": [
+      "2005",
+      "2006",
+      "2008"
+    ],
+    "Corolla [11]": [
+      "2009",
+      "2011"
+    ],
+    "Corolla [11] [Fl]": [
+      "2012",
+      "2014"
+    ],
+    "Corolla [12]": [
+      "2015",
+      "2016"
+    ],
+    "Corolla [12] [Fl]": [
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Fj": [
+      "2010",
+      "2023"
+    ],
+    "Fj Cruiser": [
+      "2008",
+      "2009",
+      "2010",
+      "2012",
+      "2023"
+    ],
+    "Fortuner": [
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Fortuner [2]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020"
+    ],
+    "Fortuner [2] [Fl]": [
+      "2019",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Fortuner [Fl]": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Hilux": [
+      "1993",
+      "1994",
+      "1995",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Hilux Cabina Sencilla": [
+      "2023"
+    ],
+    "Hilux [5]": [
+      "1995"
+    ],
+    "Hilux [6]": [
+      "2003",
+      "2005"
+    ],
+    "Hilux [7]": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013"
+    ],
+    "Hilux [7] [Fl]": [
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Hilux [8]": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Hilux [8] [2 Fl]": [
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Hilux [8] [Fl]": [
+      "2019",
+      "2020",
+      "2023",
+      "2024"
+    ],
+    "Land Cruiser": [
+      "1997",
+      "1998",
+      "2004",
+      "2005",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2019",
+      "2020",
+      "2021"
+    ],
+    "Land Cruiser  Fzj-80": [
+      "2014"
+    ],
+    "Land Cruiser [Lc 200]": [
+      "2011",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "2020"
+    ],
+    "Land Cruiser [Lc 300]": [
+      "2022"
+    ],
+    "Land Cruiser [Lc 70]": [
+      "1994",
+      "1996",
+      "1999",
+      "2010",
+      "2015",
+      "2021",
+      "2023"
+    ],
+    "New Corolla": [
+      "2009",
+      "2010",
+      "2019"
+    ],
+    "Prado": [
+      "1999",
+      "2001",
+      "2002",
+      "2004",
+      "2006",
+      "2007",
+      "2008",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Prado [Lc 120]": [
+      "2004",
+      "2007"
+    ],
+    "Prado [Lc 150]": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2024",
+      "2025"
+    ],
+    "Prado [Lc 90]": [
+      "2001",
+      "2003",
+      "2004",
+      "2005",
+      "2006",
+      "2007",
+      "2008",
+      "2009"
+    ],
+    "Raize": [
+      "2017"
+    ],
+    "Rav 4": [
+      "2006",
+      "2007",
+      "2010",
+      "2011",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Rav4 [2]": [
+      "2006"
+    ],
+    "Rav4 [3]": [
+      "2011"
+    ],
+    "Rav4 [4]": [
+      "2013",
+      "2014",
+      "2015",
+      "2016"
+    ],
+    "Rav4 [4] [Fl]": [
+      "2016",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Rav4 [5]": [
+      "2011",
+      "2015",
+      "2017",
+      "2018",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Rush": [
+      "2019",
+      "2020"
+    ],
+    "Tacoma": [
+      "2020"
+    ],
+    "Tacoma [2]": [
+      "2010"
+    ],
+    "Tacoma [3]": [
+      "2019"
+    ],
+    "Tundra": [
+      "2022"
+    ],
+    "Tundra [3]": [
+      "2022",
+      "2024"
+    ],
+    "Yaris": [
+      "2002",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Yaris Cross": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Yaris [3] [Fl]": [
+      "2021",
+      "2022",
+      "2024"
+    ]
+  },
+  "Volkswagen": {
+    "17210 Worker": [
+      "2007"
+    ],
+    "18310": [
+      "2021"
+    ],
+    "Amarok": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Bora": [
+      "2006",
+      "2007",
+      "2008",
+      "2009",
+      "2010"
+    ],
+    "Constellation": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Crafter": [
+      "2011",
+      "2015"
+    ],
+    "Crafter 35 Panel": [
+      "2020"
+    ],
+    "Cross Fox": [
+      "2008",
+      "2013",
+      "2014",
+      "2015",
+      "2017",
+      "2018",
+      "2019"
+    ],
+    "Cross Up": [
+      "2020"
+    ],
+    "Delivery": [
+      "2022",
+      "2023"
+    ],
+    "Escarabajo": [
+      "1973",
+      "2024"
+    ],
+    "Fox": [
+      "2019",
+      "2020"
+    ],
+    "Gol": [
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Golf": [
+      "2003",
+      "2004",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Jetta": [
+      "2005",
+      "2006",
+      "2008",
+      "2009",
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022"
+    ],
+    "New Beetle": [
+      "2010",
+      "2016",
+      "2018",
+      "2019"
+    ],
+    "Nivus": [
+      "2021",
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Parati": [
+      "2007"
+    ],
+    "Passat": [
+      "2019"
+    ],
+    "Polo": [
+      "2015",
+      "2020",
+      "2021",
+      "2022",
+      "2024"
+    ],
+    "Saveiro": [
+      "2014",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "Saveiro 1.800 Cabina Sencilla": [
+      "2018"
+    ],
+    "T - Cross": [
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "Taos": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "Teramont": [
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Tiguan": [
+      "2010",
+      "2011",
+      "2012",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Touareg": [
+      "2020"
+    ],
+    "Transporter": [
+      "2014"
+    ],
+    "Vento": [
+      "2016"
+    ],
+    "Virtus": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
+    "Voyage": [
+      "2010",
+      "2013",
+      "2014",
+      "2015",
+      "2016",
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "Vw/Golf (Au1/Au2)/Comfortline": [
+      "2017"
+    ]
+  }
+}

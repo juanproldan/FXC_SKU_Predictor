@@ -44,7 +44,7 @@ The project will include:
 The system must include the following functionalities, with testing considerations for each phase:
 
 ### 4.1 Data Acquisition
-- **Description**: Load historical bid data from a JSON file located at a configurable path (initially set to "C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\Consolidado.json") into a structured format (e.g., pandas DataFrame), extracting fields like part descriptions and assigned SKUs.
+- **Description**: Load historical bid data from a JSON file located at a configurable path (initially set to "C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\Fuente_Json_Consolidado\Consolidado.json") into a structured format (e.g., pandas DataFrame), extracting fields like part descriptions and assigned SKUs.
 - **Testing**:
   - Verify correct parsing and loading of JSON data from the specified path.
   - Ensure the system handles incorrect or missing file paths gracefully (e.g., with appropriate error messages).
@@ -83,6 +83,41 @@ The system must include the following functionalities, with testing consideratio
 - **Testing**:
   - Test retraining with new data to ensure integration.
   - Verify performance stability or improvement post-retraining.
+
+### 4.7 Web Application for SKU Prediction
+
+#### **Description**  
+Develop a simple web application that allows users to input information about car parts and receive SKU predictions. The application will include:
+
+- **User Input**: A form with four rows:
+  - **Box #1**: Dropdown for selecting the car maker (e.g., "Mazda", "Renault", "Chevrolet").
+  - **Box #2**: Dropdown for selecting the series (e.g., "CHEVROLET/OPTRA ADVANCE/BASICO").
+  - **Box #3**: Dropdown for selecting the model year (e.g., "2008", "2009", "2010").
+  - **Box #4**: Text input for entering a description of the part.
+- **Output**: A fifth box in each row that displays the predicted SKU based on the input.
+- **Integration**: The web app will generate a JSON file with the user input, which the main program can process to predict the SKU. The predicted SKU will then be displayed in the last box of each row.
+- **Design**:
+  - The web app will have a **black background** for a sleek, modern look.
+  - The **company logo** will be displayed prominently at the top of the page. The logo file is located at:
+    `C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\webapp\static\LogoFixacar.png`.
+
+#### **Testing**  
+- Verify that dropdowns and text input fields accept valid inputs.
+- Ensure the JSON file is correctly formatted and includes all user inputs.
+- Test integration with the main program to confirm accurate SKU predictions.
+- Validate that the predicted SKU is displayed in the correct box.
+- Confirm the logo is displayed correctly and the background is black.
+
+#### **Technical Requirements**  
+- **Frontend**: HTML, CSS, and JavaScript (or a framework like React for better scalability).
+- **Backend**: Python (Flask or FastAPI) to handle JSON generation and integration with the main program.
+- **Browser Compatibility**: Ensure the app works on Chrome and other modern browsers.
+- **Output Format**: JSON file for integration with the main program.
+
+#### **Non-Functional Requirements**  
+- **Usability**: The interface should be simple and intuitive for users.
+- **Performance**: The app should respond quickly to user inputs and display results in real-time.
+- **Scalability**: The app should support multiple rows of input for batch predictions.
 
 ---
 
@@ -136,7 +171,7 @@ The system must meet these standards, with testing for each:
 ## 7. Assumptions and Constraints
 
 ### 7.1 Assumptions
-- The historical bid data is initially located at "C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\Consolidado.json".
+- The historical bid data is initially located at "C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\Fuente_Json_Consolidado\Consolidado.json".
 - Descriptions are primarily in Spanish with potential errors.
 - An initial SKU equivalency table is provided.
 

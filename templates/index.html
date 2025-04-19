@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKU Predictor - Fixacar</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body style="background: #111; color: #fff;">
+    <div class="container">
+        <img src="/static/LogoFixacar.png" alt="Fixacar Logo" class="logo">
+        <h1>SKU Predictor</h1>
+        <form id="sku-form" autocomplete="off">
+            <label for="maker">Marca:</label>
+            <select id="maker" name="maker" required>
+                <option value="">Seleccione una marca</option>
+            </select>
+            <label for="series">Serie:</label>
+            <select id="series" name="series" required>
+                <option value="">Seleccione una serie</option>
+            </select>
+            <label for="model_year">Año del modelo:</label>
+            <select id="model_year" name="model_year" required>
+                <option value="">Seleccione un año</option>
+            </select>
+            <label for="description">Descripción del producto:</label>
+            <input type="text" id="description" name="description"
+                placeholder="Ejemplo: PANORAMICO DELANTERO de FORD/ESCAPE (CTC) TITANIO" required>
+            <button type="submit">Predecir SKU</button>
+        </form>
+        <div id="result-box">
+            <label for="sku-result">SKU:</label>
+            <input type="text" id="sku-result" readonly>
+            <div id="confidence-container" style="display: none;">
+                <label for="confidence">Confianza:</label>
+                <div class="progress-bar-container">
+                    <div id="confidence-bar" class="progress-bar"></div>
+                </div>
+                <span id="confidence-value">0%</span>
+            </div>
+            <div id="top-skus-container" style="display: none;">
+                <h3>Top 5 SKUs:</h3>
+                <ul id="top-skus-list"></ul>
+            </div>
+            <div id="model-info" style="margin-top: 10px; font-size: 0.8em; color: #999;"></div>
+        </div>
+    </div>
+    <script>
+        let carData = {};
+        const makerSelect = document.getElementById('maker');
+        const seriesSelect = document.getElementById('series');
+        const modelSelect = document.getElementById('model_year');
+
+        async function fetchCarData() {
+            const res = await fetch('/api/maker_series_model');
+            carData = await res.json();
+            populateMakers();
+        }
+
+        function populateMakers() {
+            makerSelect.innerHTML = '<option value="">Seleccione una marca</option>';
+            Object.keys(carData).forEach(maker => {
+                makerSelect.innerHTML += `<option value="${maker}">${maker}</option>`;
+            });
+            seriesSelect.innerHTML = '<option value="">Seleccione una serie</option>';
+            modelSelect.innerHTML = '<option value="">Seleccione un año</option>';
+        }
+
+        function populateSeries() {
+            const maker = makerSelect.value;
+            seriesSelect.innerHTML = '<option value="">Seleccione una serie</option>';
+            modelSelect.innerHTML = '<option value="">Seleccione un año</option>';
+            if (maker && carData[maker]) {
+                Object.keys(carData[maker]).forEach(series => {
+                    seriesSelect.innerHTML += `<option value="${series}">${series}</option>`;
+                });
+            }
+        }
+
+        function populateModels() {
+            const maker = makerSelect.value;
+            const series = seriesSelect.value;
+            modelSelect.innerHTML = '<option value="">Seleccione un año</option>';
+            if (maker && series && carData[maker] && carData[maker][series]) {
+                carData[maker][series].forEach(model => {
+                    modelSelect.innerHTML += `<option value="${model}">${model}</option>`;
+                });
+            }
+        }
+
+        makerSelect.addEventListener('change', populateSeries);
+        seriesSelect.addEventListener('change', populateModels);
+
+        fetchCarData();
+
+        document.getElementById('sku-form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const maker = makerSelect.value;
+            const series = seriesSelect.value;
+            const model_year = modelSelect.value;
+            const description = document.getElementById('description').value;
+
+            // Clear previous results
+            document.getElementById('sku-result').value = '';
+            document.getElementById('confidence-container').style.display = 'none';
+            document.getElementById('top-skus-container').style.display = 'none';
+            document.getElementById('model-info').textContent = '';
+            document.getElementById('top-skus-list').innerHTML = '';
+
+            const response = await fetch('/predict', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    maker,
+                    series,
+                    model_year,
+                    description
+                })
+            });
+
+            const data = await response.json();
+
+            // Display the predicted SKU
+            document.getElementById('sku-result').value = data.sku || 'No encontrado';
+
+            // Display confidence if available
+            if (data.confidence !== undefined) {
+                const confidencePercent = Math.round(data.confidence * 100);
+                document.getElementById('confidence-container').style.display = 'block';
+                document.getElementById('confidence-value').textContent = `${confidencePercent}%`;
+                document.getElementById('confidence-bar').style.width = `${confidencePercent}%`;
+
+                // Set color based on confidence
+                let color = '#ff4d4d'; // Red for low confidence
+                if (confidencePercent >= 70) {
+                    color = '#4CAF50'; // Green for high confidence
+                } else if (confidencePercent >= 40) {
+                    color = '#FFC107'; // Yellow for medium confidence
+                }
+                document.getElementById('confidence-bar').style.backgroundColor = color;
+            }
+
+            // Display top SKUs if available
+            if (data.top_skus && data.top_skus.length > 0) {
+                document.getElementById('top-skus-container').style.display = 'block';
+                const topSkusList = document.getElementById('top-skus-list');
+                topSkusList.innerHTML = '';
+
+                data.top_skus.forEach(item => {
+                    const confidencePercent = Math.round(item.confidence * 100);
+                    const li = document.createElement('li');
+                    li.innerHTML = `<strong>${item.sku}</strong>: ${confidencePercent}% confianza`;
+                    topSkusList.appendChild(li);
+                });
+            }
+
+            // Display model info
+            if (data.model_used) {
+                let modelName = 'Desconocido';
+                if (data.model_used === 'neural_network') {
+                    modelName = 'Red Neuronal';
+                } else if (data.model_used === 'lgbm') {
+                    modelName = 'Modelo Original';
+                } else if (data.model_used === 'dummy') {
+                    modelName = 'Modo Simulación';
+                }
+                document.getElementById('model-info').textContent = `Modelo utilizado: ${modelName}`;
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -13,7 +13,7 @@ This ToDo list outlines the steps to build, test, and deploy the SKU Prediction 
 
 2. **Implement Configurable File Path**
    - [ ] Add a configuration option (e.g., config file, environment variable) to specify the JSON file path.
-   - [ ] Set the default path to "C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\Consolidado.json".
+   - [ ] Set the default path to "C:\Users\juanp\OneDrive\Documents\Python\0_Training\017_Fixacar\001_SKU_desde_descripcion\Fuente_Json_Consolidado\Consolidado.json".
 
 3. **Load and Parse Data**
    - [ ] Write a Python script to load JSON data from the configurable path into a pandas DataFrame.

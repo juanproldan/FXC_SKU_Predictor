@@ -117,7 +117,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Create correlated SKU data CSV from JSON.")
     parser.add_argument(
         "--input",
-        default="C:\\Users\\juanp\\OneDrive\\Documents\\Python\\0_Training\\017_Fixacar\\Consolidado.json",
+        default="C:\\Users\\juanp\\OneDrive\\Documents\\Python\\0_Training\\017_Fixacar\\001_SKU_desde_descripcion\\Fuente_Json_Consolidado\\Consolidado.json",
         help="Path to the input JSON file (default: data/items_not_empty.json)."
     )
     parser.add_argument(

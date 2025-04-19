@@ -47,7 +47,6 @@ def load_data(config_path: Optional[str] = None) -> Optional[pd.DataFrame]:
             raise FileNotFoundError(f"Data file not found at: {raw_data_path_absolute}")
 
         # Load the JSON data
-        # Using lines=True might be necessary if it's a JSON Lines file
         # Try standard JSON loading first
         try:
             df = pd.read_json(raw_data_path_absolute)
@@ -61,6 +60,19 @@ def load_data(config_path: Optional[str] = None) -> Optional[pd.DataFrame]:
                 logging.error(f"Failed to load data as standard JSON or JSON Lines from {raw_data_path_absolute}: {lines_error}")
                 raise lines_error
 
+        # Flatten the 'items' list so each item becomes its own row
+        if 'items' in df.columns:
+            records = []
+            for _, row in df.iterrows():
+                parent_data = row.drop('items').to_dict()
+                for item in row['items']:
+                    rec = parent_data.copy()
+                    rec.update(item)
+                    records.append(rec)
+            df = pd.DataFrame(records)
+            logging.info(f"Flattened items. New shape: {df.shape}")
+        else:
+            logging.warning("No 'items' column found to flatten.")
         return df
 
     except FileNotFoundError as fnf_error:

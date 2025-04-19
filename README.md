@@ -46,7 +46,7 @@ python src/main.py
 ```
 . 
 ├── .gitignore 
-├── Consolidado.json        # Provided large data file (potentially outside repo)
+├── Fuente_Json_Consolidado/Consolidado.json        # Provided large data file (potentially outside repo, now in subdirectory)
 ├── PRD_SKU_desde_descripcion.md 
 ├── README.md
 ├── TODO_SKU_desde_descripcion.md
