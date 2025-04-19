@@ -38,11 +38,13 @@ app = Flask(__name__,
 
 # Load model at startup
 try:
+    # Make these variables global so they can be accessed in the routes
+    global model, vectorizer, label_encoder, metadata
     model, vectorizer, label_encoder, metadata = load_model()
     logger.info(f"Model loaded successfully with {metadata['num_skus']} SKUs")
 except Exception as e:
     logger.error(f"Error loading model: {str(e)}")
-    model, vectorizer, label_encoder = None, None, None
+    model, vectorizer, label_encoder, metadata = None, None, None, None
 
 # --- Routes ---
 
@@ -90,8 +92,8 @@ def predict():
         # Include model_family in the description for better context
         full_description = f"{description} {maker} {model_family} {series} {model_year}".strip(
         )
-        result = predict_sku(full_description, maker, model,
-                             vectorizer, label_encoder)
+        # Use the global model, vectorizer, and label_encoder
+        result = predict_sku(full_description, maker)
 
         # Add model information
         result['sku'] = result.pop('top_sku')
@@ -129,8 +131,8 @@ def api_predict():
         # Include model_family in the description for better context
         full_description = f"{description} {maker} {model_family} {series} {model_year}".strip(
         )
-        result = predict_sku(full_description, maker, model,
-                             vectorizer, label_encoder)
+        # Use the global model, vectorizer, and label_encoder
+        result = predict_sku(full_description, maker)
 
         return jsonify(result)
 
