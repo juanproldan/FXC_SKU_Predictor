@@ -83,11 +83,14 @@ def predict():
             logger.warning("Predict endpoint called with empty description")
             return jsonify({"error": "No description provided"}), 400
 
-        # Get maker if provided
-        maker = request.form.get('maker')
+        # Use the maker from the JSON data
+        # No need to get it from form as we already have it
 
         # Make prediction
-        result = predict_sku(description, maker, model,
+        # Include model_family in the description for better context
+        full_description = f"{description} {maker} {model_family} {series} {model_year}".strip(
+        )
+        result = predict_sku(full_description, maker, model,
                              vectorizer, label_encoder)
 
         # Add model information
@@ -116,11 +119,17 @@ def api_predict():
 
         description = data['description']
 
-        # Get maker if provided
-        maker = data.get('maker')
+        # Get parameters if provided
+        maker = data.get('maker', '')
+        model_family = data.get('model_family', '')
+        series = data.get('series', '')
+        model_year = data.get('model_year', '')
 
         # Make prediction
-        result = predict_sku(description, maker, model,
+        # Include model_family in the description for better context
+        full_description = f"{description} {maker} {model_family} {series} {model_year}".strip(
+        )
+        result = predict_sku(full_description, maker, model,
                              vectorizer, label_encoder)
 
         return jsonify(result)
