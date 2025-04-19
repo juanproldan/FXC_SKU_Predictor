@@ -41,8 +41,8 @@
                 <span id="confidence-value">0%</span>
             </div>
             <div id="top-skus-container" style="display: none;">
-                <h3>Top 5 SKUs:</h3>
-                <ul id="top-skus-list"></ul>
+                <h3>Top 5 SKUs: <span class="select-prompt">(Haga clic en el SKU correcto)</span></h3>
+                <ul id="top-skus-list" class="selectable-skus"></ul>
             </div>
             <div id="model-info" style="margin-top: 10px; font-size: 0.8em; color: #999;"></div>
 
@@ -173,10 +173,32 @@
                 const topSkusList = document.getElementById('top-skus-list');
                 topSkusList.innerHTML = '';
 
-                data.top_skus.forEach(item => {
+                data.top_skus.forEach((item, index) => {
                     const confidencePercent = Math.round(item.confidence * 100);
                     const li = document.createElement('li');
-                    li.innerHTML = `<strong>${item.sku}</strong>: ${confidencePercent}% confianza`;
+
+                    // Add classes for styling
+                    li.className = 'sku-item';
+                    if (index === 0) {
+                        li.classList.add('selected', 'top-prediction');
+                    }
+
+                    // Store SKU and confidence as data attributes
+                    li.dataset.sku = item.sku;
+                    li.dataset.confidence = item.confidence;
+
+                    // Create content with selection indicator
+                    li.innerHTML = `
+                        <span class="selection-indicator">${index === 0 ? '✓' : ''}</span>
+                        <strong>${item.sku}</strong>: ${confidencePercent}% confianza
+                        ${index === 0 ? '<span class="current-label">(Predicción actual)</span>' : ''}
+                    `;
+
+                    // Add click event to select this SKU
+                    li.addEventListener('click', function () {
+                        selectSku(this);
+                    });
+
                     topSkusList.appendChild(li);
                 });
             }
@@ -194,10 +216,41 @@
                 document.getElementById('model-info').textContent = `Modelo utilizado: ${modelName}`;
             }
 
-            // Show feedback container
-            document.getElementById('feedback-container').style.display = 'block';
+            // Show feedback container only for "Other" option
+            document.getElementById('feedback-container').style.display = 'none';
             document.getElementById('feedback-success').style.display = 'none';
             document.getElementById('correction-container').style.display = 'none';
+
+            // Add "Other SKU" option at the bottom of the list
+            const otherLi = document.createElement('li');
+            otherLi.className = 'sku-item other-option';
+            otherLi.innerHTML = `
+                <span class="selection-indicator"></span>
+                <strong>Otro SKU</strong>: Ingresar manualmente
+            `;
+            otherLi.addEventListener('click', function () {
+                // Show the feedback container for manual entry
+                document.getElementById('feedback-container').style.display = 'block';
+                document.getElementById('correction-container').style.display = 'block';
+                document.querySelector('.feedback-buttons').style.display = 'none';
+            });
+            document.getElementById('top-skus-list').appendChild(otherLi);
+
+            // Add a submit feedback button below the list
+            const feedbackDiv = document.createElement('div');
+            feedbackDiv.className = 'submit-feedback-container';
+            feedbackDiv.innerHTML = `
+                <button id="submit-selection-btn" class="submit-selection">Enviar Selección</button>
+                <div id="inline-success" style="display: none;">
+                    <p class="success-message">¡Gracias por su retroalimentación!</p>
+                </div>
+            `;
+            document.getElementById('top-skus-container').appendChild(feedbackDiv);
+
+            // Add event listener to the submit button
+            document.getElementById('submit-selection-btn').addEventListener('click', function () {
+                submitSelectedSku();
+            });
         });
 
         // Feedback functionality
@@ -263,13 +316,81 @@
             submitFeedback(false, correctSku);
         });
 
+        // Function to select an SKU from the list
+        function selectSku(skuElement) {
+            // Remove selection from all items
+            document.querySelectorAll('.sku-item').forEach(item => {
+                item.classList.remove('selected');
+                item.querySelector('.selection-indicator').textContent = '';
+            });
+
+            // Add selection to clicked item
+            skuElement.classList.add('selected');
+            skuElement.querySelector('.selection-indicator').textContent = '✓';
+
+            // Update the main SKU result if it's not the "Other" option
+            if (!skuElement.classList.contains('other-option')) {
+                document.getElementById('sku-result').value = skuElement.dataset.sku;
+
+                // Update confidence display
+                const confidence = parseFloat(skuElement.dataset.confidence);
+                const confidencePercent = Math.round(confidence * 100);
+                document.getElementById('confidence-value').textContent = `${confidencePercent}%`;
+                document.getElementById('confidence-bar').style.width = `${confidencePercent}%`;
+
+                // Set color based on confidence
+                let color = '#ff4d4d'; // Red for low confidence
+                if (confidencePercent >= 70) {
+                    color = '#4CAF50'; // Green for high confidence
+                } else if (confidencePercent >= 40) {
+                    color = '#FFC107'; // Yellow for medium confidence
+                }
+                document.getElementById('confidence-bar').style.backgroundColor = color;
+            }
+        }
+
+        // Function to submit the selected SKU
+        function submitSelectedSku() {
+            // Get the selected SKU
+            const selectedElement = document.querySelector('.sku-item.selected');
+
+            // If no SKU is selected or the "Other" option is selected without input
+            if (!selectedElement) {
+                alert('Por favor seleccione un SKU');
+                return;
+            }
+
+            // Check if it's the "Other" option
+            if (selectedElement.classList.contains('other-option')) {
+                const otherSku = document.getElementById('other-sku-input').value.trim();
+                if (!otherSku) {
+                    alert('Por favor ingrese un SKU válido');
+                    return;
+                }
+                submitFeedback(false, otherSku);
+            } else {
+                // Get the predicted SKU (original top prediction)
+                const predictedSku = document.querySelector('.sku-item.top-prediction').dataset.sku;
+                // Get the selected SKU
+                const selectedSku = selectedElement.dataset.sku;
+
+                // Check if the selected SKU is the same as the predicted SKU
+                const isCorrect = selectedSku === predictedSku;
+
+                // Submit feedback
+                submitFeedback(isCorrect, isCorrect ? null : selectedSku);
+            }
+        }
+
         function submitFeedback(isCorrect, correctSku = null) {
             const feedback = {
                 description: document.getElementById('description').value,
                 maker: makerSelect.value,
                 series: seriesSelect.value,
                 model_year: modelSelect.value,
-                predicted_sku: document.getElementById('sku-result').value,
+                predicted_sku: document.querySelector('.sku-item.top-prediction') ?
+                    document.querySelector('.sku-item.top-prediction').dataset.sku :
+                    document.getElementById('sku-result').value,
                 is_correct: isCorrect,
                 correct_sku: correctSku,
                 confidence: parseFloat(document.getElementById('confidence-value').textContent) / 100,
@@ -283,12 +404,21 @@
             })
                 .then(response => response.json())
                 .then(data => {
-                    // Hide correction container
+                    // Hide correction container and submit button
                     document.getElementById('correction-container').style.display = 'none';
-                    document.querySelector('.feedback-buttons').style.display = 'none';
+                    if (document.querySelector('.feedback-buttons')) {
+                        document.querySelector('.feedback-buttons').style.display = 'none';
+                    }
+                    if (document.getElementById('submit-selection-btn')) {
+                        document.getElementById('submit-selection-btn').style.display = 'none';
+                    }
 
                     // Show success message
-                    document.getElementById('feedback-success').style.display = 'block';
+                    if (document.getElementById('feedback-container').style.display === 'block') {
+                        document.getElementById('feedback-success').style.display = 'block';
+                    } else if (document.getElementById('inline-success')) {
+                        document.getElementById('inline-success').style.display = 'block';
+                    }
                 })
                 .catch(error => {
                     console.error('Error submitting feedback:', error);

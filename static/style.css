@@ -215,3 +215,85 @@ button:hover {
     background-color: rgba(76, 175, 80, 0.1);
     border-radius: 5px;
 }
+
+/* Selectable SKUs Styles */
+.select-prompt {
+    font-size: 0.8rem;
+    color: #f7b731;
+    font-weight: normal;
+}
+
+.selectable-skus {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sku-item {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #222;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.sku-item:hover {
+    background-color: #333;
+}
+
+.sku-item.selected {
+    background-color: rgba(76, 175, 80, 0.2);
+    border-left: 3px solid #4CAF50;
+}
+
+.sku-item.top-prediction {
+    border-left: 3px solid #f7b731;
+}
+
+.selection-indicator {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.current-label {
+    margin-left: 10px;
+    font-size: 0.8rem;
+    color: #f7b731;
+}
+
+.other-option {
+    border-top: 1px dashed #444;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.submit-feedback-container {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.submit-selection {
+    background-color: #0d2d4f;
+    color: #f7b731;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.submit-selection:hover {
+    background-color: #f7b731;
+    color: #0d2d4f;
+}
+
+#inline-success {
+    margin-top: 10px;
+}
