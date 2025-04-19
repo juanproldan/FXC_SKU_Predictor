@@ -2,11 +2,27 @@ import os
 import joblib
 import string
 import json
+import logging
 from datetime import datetime
 from flask import Flask, request, render_template, jsonify
 
 # Import feedback database module
 from src.feedback_db import save_feedback, get_feedback_stats
+
+# Set up logging
+LOG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
+os.makedirs(LOG_DIR, exist_ok=True)
+LOG_FILE = os.path.join(LOG_DIR, 'app.log')
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(LOG_FILE),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger('app')
 
 # --- Constants ---
 MODEL_DIR = "models/renault_neural"
@@ -18,15 +34,22 @@ METADATA_PATH = os.path.join(MODEL_DIR, "metadata.joblib")
 app = Flask(__name__)
 
 # Load model and preprocessing objects
-print("Loading model and preprocessing objects...")
-model = joblib.load(MODEL_PATH)
-vectorizer = joblib.load(VECTORIZER_PATH)
-label_encoder = joblib.load(ENCODER_PATH)
-metadata = joblib.load(METADATA_PATH)
+logger.info("Loading model and preprocessing objects...")
+try:
+    model = joblib.load(MODEL_PATH)
+    vectorizer = joblib.load(VECTORIZER_PATH)
+    label_encoder = joblib.load(ENCODER_PATH)
+    metadata = joblib.load(METADATA_PATH)
 
-print(
-    f"Model covers {metadata['num_skus']} SKUs with at least {metadata['min_examples_per_sku']} examples each")
-print(f"Test accuracy: {metadata['test_accuracy']:.3f}")
+    logger.info(
+        f"Model covers {metadata['num_skus']} SKUs with at least {metadata['min_examples_per_sku']} examples each")
+    logger.info(f"Test accuracy: {metadata['test_accuracy']:.3f}")
+    print(
+        f"Model covers {metadata['num_skus']} SKUs with at least {metadata['min_examples_per_sku']} examples each")
+    print(f"Test accuracy: {metadata['test_accuracy']:.3f}")
+except Exception as e:
+    logger.error(f"Error loading model: {str(e)}")
+    raise
 
 
 def preprocess_text(text):
@@ -101,12 +124,19 @@ def predict():
         data = request.get_json()
 
         if not data:
+            logger.warning("Predict endpoint called with no data")
             return jsonify({"error": "No data provided"}), 400
 
         description = data.get('description', '')
         maker = data.get('maker', '')
+        series = data.get('series', '')
+        model_year = data.get('model_year', '')
+
+        logger.info(
+            f"Prediction request: maker={maker}, series={series}, model_year={model_year}, description='{description}'")
 
         if not description:
+            logger.warning("Predict endpoint called with empty description")
             return jsonify({"error": "No description provided"}), 400
 
         # Make prediction
@@ -117,9 +147,12 @@ def predict():
         result['confidence'] = result.pop('top_confidence')
         result['model_used'] = 'neural_network'
 
+        logger.info(
+            f"Prediction result: SKU={result['sku']}, confidence={result['confidence']:.3f}")
         return jsonify(result)
 
     except Exception as e:
+        logger.error(f"Error in prediction endpoint: {str(e)}", exc_info=True)
         return jsonify({"error": str(e)}), 500
 
 
@@ -179,19 +212,36 @@ def submit_feedback():
         data = request.get_json()
 
         if not data:
+            logger.warning("Feedback endpoint called with no data")
             return jsonify({"error": "No feedback data provided"}), 400
 
         required_fields = ['description', 'predicted_sku', 'is_correct']
         for field in required_fields:
             if field not in data:
+                logger.warning(
+                    f"Feedback endpoint called with missing field: {field}")
                 return jsonify({"error": f"Missing required field: {field}"}), 400
 
         # Add timestamp if not provided
         if 'timestamp' not in data:
             data['timestamp'] = datetime.now().isoformat()
 
+        # Log the feedback
+        is_correct = data.get('is_correct', False)
+        predicted_sku = data.get('predicted_sku', '')
+        correct_sku = data.get('correct_sku', 'N/A')
+        description = data.get('description', '')
+
+        if is_correct:
+            logger.info(
+                f"Correct prediction feedback: SKU={predicted_sku}, description='{description}'")
+        else:
+            logger.info(
+                f"Incorrect prediction feedback: Predicted={predicted_sku}, Correct={correct_sku}, description='{description}'")
+
         # Save feedback to database
         feedback_id = save_feedback(data)
+        logger.info(f"Feedback saved with ID: {feedback_id}")
 
         return jsonify({
             "success": True,
@@ -200,6 +250,7 @@ def submit_feedback():
         })
 
     except Exception as e:
+        logger.error(f"Error in feedback endpoint: {str(e)}", exc_info=True)
         return jsonify({"error": str(e)}), 500
 
 
