@@ -187,6 +187,13 @@ sample.json
 crash_log.txt
 pipeline_log.txt
 
+# Logs and backups
+logs/
+backups/
+retraining_scheduler.log
+database_backup.log
+monitor.log
+
 # Large data files
 Fuente_Json_Consolidado/Consolidado.json
 Fuente_Json_Consolidado/items_not_empty.json
