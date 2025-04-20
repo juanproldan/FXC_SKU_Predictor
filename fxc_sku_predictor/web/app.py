@@ -13,6 +13,7 @@ from flask import Flask, request, render_template, jsonify
 # Import from our package
 from fxc_sku_predictor.models.neural_network import predict_sku, load_model
 from fxc_sku_predictor.core.feedback_db import save_feedback, get_feedback_stats
+from fxc_sku_predictor.version import __version__
 
 # Set up logging
 LOG_DIR = os.path.join(os.path.dirname(os.path.dirname(
@@ -30,21 +31,50 @@ logging.basicConfig(
 )
 logger = logging.getLogger('app')
 
-# Create Flask application
-app = Flask(__name__,
-            template_folder=os.path.join(os.path.dirname(os.path.dirname(
-                os.path.dirname(os.path.abspath(__file__)))), 'templates'),
-            static_folder=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'static'))
+# Global variables for model
+model, vectorizer, label_encoder, metadata = None, None, None, None
 
-# Load model at startup
-try:
-    # Make these variables global so they can be accessed in the routes
-    global model, vectorizer, label_encoder, metadata
-    model, vectorizer, label_encoder, metadata = load_model()
-    logger.info(f"Model loaded successfully with {metadata['num_skus']} SKUs")
-except Exception as e:
-    logger.error(f"Error loading model: {str(e)}")
-    model, vectorizer, label_encoder, metadata = None, None, None, None
+
+def create_app(production=False):
+    """Create and configure the Flask application.
+
+    Args:
+        production (bool): Whether to run in production mode.
+
+    Returns:
+        Flask: The configured Flask application.
+    """
+    # Create Flask application
+    app = Flask(__name__,
+                template_folder=os.path.join(os.path.dirname(os.path.dirname(
+                    os.path.dirname(os.path.abspath(__file__)))), 'templates'),
+                static_folder=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'static'))
+
+    # Configure the application
+    if production:
+        app.config.from_object('fxc_sku_predictor.config.production')
+        app.config['ENV'] = 'production'
+        app.config['DEBUG'] = False
+    else:
+        app.config['ENV'] = 'development'
+        app.config['DEBUG'] = True
+
+    # Load model at startup
+    try:
+        # Make these variables global so they can be accessed in the routes
+        global model, vectorizer, label_encoder, metadata
+        model, vectorizer, label_encoder, metadata = load_model()
+        logger.info(
+            f"Model loaded successfully with {metadata['num_skus']} SKUs")
+    except Exception as e:
+        logger.error(f"Error loading model: {str(e)}")
+        model, vectorizer, label_encoder, metadata = None, None, None, None
+
+    return app
+
+
+# Create a default app instance for development
+app = create_app()
 
 # --- Routes ---
 
@@ -436,12 +466,54 @@ def get_feedback_statistics():
             f"Error in feedback stats endpoint: {str(e)}", exc_info=True)
         return jsonify({"error": str(e)}), 500
 
+
+@app.route('/health', methods=['GET'])
+def health_check():
+    """Health check endpoint for monitoring.
+
+    Returns:
+        JSON: Health status of the application.
+    """
+    try:
+        # Check if model is loaded
+        model_status = "ok" if model is not None else "error"
+
+        # Check database connection
+        db_status = "ok"
+        try:
+            # Just get the stats to check if the database is accessible
+            get_feedback_stats()
+        except Exception:
+            db_status = "error"
+
+        # Overall status is ok only if all components are ok
+        overall_status = "ok" if model_status == "ok" and db_status == "ok" else "degraded"
+
+        response = {
+            "status": overall_status,
+            "timestamp": datetime.now().isoformat(),
+            "version": __version__,
+            "components": {
+                "model": model_status,
+                "database": db_status
+            }
+        }
+
+        # Return 200 OK if overall status is ok, otherwise 503 Service Unavailable
+        return jsonify(response), 200 if overall_status == "ok" else 503
+    except Exception as e:
+        logger.error(
+            f"Error in health check endpoint: {str(e)}", exc_info=True)
+        return jsonify({
+            "status": "error",
+            "timestamp": datetime.now().isoformat(),
+            "error": str(e)
+        }), 500
+
 # --- Main Execution ---
 
 
-def create_app():
-    """Create and configure the Flask application."""
-    return app
+# This is now handled by the create_app function at the top of the file
 
 
 if __name__ == '__main__':

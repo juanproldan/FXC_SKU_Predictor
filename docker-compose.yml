@@ -10,5 +10,5 @@ services:
       - ./logs:/app/logs
     environment:
       - FLASK_ENV=production
-      - SECRET_KEY=change-this-in-production
+      # The SECRET_KEY will be generated at runtime in the production.py file
     restart: always
