@@ -1,73 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKU Predictor - Fixacar</title>
+    <title>SKU Predictor</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
 
-<body style="background: #111; color: #fff;">
+<body>
     <div class="container">
         <img src="/static/LogoFixacar.png" alt="Fixacar Logo" class="logo">
         <h1>SKU Predictor</h1>
         <form id="sku-form" autocomplete="off">
-            <label for="maker">Marca: <span class="info-tooltip">?<span class="tooltip-text">Seleccione la marca del
-                        vehículo (ej. Mazda, Renault, Chevrolet, Ford)</span></span></label>
+            <label for="maker">Marca: <span class="info-tooltip">?<span class="tooltip-text">Seleccione la marca del vehículo (ej. Mazda, Renault, Chevrolet, Ford)</span></span></label>
             <select id="maker" name="maker" required>
                 <option value="">Seleccione una marca</option>
             </select>
-            <label for="model_family">Modelo: <span class="info-tooltip">?<span class="tooltip-text">Seleccione el
-                        modelo del vehículo (ej. Mazda 2, Mazda 3, Duster, Logan)</span></span></label>
+            <label for="model_family">Modelo: <span class="info-tooltip">?<span class="tooltip-text">Seleccione el modelo del vehículo (ej. Mazda 2, Mazda 3, Duster, Logan)</span></span></label>
             <select id="model_family" name="model_family" required>
                 <option value="">Seleccione un modelo</option>
             </select>
-            <label for="series">Serie: <span class="info-tooltip">?<span class="tooltip-text">Seleccione la serie o
-                        versión específica del modelo (ej. GRAND TOURING, BASICO, TOURING)</span></span></label>
+            <label for="series">Serie: <span class="info-tooltip">?<span class="tooltip-text">Seleccione la serie o versión específica del modelo (ej. GRAND TOURING, BASICO, TOURING)</span></span></label>
             <select id="series" name="series" required>
                 <option value="">Seleccione una serie</option>
             </select>
-            <label for="model_year">Año del modelo: <span class="info-tooltip">?<span class="tooltip-text">Seleccione el
-                        año de fabricación del vehículo</span></span></label>
+            <label for="model_year">Año del modelo: <span class="info-tooltip">?<span class="tooltip-text">Seleccione el año de fabricación del vehículo</span></span></label>
             <select id="model_year" name="model_year" required>
                 <option value="">Seleccione un año</option>
             </select>
-            <label for="description">Descripción del producto: <span class="info-tooltip">?<span
-                        class="tooltip-text">Ingrese la descripción del producto que desea buscar. Incluya detalles como
-                        la ubicación (delantero, trasero), tipo de pieza, etc.</span></span></label>
+
+            <label for="description">Descripción del producto: <span class="info-tooltip">?<span class="tooltip-text">Ingrese la descripción del producto que desea buscar. Incluya detalles como la ubicación (delantero, trasero), tipo de pieza, etc.</span></span></label>
             <input type="text" id="description" name="description"
                 placeholder="Ejemplo: PANORAMICO DELANTERO de FORD/ESCAPE (CTC) TITANIO" required>
-            <button type="submit">Predecir SKU</button>
+
+            <button type="submit" id="predict-btn">Predecir SKU</button>
         </form>
+
         <div id="result-box">
-            <label for="sku-result">SKU: <span class="info-tooltip">?<span class="tooltip-text">Este es el código SKU
-                        predicho para el producto descrito. La confianza indica qué tan seguro está el sistema de esta
-                        predicción.</span></span></label>
+            <label for="sku-result">SKU: <span class="info-tooltip">?<span class="tooltip-text">Este es el código SKU predicho para el producto descrito. La confianza indica qué tan seguro está el sistema de esta predicción.</span></span></label>
             <input type="text" id="sku-result" readonly>
             <div id="confidence-container" style="display: none;">
-                <label for="confidence">Confianza: <span class="info-tooltip">?<span class="tooltip-text">Un porcentaje
-                            más alto indica mayor confianza en la predicción. Verde: alta confianza (>70%), Amarillo:
-                            confianza media (40-70%), Rojo: baja confianza (<40%)< /span></span></label>
+                <label for="confidence">Confianza: <span class="info-tooltip">?<span class="tooltip-text">Un porcentaje más alto indica mayor confianza en la predicción. Verde: alta confianza (>70%), Amarillo: confianza media (40-70%), Rojo: baja confianza (<40%)</span></span></label>
                 <div class="progress-bar-container">
                     <div id="confidence-bar" class="progress-bar"></div>
                 </div>
                 <span id="confidence-value">0%</span>
             </div>
             <div id="top-skus-container" style="display: none;">
-                <h3>Top 5 SKUs: <span class="select-prompt">(Haga clic en el SKU correcto)</span> <span
-                        class="info-tooltip">?<span class="tooltip-text">Estos son los 5 SKUs más probables según el
-                            modelo. Si el SKU principal no es correcto, puede seleccionar otro de la lista o ingresar
-                            uno manualmente.</span></span></h3>
+                <h3>Top 5 SKUs: <span class="select-prompt">(Haga clic en el SKU correcto)</span> <span class="info-tooltip">?<span class="tooltip-text">Estos son los 5 SKUs más probables según el modelo. Si el SKU principal no es correcto, puede seleccionar otro de la lista o ingresar uno manualmente.</span></span></h3>
                 <ul id="top-skus-list" class="selectable-skus"></ul>
             </div>
             <div id="model-info" style="margin-top: 10px; font-size: 0.8em; color: #999;"></div>
 
             <!-- Feedback UI -->
             <div id="feedback-container" style="margin-top: 20px; display: none;">
-                <h3>¿Fue correcta esta predicción? <span class="info-tooltip">?<span class="tooltip-text">Su
-                            retroalimentación nos ayuda a mejorar el modelo. Si la predicción no fue correcta, puede
-                            seleccionar el SKU correcto de la lista o ingresar uno manualmente.</span></span></h3>
+                <h3>¿Fue correcta esta predicción? <span class="info-tooltip">?<span class="tooltip-text">Su retroalimentación nos ayuda a mejorar el modelo. Si la predicción no fue correcta, puede seleccionar el SKU correcto de la lista o ingresar uno manualmente.</span></span></h3>
                 <div class="feedback-buttons">
                     <button id="btn-correct" class="feedback-btn correct">Sí, Correcta!</button>
                     <button id="btn-incorrect" class="feedback-btn incorrect">No, Incorrecta</button>
