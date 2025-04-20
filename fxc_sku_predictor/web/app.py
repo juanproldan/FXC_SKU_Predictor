@@ -70,6 +70,8 @@ def create_app(production=False):
     # Load model at startup
     try:
         # Make these variables global so they can be accessed in the routes
+        # Note: Using global inside the factory is okay here because the model
+        # is intended to be a singleton loaded once per process.
         global model, vectorizer, label_encoder, metadata
         model, vectorizer, label_encoder, metadata = load_model()
         logger.info(
@@ -78,10 +80,12 @@ def create_app(production=False):
         logger.error(f"Error loading model: {str(e)}")
         model, vectorizer, label_encoder, metadata = None, None, None, None
 
-    # Register routes
+    # --- Routes ---
+    # Routes are now defined inside the factory function
     @app.route('/')
     def home():
         """Render the home page."""
+        logger.info("Accessing the home route")
         return render_template('index.html')
 
     @app.route('/admin')
@@ -509,14 +513,15 @@ def create_app(production=False):
     return app
 
 
-# Create a default app instance for development
-app = create_app()
-
 # --- Main Execution ---
-
 
 # This is now handled by the create_app function at the top of the file
 
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    # This block should ideally not be used for running the app,
+    # use 'python run.py web' instead.
+    # Keeping it here for potential direct script execution testing,
+    # but ensuring it creates its own app instance.
+    # Create a local instance for direct run
+    local_app = create_app(production=False)
+    local_app.run(debug=True)
