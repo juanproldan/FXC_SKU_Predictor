@@ -45,10 +45,18 @@ def create_app(production=False):
         Flask: The configured Flask application.
     """
     # Create Flask application
+    base_dir = os.path.dirname(os.path.dirname(
+        os.path.dirname(os.path.abspath(__file__))))
+    template_dir = os.path.join(base_dir, 'templates')
+    static_dir = os.path.join(base_dir, 'static')
+
+    # Log the template and static directories
+    logger.info(f"Template directory: {template_dir}")
+    logger.info(f"Static directory: {static_dir}")
+
     app = Flask(__name__,
-                template_folder=os.path.join(os.path.dirname(os.path.dirname(
-                    os.path.dirname(os.path.abspath(__file__)))), 'templates'),
-                static_folder=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'static'))
+                template_folder=template_dir,
+                static_folder=static_dir)
 
     # Configure the application
     if production:
