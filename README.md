@@ -61,7 +61,7 @@ The system includes:
 
 ### Running the Web Application
 
-To start the web application:
+To start the web application in development mode:
 
 ```
 python run.py web
@@ -73,6 +73,38 @@ Options:
 - `--host`: Host to run the web application on (default: 127.0.0.1)
 - `--port`: Port to run the web application on (default: 5000)
 - `--debug`: Run the web application in debug mode
+- `--production`: Run the web application in production mode
+
+### Production Deployment
+
+For production deployment, see the [Production Deployment Guide](PRODUCTION.md).
+
+Quick start for production:
+
+```
+python run.py web --production --host 0.0.0.0 --port 5000
+```
+
+Or use the deployment script:
+
+```
+python deploy.py --host 0.0.0.0 --port 5000
+```
+
+### Docker Deployment
+
+To deploy using Docker:
+
+```
+docker build -t fxc-sku-predictor .
+docker run -p 5000:5000 fxc-sku-predictor
+```
+
+Or using Docker Compose:
+
+```
+docker-compose up -d
+```
 
 ### Making Predictions from the Command Line
 
@@ -109,6 +141,8 @@ Options:
 ```
 FXC_SKU_Predictor/
 ├── fxc_sku_predictor/       # Main package
+│   ├── config/              # Configuration files
+│   │   └── production.py    # Production configuration
 │   ├── core/                # Core functionality
 │   │   └── feedback_db.py   # Feedback database module
 │   ├── data/                # Data handling
@@ -134,8 +168,12 @@ FXC_SKU_Predictor/
 ├── models/                  # Trained models
 │   └── renault_neural/      # Neural network model for Renault
 ├── docs/                    # Documentation
+├── deploy.py                # Deployment script
 ├── run.py                   # Main entry point
 ├── requirements.txt         # Python dependencies
+├── Dockerfile               # Docker configuration
+├── docker-compose.yml       # Docker Compose configuration
+├── PRODUCTION.md            # Production deployment guide
 └── README.md                # This file
 ```
 
