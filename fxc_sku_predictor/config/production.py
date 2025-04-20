@@ -2,12 +2,14 @@
 Production configuration for the SKU prediction system.
 """
 
+import secrets
 import os
 import logging
 from datetime import datetime
 
 # Base directory of the application
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.dirname(os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__))))
 
 # Data directory
 DATA_DIR = os.path.join(BASE_DIR, 'data')
@@ -18,7 +20,8 @@ LOG_DIR = os.path.join(BASE_DIR, 'logs')
 os.makedirs(LOG_DIR, exist_ok=True)
 
 # Log file with timestamp
-LOG_FILE = os.path.join(LOG_DIR, f'app-{datetime.now().strftime("%Y%m%d")}.log')
+LOG_FILE = os.path.join(
+    LOG_DIR, f'app-{datetime.now().strftime("%Y%m%d")}.log')
 
 # Logging configuration
 LOGGING = {
@@ -57,7 +60,8 @@ LOGGING = {
 FLASK_ENV = 'production'
 DEBUG = False
 TESTING = False
-SECRET_KEY = os.environ.get('SECRET_KEY', 'generate-a-secure-key-for-production')
+# Generate a secure random key for production
+SECRET_KEY = os.environ.get('SECRET_KEY', secrets.token_hex(32))
 
 # Database settings
 FEEDBACK_DB_PATH = os.path.join(DATA_DIR, 'feedback.db')

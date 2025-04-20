@@ -17,7 +17,8 @@ from datetime import datetime
 # Set up logging
 LOG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'logs')
 os.makedirs(LOG_DIR, exist_ok=True)
-LOG_FILE = os.path.join(LOG_DIR, f'deploy-{datetime.now().strftime("%Y%m%d-%H%M%S")}.log')
+LOG_FILE = os.path.join(
+    LOG_DIR, f'deploy-{datetime.now().strftime("%Y%m%d-%H%M%S")}.log')
 
 logging.basicConfig(
     level=logging.INFO,
@@ -32,11 +33,11 @@ logger = logging.getLogger('deploy')
 
 def run_command(command, cwd=None):
     """Run a shell command and log the output.
-    
+
     Args:
         command (str): The command to run.
         cwd (str, optional): The working directory to run the command in.
-        
+
     Returns:
         bool: True if the command succeeded, False otherwise.
     """
@@ -68,26 +69,29 @@ def install_dependencies():
 def setup_environment():
     """Set up the environment for deployment."""
     logger.info("Setting up environment...")
-    
+
     # Create necessary directories
     os.makedirs('data', exist_ok=True)
     os.makedirs('logs', exist_ok=True)
     os.makedirs('data/models', exist_ok=True)
-    
+
     # Set environment variables
     os.environ['FLASK_ENV'] = 'production'
-    os.environ['SECRET_KEY'] = 'your-production-secret-key'  # Change this in production
-    
+
+    # Generate a secure random key for production
+    import secrets
+    os.environ['SECRET_KEY'] = secrets.token_hex(32)
+
     return True
 
 
 def start_application(host='0.0.0.0', port=5000):
     """Start the application in production mode.
-    
+
     Args:
         host (str): The host to run the application on.
         port (int): The port to run the application on.
-        
+
     Returns:
         bool: True if the application started successfully, False otherwise.
     """
@@ -97,42 +101,43 @@ def start_application(host='0.0.0.0', port=5000):
 
 def deploy(host='0.0.0.0', port=5000):
     """Deploy the application.
-    
+
     Args:
         host (str): The host to run the application on.
         port (int): The port to run the application on.
-        
+
     Returns:
         bool: True if the deployment succeeded, False otherwise.
     """
     logger.info("Starting deployment...")
-    
+
     # Install dependencies
     if not install_dependencies():
         logger.error("Failed to install dependencies")
         return False
-    
+
     # Set up environment
     if not setup_environment():
         logger.error("Failed to set up environment")
         return False
-    
+
     # Start application
     if not start_application(host, port):
         logger.error("Failed to start application")
         return False
-    
+
     logger.info("Deployment completed successfully")
     return True
 
 
 def parse_arguments():
     """Parse command line arguments.
-    
+
     Returns:
         argparse.Namespace: The parsed arguments.
     """
-    parser = argparse.ArgumentParser(description='Deploy the SKU prediction system')
+    parser = argparse.ArgumentParser(
+        description='Deploy the SKU prediction system')
     parser.add_argument('--host', type=str, default='0.0.0.0',
                         help='Host to run the application on')
     parser.add_argument('--port', type=int, default=5000,
