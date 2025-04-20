@@ -38,15 +38,6 @@ def run_web_app(host='127.0.0.1', port=5000, debug=False, production=False):
         production (bool): Whether to run the web application in production mode.
     """
     try:
-        if production:
-            # Set environment variable for production mode
-            os.environ['FLASK_ENV'] = 'production'
-            # Import production config
-            from fxc_sku_predictor.config.production import LOGGING
-            import logging.config
-            logging.config.dictConfig(LOGGING)
-            logger.info("Using production configuration")
-
         from fxc_sku_predictor.web.app import create_app
         app = create_app(production=production)
         logger.info(
